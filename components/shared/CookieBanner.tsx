@@ -1,3 +1,5 @@
+'use client';
+
 import { Button, ButtonGroup } from "@nextui-org/button";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/dist/client/router";
