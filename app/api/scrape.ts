@@ -1,43 +1,30 @@
-// import puppeteer from 'puppeteer';
-// import cheerio from 'cheerio';
+import axios from 'axios';
+import cheerio from 'cheerio';
 
-// export default async function handler(req, res) {
-//   const browser = await puppeteer.launch();
-//   const page = await browser.newPage();
+export default async function scrapeBubatzkarte() {
+  try {
+    // Make a GET request to the bubatzkarte website
+    const response = await axios.get('https://bubatzkarte.de/#6/51.124/9.635');
 
-//   try {
-//     await page.goto('https://bubatzkarte.de/#13/52.5797/13.5765');
-//     await page.waitForSelector('.leaflet-marker-pane');
+    // Load the HTML content into cheerio
+    const $ = cheerio.load(response.data);
 
-//     // Get the HTML content
-//     const content = await page.content();
+    // Extract all elements with the class name "marker"
+    const markers = $('.marker');
 
-//     // Parse the HTML using Cheerio
-//     const $ = cheerio.load(content);
+    // Iterate over the markers and extract relevant data
+    markers.each((index, element) => {
+      // Check if the marker is a school or kindergarten (you may need to inspect the HTML structure to determine this)
+      // Extract relevant data such as name, location, etc.
+      const name = $(element).text(); // Example: Extract the text content of the marker
 
-//     // Example: Extracting school locations from the map
-//     const schools: { lat: number, lng: number }[] = [];
-//     $('.leaflet-marker-pane .school-marker').each((index, element) => {
-//       const lat = $(element).data('lat');
-//       const lng = $(element).data('lng');
-//       schools.push({ lat, lng });
-//     });
+      // Print or store the extracted data
+      console.log(name);
+    });
+  } catch (error) {
+    console.error('Error scraping bubatzkarte:', error);
+  }
+}
 
-//     // Example: Extracting daycare locations from the map
-//     const daycares: { lat: number, lng: number }[] = [];
-//     $('.leaflet-marker-pane .daycare-marker').each((index, element) => {
-//       const lat = $(element).data('lat');
-//       const lng = $(element).data('lng');
-//       daycares.push({ lat, lng });
-//     });
-
-//     // You can now use the extracted school and daycare locations to compare with the user's location
-
-//     res.status(200).json({ schools, daycares });
-//   } catch (error) {
-//     console.error('Error scraping data:', error);
-//     res.status(500).json({ error: 'Internal Server Error' });
-//   } finally {
-//     await browser.close();
-//   }
-// }
+// Call the scraping function
+scrapeBubatzkarte();

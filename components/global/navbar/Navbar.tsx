@@ -6,11 +6,13 @@ const NavBar = async () => {
     <div
       className="
   sticky
-  bottom-0
+  top-0
   w-full
   bg-none
   z-30
   shadow-sm
+  border-2
+  border-blue-500
   "
     >
       <div className="py-4 border-b-[1px]">
@@ -24,7 +26,7 @@ const NavBar = async () => {
           "
         >
           <Link href="/check-location" className="">
-            <LocationOnOutlinedIcon className="text-white text-4xl" />
+            <LocationOnOutlinedIcon className="text-4xl" />
           </Link>
         </div>
       </div>

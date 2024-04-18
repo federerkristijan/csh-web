@@ -1,7 +1,4 @@
 import Container from "@/components/global/Container";
-import { GeolocationButton } from "@/components/shared/GeolocationButton";
-import GeolocationCheck from "@/lib/functions/GeolocationCheck";
-import Image from "next/image";
 
 export default function Home() {
   return (

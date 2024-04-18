@@ -22,9 +22,9 @@ const CheckLocationPage: React.FC = () => {
   }, []);
 
   return (
-    <div className='h-full'>
+    <div className='text-center'>
       <Container>
-        <h1 className='text-center py-4'>Check Location Page</h1>
+        <h1 className='py-4 text-5xl'>Check Location Page</h1>
         <CheckLocation />
       </Container>
     </div>
