@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import { ReactNode } from "react";
+import Navbar from "@/components/global/navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -15,9 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col min-h-screen mx-auto">
         <Providers>
-          {children}
+          <div className="flex-grow">
+            {children}
+          </div>
+            <Navbar />
         </Providers>
       </body>
     </html>
