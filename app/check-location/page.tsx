@@ -1,12 +1,16 @@
+import Container from '@/components/global/Container';
+import CheckLocation from '@/components/pages/CheckLocation';
 import React from 'react';
 
 const CheckLocationPage: React.FC = () => {
   // Handle location check logic here
 
   return (
-    <div>
-      <h1>Check Location Page</h1>
-      {/* Render your results here */}
+    <div className='h-full'>
+      <Container>
+        <h1 className='text-center py-4'>Check Location Page</h1>
+        <CheckLocation />
+      </Container>
     </div>
   );
 };

@@ -1,24 +1,14 @@
 'use client'
 
 import { GeolocationButtonProps } from '@/types/global';
-import GeolocationCheck from "@/lib/functions/GeolocationCheck";
 import React from 'react';
+import Button from '../global/Button';
+import handleGeolocationClick from '@/lib/functions/GeolocationCheck';
 
-function GeolocationButton() {
+export const GeolocationButton: React.FC<GeolocationButtonProps> = ({ onClick }) => {
 
-  function handleGeolocationClick() {
-    // navigator.geolocation.getCurrentPosition((position) => {
-    //   console.log("Latitude is :", position.coords.latitude);
-    //   console.log("Longitude is :", position.coords.longitude);
-    // });
-    console.log('click mother fucker')
-  }
 
   return (
-    <button onClick={handleGeolocationClick}>
-      Check Location
-    </button>
+    <Button onClick={handleGeolocationClick} label="Check your location"/>
   );
 };
-
-export default GeolocationButton;

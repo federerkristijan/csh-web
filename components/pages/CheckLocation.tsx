@@ -1,26 +1,31 @@
-// pages/check-location.tsx
-import React from 'react';
-import { useEffect, useState } from 'react';
+"use client";
+
+import React, { useEffect, useState } from 'react';
 
 const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
+  const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
 
   useEffect(() => {
-    // Perform location checking logic here
-    // You can use the Geolocation API to get the user's current location
-    // Then compare it with the list of schools or kindergartens in Germany
-    // Once done, update the state to indicate that location checking is complete
-    // Example:
-    // const checkLocation = async () => {
-    //   const userLocation = await getUserLocation();
-    //   const nearestSchool = findNearestSchool(userLocation);
-    //   const isNearSchool = nearestSchool.distance < 100; // Assuming distance is in meters
-    //   setLocationChecked(true);
-    // };
+    const checkLocation = async () => {
+      if (!userLocation) {
+        const location = await getUserLocation();
+        setUserLocation(location);
+      }
 
-    // Uncomment the line below and replace it with your actual logic
-    // checkLocation();
-  }, []);
+      if (userLocation) {
+        const isNearSchool = isNearSchoolOrDaycare(userLocation);
+        setLocationChecked(true);
+      }
+    };
+
+    checkLocation();
+  }, [userLocation]);
+
+  const isNearSchoolOrDaycare = (location: { latitude: number; longitude: number }): boolean => {
+    // Example: Assuming user is near a school or daycare if latitude is greater than 52.52 (Berlin) and longitude is less than 13.405 (Berlin)
+    return location.latitude > 52.52 && location.longitude < 13.405;
+  };
 
   return (
     <div>
@@ -30,11 +35,36 @@ const CheckLocationPage: React.FC = () => {
       ) : (
         <>
           <p>Location checked successfully!</p>
-          {/* Display the result of the location check here */}
+          <p>{isNearSchoolOrDaycare(userLocation!) ? 'You cannot smoke, you are near a school or daycare.' : 'Yes, you canna smoke here, you are not near a school or daycare.'}</p>
         </>
       )}
     </div>
   );
 };
+
+const getUserLocation = async (): Promise<{ latitude: number; longitude: number } | null> => {
+  return new Promise((resolve, reject) => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const userLocation = {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+          };
+          console.log(userLocation, "I'm here");
+          resolve(userLocation);
+        },
+        (error) => {
+          console.error('Error getting user location:', error);
+          reject(null);
+        }
+      );
+    } else {
+      console.error('Geolocation is not supported by this browser.');
+      reject(null);
+    }
+  });
+};
+
 
 export default CheckLocationPage;
