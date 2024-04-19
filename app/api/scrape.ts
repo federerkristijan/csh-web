@@ -1,30 +1,22 @@
-import axios from 'axios';
-import cheerio from 'cheerio';
+import schools from '@/lib/data/schools';
 
-export default async function scrapeBubatzkarte() {
+export default async function scrapeSchoolData() {
   try {
-    // Make a GET request to the bubatzkarte website
-    const response = await axios.get('https://bubatzkarte.de/#6/51.124/9.635');
+    // Access the schools data from the imported module
+    const schoolsData = schools;
 
-    // Load the HTML content into cheerio
-    const $ = cheerio.load(response.data);
-
-    // Extract all elements with the class name "marker"
-    const markers = $('.marker');
-
-    // Iterate over the markers and extract relevant data
-    markers.each((index, element) => {
-      // Check if the marker is a school or kindergarten (you may need to inspect the HTML structure to determine this)
+    // Iterate over the schools data and extract relevant information
+    schools.forEach((schoolData: { name: any; location: any; }) => {
       // Extract relevant data such as name, location, etc.
-      const name = $(element).text(); // Example: Extract the text content of the marker
+      const { name, location } = schoolData;
 
       // Print or store the extracted data
-      console.log(name);
+      console.log(`Name: ${name}, Location: ${location}`);
     });
   } catch (error) {
-    console.error('Error scraping bubatzkarte:', error);
+    console.error('Error fetching school data:', error);
   }
 }
 
 // Call the scraping function
-scrapeBubatzkarte();
+scrapeSchoolData();
