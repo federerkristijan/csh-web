@@ -1,0 +1,3912 @@
+[
+ {
+   "web-scraper-order": "1713700200-1",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Auma-Weidatal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/auma-weidatal",
+   "kita name": "AWO-Kita Sonnenschein",
+   "kita address": "Friedhofstraße 4\n07955 Auma-Weidatal\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700203-2",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Artern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/artern",
+   "kita name": "Städt. Kinderhaus Regenbogen",
+   "kita address": "An der Promenade 3a\n06556 Artern\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700205-3",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Arnstadt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/arnstadt",
+   "kita name": "AWO-Kita Angelhäuser Spatzen",
+   "kita address": "Hainfeld 24\n99310 Arnstadt\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700208-4",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Arenshausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/arenshausen",
+   "kita name": "Kath. Kindergarten St. Martin",
+   "kita address": "Halle-Kasseler-Straße 35\n37318 Arenshausen\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700211-5",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Apolda",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/apolda",
+   "kita name": "Integrative Kita Ernst Thälmann",
+   "kita address": "Ernst-Thälmann-Ring 65\n99510 Apolda\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700214-6",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Apfelstädt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/apfelst%C3%A4dt",
+   "kita name": "Kindergarten Apfelstädt",
+   "kita address": "Mühlgasse 9\n99192 Apfelstädt\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700216-7",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Anrode",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/anrode",
+   "kita name": "Städt. Kita Luhnewichtel",
+   "kita address": "Luhner Weg 2\n99976 Anrode\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700219-8",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Ammern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/ammern",
+   "kita name": "ASB-Kita Bärenstübchen",
+   "kita address": "Am Dorfgraben 3a\n99974 Ammern\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700222-9",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Altkirchen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/altkirchen",
+   "kita name": "Kindertagesstätte \"Spatzennest\"",
+   "kita address": "Gnadschützer Ring 1\n04626 Altkirchen\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700224-10",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Altengottern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/altengottern",
+   "kita name": "Kindertagesstätte Altengottern",
+   "kita address": "Straße des Kindes 3\n99991 Altengottern\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700227-11",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Altenburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/altenburg",
+   "kita name": "AWO-Kita Am Schloßpark",
+   "kita address": "Neue Sorge 43\n04600 Altenburg\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700230-12",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Altenberga",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/altenberga",
+   "kita name": "Städt. Kita Wiesenteichstrolche",
+   "kita address": "Altendorf 46\n07768 Altenberga\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700233-13",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Alperstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/alperstedt",
+   "kita name": "Städt. Kita Alperstedt",
+   "kita address": "Am Anger 1\n99195 Alperstedt\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700236-14",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Allendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/allendorf",
+   "kita name": "Städt. Kita Sonnenblume Allendorf",
+   "kita address": "Ortsstraße 68a\n07426 Allendorf\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700239-15",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Thüringen",
+   "states-link-href": "https://www.kita.de/kindergaerten/thueringen",
+   "cities-link": "Abtsbessingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/thueringen/abtsbessingen",
+   "kita name": "Städt. Kita Am Westerbach Abtsbessingen",
+   "kita address": "Mittelstraße 7\n99713 Abtsbessingen\nThüringen"
+ },
+ {
+   "web-scraper-order": "1713700247-16",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Averlak",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/averlak",
+   "kita name": "Kindergarten Abenteuerland Averlak",
+   "kita address": "Hauptstraße 91\n25715 Averlak\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700250-17",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Aventoft",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/aventoft",
+   "kita name": "Aventoft Børnehave",
+   "kita address": "Nambüll 6\n25927 Aventoft\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700253-18",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Aumühle",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/aum%C3%BChle",
+   "kita name": "Waldkindergarten Aumühle",
+   "kita address": "Postfach 220\n21518 Aumühle\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700256-19",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Aukrug",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/aukrug",
+   "kita name": "Kommunaler Kindergarten Aukrug",
+   "kita address": "Ziegeleiweg 13\n24613 Aukrug\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700259-20",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Ascheffel",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/ascheffel",
+   "kita name": "Kommunaler Kindergarten des Amtes Hütten \"Hummelnest\"",
+   "kita address": "Schulberg 6\n24358 Ascheffel\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700261-21",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Ascheberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/ascheberg",
+   "kita name": "Kindergarten am Mühlenholz",
+   "kita address": "Schulstraße 12\n24326 Ascheberg\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700265-22",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Appen-Etz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/appen-etz",
+   "kita name": "Heilpädagogischer- u. Nachbarschaftskindergarten",
+   "kita address": "Heideweg 1B\n25482 Appen-Etz\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700269-23",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Appen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/appen",
+   "kita name": "Ev. Kita Appen",
+   "kita address": "Opn Bouhlen 49\n25482 Appen\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700271-24",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Ammersbek",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/ammersbek",
+   "kita name": "Kindertagesstätte Lottbek",
+   "kita address": "Teichweg 27 b \n22949 Ammersbek\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700274-25",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Alveslohe",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/alveslohe",
+   "kita name": "Kindergarten Lindenstraße",
+   "kita address": "Lindenstraße 2\n25486 Alveslohe\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700277-26",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Altenkrempe",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/altenkrempe",
+   "kita name": "Ev. Kita Hasselburg",
+   "kita address": "Allee 1\n23730 Altenkrempe\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700280-27",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Altenholz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/altenholz",
+   "kita name": "DRK Kita Altenholz",
+   "kita address": "Am Buchholz 2\n24161 Altenholz\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700282-28",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Alt Mölln",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/alt+m%C3%B6lln",
+   "kita name": "Ev. Kita Alt-Mölln",
+   "kita address": "Dorfstraße 3\n23881 Alt Mölln\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700286-29",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Alt Duvenstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/alt+duvenstedt",
+   "kita name": "Kommunaler Kindergarten Alt Duvenstedt",
+   "kita address": "Dorfstraße 13\n24791 Alt Duvenstedt\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700288-30",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Albersdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/albersdorf",
+   "kita name": "Ev. Kita Oesterstraße",
+   "kita address": "Oesterstraße 12A\n25767 Albersdorf\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700291-31",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Ahrenviöl",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/ahrenvi%C3%B6l",
+   "kita name": "Kindergarten der Gemeinde Ahrenviöl",
+   "kita address": "Schulstraße\n25885 Ahrenviöl\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700294-32",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Ahrensburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/ahrensburg",
+   "kita name": "AWO Kita Am Aalfang",
+   "kita address": "Ahrensfelder Weg 41b\n22926 Ahrensburg\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700296-33",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Ahrensbök",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/ahrensb%C3%B6k",
+   "kita name": "Ev. Kita Gnissau",
+   "kita address": "Kirchstraße 18a\n23623 Ahrensbök\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700299-34",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Achtrup",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/achtrup",
+   "kita name": "Ev. Kita Achtrup",
+   "kita address": "Am Sportplatz 3\n25917 Achtrup\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700302-35",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Schleswig-Holstein",
+   "states-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein",
+   "cities-link": "Achterwehr",
+   "cities-link-href": "https://www.kita.de/kindergaerten/schleswig-holstein/achterwehr",
+   "kita name": "Kindergarten Achterwehr",
+   "kita address": "Achtern Diek 6\n24239 Achterwehr\nSchleswig-Holstein"
+ },
+ {
+   "web-scraper-order": "1713700310-36",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Ausleben OT Ottleben",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/ausleben+ot+ottleben",
+   "kita name": "Kindertagesstätte \"Schloss Trautenburg\" Ottleben",
+   "kita address": "Damaschkestraße 6\n39393 Ausleben OT Ottleben\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700313-37",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Aue-Fallstein",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/aue-fallstein",
+   "kita name": "Kindertagesstätte \"Märchenburg\"",
+   "kita address": "Teichdamm 10\n38835 Aue-Fallstein\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700315-38",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Athenstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/athenstedt",
+   "kita name": "Kindertagesstätte \"Pusteblume\"",
+   "kita address": "Am Mühlberg 116 a\n38822 Athenstedt\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700318-39",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Aspenstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/aspenstedt",
+   "kita name": "Kindertagesstätte \"Spatzennest\"",
+   "kita address": "Vor dem Tore 155\n38822 Aspenstedt\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700320-40",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Aseleben",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/aseleben",
+   "kita name": "Kindertagesstätte \"Seepferdchen\"",
+   "kita address": "Karl-Marx-Straße 25\n06317 Aseleben\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700323-41",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Aschersleben",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/aschersleben",
+   "kita name": "Christliche Kindertagesstätte \"Geschwister Scholl\"",
+   "kita address": "Ramdohrstraße 6\n06449 Aschersleben\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700325-42",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Arnstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/arnstedt",
+   "kita name": "Kindertagesstätte \"Arnstedter Kinderstübchen\"",
+   "kita address": "Hauptstraße 16\n06333 Arnstedt\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700329-43",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Arneburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/arneburg",
+   "kita name": "Kindertagesstätte \"Elbräuber\"",
+   "kita address": "Tangermünder Straße 30\n39596 Arneburg\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700331-44",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Arendsee (Altmark)",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/arendsee+%28altmark%29",
+   "kita name": "Kindertagesstätte \"Zur Mühle\"",
+   "kita address": "Schulstraße 13\n39619 Arendsee (Altmark)\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700334-45",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Apenburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/apenburg",
+   "kita name": "Kindertagesstätte \"Märchenburg\"",
+   "kita address": "Vorderstraße 36\n38486 Apenburg\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700336-46",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Annaburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/annaburg",
+   "kita name": "Kindertagesstätte \"Abenteuerland\"",
+   "kita address": "Otto-Heintze-Straße 1\n06925 Annaburg\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700340-47",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Angersdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/angersdorf",
+   "kita name": "Kindertagesstätte Angersdorf",
+   "kita address": "Gartenstraße 4\n06179 Angersdorf\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700342-48",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Angern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/angern",
+   "kita name": "Kindertagesstätte Weinbergwichtel",
+   "kita address": "Am Weinberg 1a\n39326 Angern\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700345-49",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Amsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/amsdorf",
+   "kita name": "Kindertagesstätte \"Marienkäfer\"",
+   "kita address": "Hauptstraße 26\n06317 Amsdorf\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700347-50",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Amesdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/amesdorf",
+   "kita name": "Kindertagesstätte \"Parkmäuse\"",
+   "kita address": "Unterland 4\n39439 Amesdorf\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700350-51",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Am Großen Bruch OT Wulferstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/am+gro%C3%9Fen+bruch+ot+wulferstedt",
+   "kita name": "Kindertagesstätte \"Spatzennest\"",
+   "kita address": "Grüne Str. 66 \n39393 Am Großen Bruch OT Wulferstedt\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700352-52",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Am Großen Bruch",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/am+gro%C3%9Fen+bruch",
+   "kita name": "Kindertagesstätte \"Sonnenschein\"",
+   "kita address": "Kampweg 4 a\n39393 Am Großen Bruch\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700354-53",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Alterode",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/alterode",
+   "kita name": "Kindertagesstätte Alterode",
+   "kita address": "Hüttehof 4/5\n06543 Alterode\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700357-54",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Altensalzwedel",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/altensalzwedel",
+   "kita name": "Kindertagesstätte Altensalzwedel",
+   "kita address": "Dorfstraße\n29416 Altensalzwedel\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700359-55",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Altenroda",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/altenroda",
+   "kita name": "Kindertagesstätte Altenroda",
+   "kita address": "Nebraer Straße 2\n06642 Altenroda\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700362-56",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Alsleben",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/alsleben",
+   "kita name": "Kindertagesstätte \"Gänseblümchen\"",
+   "kita address": "Gutsstraße 7\n06425 Alsleben\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700364-57",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Allstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/allstedt",
+   "kita name": "Kindertagesstätte \"Rotkäppchen\"",
+   "kita address": "Gartenstraße 27\n06542 Allstedt\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700367-58",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Allrode",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/allrode",
+   "kita name": "Kindertagesstätte Allrode",
+   "kita address": "Blankenstraße 214\n06507 Allrode\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700369-59",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Alleringersleben",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/alleringersleben",
+   "kita name": "Kindertagesstätte \"Allerspatzen\"",
+   "kita address": "Zum Kindergarten 2 a\n39343 Alleringersleben\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700371-60",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Albersroda",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/albersroda",
+   "kita name": "Städt. Kita Feldmäuschen",
+   "kita address": "Müchelstraße 8\n06268 Albersroda\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700374-61",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Aken (Elbe)",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/aken+%28elbe%29",
+   "kita name": "Integrative Kindertagesstätte \"Lebensfreude\"",
+   "kita address": "Bahnhofstraße 38\n06385 Aken (Elbe)\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700377-62",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Ahlum",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/ahlum",
+   "kita name": "Kindertagesstätte Ahlum",
+   "kita address": "Dorfstraße 66\n38489 Ahlum\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700380-63",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Ahlsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/ahlsdorf",
+   "kita name": "Kindertagesstätte \"Entdeckerland\"",
+   "kita address": "Schulstraße 1\n06313 Ahlsdorf\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700382-64",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Ackendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/ackendorf",
+   "kita name": "Kindertagesstätte \"Gänseblümchen\"",
+   "kita address": "Dorfstraße 85\n39343 Ackendorf\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700386-65",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Abtsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/abtsdorf",
+   "kita name": "Kindertagesstätte \"Fuchs und Elster\"",
+   "kita address": "Schulstraße 1\n06888 Abtsdorf\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700388-66",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Abberode",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/abberode",
+   "kita name": "Kindertagesstätte Abberode",
+   "kita address": "Neue Straße 15\n06543 Abberode\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700391-67",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen-Anhalt",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt",
+   "cities-link": "Abbenrode",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen-anhalt/abbenrode",
+   "kita name": "Kindertagesstätte \"Tierhäuschen\"",
+   "kita address": "Lange Straße 29\n38871 Abbenrode\nSachsen-Anhalt"
+ },
+ {
+   "web-scraper-order": "1713700400-68",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Augustusburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/augustusburg",
+   "kita name": "Kita Spatzennest",
+   "kita address": "Morgensternstraße 8\n09573 Augustusburg\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700403-69",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Auerbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/auerbach",
+   "kita name": "ASB-Kita Sandmännchen",
+   "kita address": "Fröbelstraße 12\n08209 Auerbach\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700405-70",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Aue",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/aue",
+   "kita name": "DRK Kita Die kleinen Sonnenstrahlen",
+   "kita address": "Albert-Schweitzer-Straße 39\n08280 Aue\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700408-71",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Arzberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/arzberg",
+   "kita name": "Integrative Kindertagesstätte",
+   "kita address": "Straße der Jugend 1\n04886 Arzberg\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700410-72",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Arnsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/arnsdorf",
+   "kita name": "Kita Am Karswald",
+   "kita address": "Karswaldstraße 1\n01477 Arnsdorf\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700413-73",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Annaberg-Buchholz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/annaberg-buchholz",
+   "kita name": "Städt. Kita Pöhlbergzwerge",
+   "kita address": "Scheunenweg 1\n09456 Annaberg-Buchholz\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700415-74",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Amtsberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/amtsberg",
+   "kita name": "Kita Generationenhaus Lebensbaum",
+   "kita address": "Teichweg 3\n09439 Amtsberg\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700418-75",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Altmittweida",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/altmittweida",
+   "kita name": "Kita Bienenkorb",
+   "kita address": "Dorfstraße 77b\n09648 Altmittweida\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700420-76",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Altenberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/altenberg",
+   "kita name": "Kita Bärenstarke Kinder",
+   "kita address": "Schlossstraße 1 c\n01773 Altenberg\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700423-77",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Sachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/sachsen",
+   "cities-link": "Adorf/Vogtland",
+   "cities-link-href": "https://www.kita.de/kindergaerten/sachsen/adorf---vogtland",
+   "kita name": "Kita Zwergenvilla",
+   "kita address": "Remtengrüner Weg 17\n08626 Adorf/Vogtland\nSachsen"
+ },
+ {
+   "web-scraper-order": "1713700431-78",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Saarland",
+   "states-link-href": "https://www.kita.de/kindergaerten/saarland",
+   "cities-link": "Altenkessel",
+   "cities-link-href": "https://www.kita.de/kindergaerten/saarland/altenkessel",
+   "kita name": "Caritas Kita St. Nikolaus Altenkessel",
+   "kita address": "Kirchstraße 17\n66126 Altenkessel\nSaarland"
+ },
+ {
+   "web-scraper-order": "1713700440-79",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Ayl",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/ayl",
+   "kita name": "Kommunale Kindertagesstätte Ayl",
+   "kita address": "Im Hanfgarten 1a\n54441 Ayl\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700443-80",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Auw",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/auw",
+   "kita name": "Katholischer Kindergarten \"Sankt Peter und Paul\"",
+   "kita address": "Lindenweg 8\n54597 Auw\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700446-81",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Auderath",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/auderath",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Kirchstraße 1\n56766 Auderath\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700449-82",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Aspisheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/aspisheim",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Schulstraße 22\n55459 Aspisheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700451-83",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Asbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/asbach",
+   "kita name": "Integrative Kita Unterm Regenbogen",
+   "kita address": "Im Margarethengarten 15\n53567 Asbach\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700454-84",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Arzfeld",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/arzfeld",
+   "kita name": "Katholische Kindertagesstätte St. Maria Magdalena",
+   "kita address": "Schulstraße 8a\n54687 Arzfeld\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700457-85",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Arzbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/arzbach",
+   "kita name": "Katholischer Kindergarten",
+   "kita address": "Kirchstraße 21\n56337 Arzbach\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700460-86",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Armsheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/armsheim",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Am Sportplatz 1\n55288 Armsheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700462-87",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Argenthal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/argenthal",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Weihergasse 16\n55496 Argenthal\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700465-88",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Appenheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/appenheim",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Kloppgasse 18\n55437 Appenheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700467-89",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Antweiler",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/antweiler",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Bergstraße 10\n53533 Antweiler\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700470-90",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Annweiler",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/annweiler",
+   "kita name": "Katholische Kita Arche Noah",
+   "kita address": "Elisabethenstraße 6\n76855 Annweiler\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700473-91",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Anhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/anhausen",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Lessingstraße 12\n56584 Anhausen\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700476-92",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Andernach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/andernach",
+   "kita name": "AWO-Kita Zauberwiese",
+   "kita address": "Pöntertalstraße 40\n56626 Andernach\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700478-93",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alzey-Weinheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alzey-weinheim",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Muskatellerweg 20\n55232 Alzey-Weinheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700481-94",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alzey-Heimersheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alzey-heimersheim",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Sonnenbergstraße 5 3 / 10\n55232 Alzey-Heimersheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700484-95",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alzey",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alzey",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Am Martin-Niemöller-Weg\n55232 Alzey\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700486-96",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altrip",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altrip",
+   "kita name": "Kommunale Friedrich Fröbel Kita und Hort",
+   "kita address": "Moltkestraße 35 A\n67122 Altrip\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700489-97",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altrich",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altrich",
+   "kita name": "Kommunaler Kindergarten Altrich",
+   "kita address": "Schulstraße 1\n54518 Altrich\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700492-98",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altleiningen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altleiningen",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Hauptstraße 56\n67317 Altleiningen\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700494-99",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Althornbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/althornbach",
+   "kita name": "Prot. Kindergarten \"Storchennest\"",
+   "kita address": "Mauschbacher Weg 1\n66484 Althornbach\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700497-100",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alterkülz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alterk%C3%BClz",
+   "kita name": "Kommunaler Kindergarten \"Springmäuse\"",
+   "kita address": "Dorfstraße 48\n56288 Alterkülz\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700500-101",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altenkirchen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altenkirchen",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Kiefernweg\n57610 Altenkirchen\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700502-102",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altenglan",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altenglan",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Borrwiese 5\n66885 Altenglan\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700505-103",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altenahr",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altenahr",
+   "kita name": "Katholische Kindertagesstätte \"St. Josef\"",
+   "kita address": "Pützgasse 5\n53505 Altenahr\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700508-104",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Altdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/altdorf",
+   "kita name": "Kommunaler Kindergarten \"Buntspecht\"",
+   "kita address": "Schulstraße 4\n67482 Altdorf\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700510-105",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alsheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alsheim",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Taubertstraße 28\n67577 Alsheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700513-106",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alsenz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alsenz",
+   "kita name": "Prot. Kindergarten",
+   "kita address": "Schulstraße 20\n67821 Alsenz\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700516-107",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alsdorf",
+   "kita name": "Katholischer Kindergarten",
+   "kita address": "Kirchstraße\n57518 Alsdorf\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700519-108",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alpenrod",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alpenrod",
+   "kita name": "Kommunaler Kindergarten \"Zauberstein\"",
+   "kita address": "Steinweg 18\n57642 Alpenrod\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700521-109",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Allendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/allendorf",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Haupstraße 78\n56370 Allendorf\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700524-110",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alflen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alflen",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Obere Kirchstraße 2\n56828 Alflen\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700527-111",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Alf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/alf",
+   "kita name": "Katholische Kita St. Remigius",
+   "kita address": "Mühlenstraße 1\n56859 Alf\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700530-112",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Albisheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/albisheim",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Schulstraße 7\n67308 Albisheim\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700532-113",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Albig",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/albig",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Alzeyer Pforte 30\n55234 Albig\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700535-114",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Albersweiler",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/albersweiler",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Auf der Lehr\n76857 Albersweiler\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700539-115",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Ailertchen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/ailertchen",
+   "kita name": "Kommunaler Kindergarten",
+   "kita address": "Am Schwimmbad 10\n56459 Ailertchen\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700541-116",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Ahrbrück",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/ahrbr%C3%BCck",
+   "kita name": "Kommunaler Kindergarten \"Wirbelwind\"",
+   "kita address": "Am Kindergarten 4\n53506 Ahrbrück\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700544-117",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Adenau",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/adenau",
+   "kita name": "Kath. Kita St. Johannes der Täufer",
+   "kita address": "Eulenbergstraße 1\n53518 Adenau\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700547-118",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Abentheuer",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/abentheuer",
+   "kita name": "Kommunaler Kindergarten Abentheuer",
+   "kita address": "Schulweg 4\n55767 Abentheuer\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700550-119",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Rheinland-Pfalz",
+   "states-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz",
+   "cities-link": "Aach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/rheinland-pfalz/aach",
+   "kita name": "Katholische Kita \"Haus auf dem Wehrborn\"",
+   "kita address": "Haus auf dem Wehrborn\n54298 Aach\nRheinland-Pfalz"
+ },
+ {
+   "web-scraper-order": "1713700556-120",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Augustdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/augustdorf",
+   "kita name": "Evang. Regenbogen",
+   "kita address": "Haustenbecker Straße 4\n32828 Augustdorf\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700559-121",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Attendorn",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/attendorn",
+   "kita name": "AWO Kindergarten Windhausen",
+   "kita address": "Höhenstraße 1\n57439 Attendorn\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700561-122",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Ascheberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/ascheberg",
+   "kita name": "Evang. Kita Abenteuerland",
+   "kita address": "Ostlandstraße 13\n59387 Ascheberg\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700564-123",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Arnsberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/arnsberg",
+   "kita name": "Evang. Bonhoeffer-Kindergarten",
+   "kita address": "Graf-Gottfried-Straße 92\n59755 Arnsberg\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700567-124",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Anröchte-Mellrich",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/anr%C3%B6chte-mellrich",
+   "kita name": "Gemeindekindergarten Mellrich",
+   "kita address": "Gartenstraße 1\n59609 Anröchte-Mellrich\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700569-125",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Anröchte-Effeln",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/anr%C3%B6chte-effeln",
+   "kita name": "Gemeindekindergarten Effeln",
+   "kita address": "Waldstraße 6\n59609 Anröchte-Effeln\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700572-126",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Anröchte-Altengeseke",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/anr%C3%B6chte-altengeseke",
+   "kita name": "Gemeindekindergarten Altengeseke",
+   "kita address": "Steinbreite 3\n59609 Anröchte-Altengeseke\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700575-127",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Anröchte",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/anr%C3%B6chte",
+   "kita name": "Kath. Kindergarten St. Marien",
+   "kita address": "Hospitalstraße 11\n59609 Anröchte\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700578-128",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Altenberge",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/altenberge",
+   "kita name": "DRK-Kita Pusteblume",
+   "kita address": "Spatzenweg 10\n48341 Altenberge\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700580-129",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Altenbeken",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/altenbeken",
+   "kita name": "Katholischer Kindergarten Schwaney",
+   "kita address": "Schulstraße 6\n33184 Altenbeken\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700583-130",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Altena",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/altena",
+   "kita name": "Johanniter-Kita Zwergenburg",
+   "kita address": "Freiheitstraße 31\n58746 Altena\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700586-131",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Alsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/alsdorf",
+   "kita name": "AWO-Kita Mittendrin",
+   "kita address": "Rosenstraße 6\n52477 Alsdorf\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700589-132",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Alpen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/alpen",
+   "kita name": "Evangelischer Kindergarten Alpen",
+   "kita address": "Im Dahlacker 9\n46519 Alpen\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700592-133",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Alfter",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/alfter",
+   "kita name": "AWO-Kita Buntstift Alfter-Witterschlick",
+   "kita address": "Esserstraße 9\n53347 Alfter\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700594-134",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Aldenhoven",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/aldenhoven",
+   "kita name": "Evangelischer Kindergarten Arche",
+   "kita address": "Martinusstraße 25\n52457 Aldenhoven\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700597-135",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Ahlern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/ahlern",
+   "kita name": "Kath. Kita St. Josef",
+   "kita address": "Auf dem Damm 49\n59229 Ahlern\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700600-136",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Ahlen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/ahlen",
+   "kita name": "AWO-Kita Menzelstraße",
+   "kita address": "Menzelstraße 41\n59227 Ahlen\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700603-137",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Ahaus",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/ahaus",
+   "kita name": "DRK-Kita Burg Funkelstein",
+   "kita address": "Solmsstraße 10\n48683 Ahaus\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700606-138",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Nordrhein-Westfalen",
+   "states-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen",
+   "cities-link": "Aachen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/nordrhein-westfalen/aachen",
+   "kita name": "Katholischer Kindergarten Heilig-Kreuz",
+   "kita address": "Kreuzherrenstraße 3-5\n52062 Aachen\nNordrhein-Westfalen"
+ },
+ {
+   "web-scraper-order": "1713700615-139",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Axstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/axstedt",
+   "kita name": "Kindergarten Axstedt",
+   "kita address": "Schulstraße 23\n27729 Axstedt\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700618-140",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Aurich",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/aurich",
+   "kita name": "AWO Sprachheilkindergarten mit Integrations-und Hörbehindertengruppe",
+   "kita address": "Lazarettweg 8\n26603 Aurich\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700621-141",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Auhagen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/auhagen",
+   "kita name": "KiGa \"Schatzinsel\"",
+   "kita address": "Auf dem Rähden 21 A\n31553 Auhagen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700623-142",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Auetal/Hattendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/auetal---hattendorf",
+   "kita name": "Kindergarten Hattendorfer Räuberhöhle",
+   "kita address": "Langenfelder Straße 47\n31749 Auetal/Hattendorf\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700626-143",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Auetal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/auetal",
+   "kita name": "KiGa Escher",
+   "kita address": "Sechsackerweg 6\n31749 Auetal\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700629-144",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Asendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/asendorf",
+   "kita name": "DRK-Kita Asendorf",
+   "kita address": "Schützenstraße 11\n21271 Asendorf\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700632-145",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Artlenburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/artlenburg",
+   "kita name": "DRK-KiGa Artlenburg",
+   "kita address": "Schulstraße 3\n21380 Artlenburg\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700635-146",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Arpke",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/arpke",
+   "kita name": "Waldkindergarten Arpker Waldzwerge",
+   "kita address": "Ahrbeke 4\n31275 Arpke\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700637-147",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Armstorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/armstorf",
+   "kita name": "DRK-Kita Armstorf",
+   "kita address": "Schulstraße 3\n21769 Armstorf\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700640-148",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Appel",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/appel",
+   "kita name": "KiGa Appel",
+   "kita address": "Am Spielplatz 1\n21279 Appel\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700643-149",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Apensen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/apensen",
+   "kita name": "KiGa Apensen \"Die Freunde\"",
+   "kita address": "Schulstraße 17\n21641 Apensen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700646-150",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Apen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/apen",
+   "kita name": "Evang.-luth. Kindergarten \"Die Brücke\"",
+   "kita address": "Stahlwerkstraße 50\n26689 Apen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700649-151",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Apelern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/apelern",
+   "kita name": "KiGa \"Kunterbunt\"",
+   "kita address": "Lyhrener Straße 11\n31552 Apelern\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700652-152",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Ankum",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/ankum",
+   "kita name": "Städt. Kita Am Kattenboll",
+   "kita address": "Georg-Siemer-Straße 4\n49577 Ankum\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700654-153",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Andervenne",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/andervenne",
+   "kita name": "Katholischer Kindergarten Andervenne",
+   "kita address": "Schulstraße 2\n49832 Andervenne\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700657-154",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Anderlingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/anderlingen",
+   "kita name": "Kinderspielkreis Anderlingen",
+   "kita address": "Heinrich-Behnken-Straße 14\n27446 Anderlingen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700659-155",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Amt Neuhaus",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/amt+neuhaus",
+   "kita name": "Städt. Kita Am Märchenwald Neuhaus",
+   "kita address": "Delliener Straße 22\n19273 Amt Neuhaus\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700662-156",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Amelinghausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/amelinghausen",
+   "kita name": "KiTa -Kleine Menschen-",
+   "kita address": "Röthenweg 19\n21385 Amelinghausen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700665-157",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Altenmedingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/altenmedingen",
+   "kita name": "KiGa \"Sonnenblume\" Altenmedingen",
+   "kita address": "Hauptstraße 1a\n29575 Altenmedingen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700667-158",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Altenau",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/altenau",
+   "kita name": "KiTa Altenau",
+   "kita address": "Breslauer Straße 24\n38707 Altenau\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700670-159",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Algermissen-Lühnde",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/algermissen-l%C3%BChnde",
+   "kita name": "Kindertagesstätte St. Martin Lühnde",
+   "kita address": "Am Berkenhölschen 8\n31191 Algermissen-Lühnde\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700673-160",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Algermissen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/algermissen",
+   "kita name": "Kindertagesstätte Groß Lobke",
+   "kita address": "Judenstraße 4\n31191 Algermissen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700676-161",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Alfstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/alfstedt",
+   "kita name": "KiGa Alfstedt",
+   "kita address": "Dorfstraße 19\n27432 Alfstedt\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700678-162",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Alfhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/alfhausen",
+   "kita name": "Kath. Kita St. Hedwig",
+   "kita address": "Gartenstraße 28\n49594 Alfhausen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700681-163",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Alfeld (Leine)",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/alfeld+%28leine%29",
+   "kita name": "Evang. Kindergarten St. Nicolai",
+   "kita address": "Eimser Weg 95 A\n31061 Alfeld (Leine)\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700684-164",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Ahrensburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/ahrensburg",
+   "kita name": "Kita Stadtzwerge",
+   "kita address": "Adolfstraße 52\n22926 Ahrensburg\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700687-165",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Ahnsbeck",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/ahnsbeck",
+   "kita name": "KiGa Storchennest Ahnsbeck",
+   "kita address": "Osterkamp 2\n29353 Ahnsbeck\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700689-166",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Ahlerstedt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/ahlerstedt",
+   "kita name": "Evang. Kita Wangersen",
+   "kita address": "Alte Schulstraße 10\n21702 Ahlerstedt\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700692-167",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Ahlden (Aller)",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/ahlden+%28aller%29",
+   "kita name": "Kindertagesstätte Ahlden",
+   "kita address": "Bahnhofstraße 3\n29693 Ahlden (Aller)\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700695-168",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Agathenburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/agathenburg",
+   "kita name": "KiGa Agathenburg",
+   "kita address": "Hinter den Höfen 7\n21684 Agathenburg\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700697-169",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Aerzen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/aerzen",
+   "kita name": "Evang. Kita Pöhlenstraße",
+   "kita address": "Pöhlenstraße 1\n31855 Aerzen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700700-170",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Adendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/adendorf",
+   "kita name": "Adolph-Holm Kindergarten",
+   "kita address": "Kirchweg 17 A\n21365 Adendorf\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700703-171",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Adenbüttel",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/adenb%C3%BCttel",
+   "kita name": "DRK-Kita Adenbüttel",
+   "kita address": "Neue Schulstraße 3\n38528 Adenbüttel\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700705-172",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Adelheidsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/adelheidsdorf",
+   "kita name": "KiGa Großmoor",
+   "kita address": "Hauptstraße 161\n29352 Adelheidsdorf\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700708-173",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Adelebsen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/adelebsen",
+   "kita name": "Evang.-luth. Kita Adelebsen",
+   "kita address": "Lange-Pröbsten-Straße 16\n37139 Adelebsen\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700711-174",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Achim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/achim",
+   "kita name": "Evang. Kinderspielkreis Achim",
+   "kita address": "Magdeburger Straße 32\n28832 Achim\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700713-175",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Niedersachsen",
+   "states-link-href": "https://www.kita.de/kindergaerten/niedersachsen",
+   "cities-link": "Abbenrode",
+   "cities-link-href": "https://www.kita.de/kindergaerten/niedersachsen/abbenrode",
+   "kita name": "KiTa Elmwichtel",
+   "kita address": "An den Eichen 9\n38162 Abbenrode\nNiedersachsen"
+ },
+ {
+   "web-scraper-order": "1713700722-176",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Anklam",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/anklam",
+   "kita name": "Freinet-KITA Anklam",
+   "kita address": "Samariterstraße 4\n17389 Anklam\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700724-177",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Altwarp",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/altwarp",
+   "kita name": "Kita Sanddüne",
+   "kita address": "Straße der Einheit 9\n17375 Altwarp\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700727-178",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Altenpleen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/altenpleen",
+   "kita name": "Kindertagesstätte \"Krabbenkiste\"",
+   "kita address": "Straße der Jugend 1\n18445 Altenpleen\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700730-179",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Altenhagen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/altenhagen",
+   "kita name": "Kindertagesstätte Zwergenhaus",
+   "kita address": "Dorfstraße 26\n17091 Altenhagen\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700733-180",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Altefähr",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/altef%C3%A4hr",
+   "kita name": "AWO-Kita Lütt Matten",
+   "kita address": "Bergener Straße 5\n18573 Altefähr\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700736-181",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Alt Schwerin",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/alt+schwerin",
+   "kita name": "AWO-Kita Uns lütt Kinnerhus",
+   "kita address": "Lindenallee 27\n17213 Alt Schwerin\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700738-182",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Alt Krenzlin",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/alt+krenzlin",
+   "kita name": "Städt. Kita Spatzennest",
+   "kita address": "Hauptstraße 7\n19288 Alt Krenzlin\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700741-183",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Mecklenburg-Vorpommern",
+   "states-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern",
+   "cities-link": "Ahrenshagen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/mecklenburg-vorpommern/ahrenshagen",
+   "kita name": "Integrative Kindertagesstätte \"Pusteblume\"",
+   "kita address": "Todenhäger Str. 2 B\n18320 Ahrenshagen\nMecklenburg-Vorpommern"
+ },
+ {
+   "web-scraper-order": "1713700750-184",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aßlar-Werdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/a%C3%9Flar-werdorf",
+   "kita name": "Städt. Kindertagesstätte \"Pusteblume\"",
+   "kita address": "Hinterstraße 18\n35614 Aßlar-Werdorf\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700753-185",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aßlar-Kleinaltenstätten",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/a%C3%9Flar-kleinaltenst%C3%A4tten",
+   "kita name": "Kindergarten \"Drachennest\"",
+   "kita address": "Altenbergstraße 13\n35607 Aßlar-Kleinaltenstätten\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700755-186",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aßlar-Bechlingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/a%C3%9Flar-bechlingen",
+   "kita name": "Kindergarten \"Flohkiste\"",
+   "kita address": "Schulstraße 8\n35614 Aßlar-Bechlingen\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700758-187",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aßlar",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/a%C3%9Flar",
+   "kita name": "Evangelischer Kindergarten Regenbogen",
+   "kita address": "Pestalozzistraße 2\n35614 Aßlar\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700761-188",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Antrifttal-Ruhlkirchen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/antrifttal-ruhlkirchen",
+   "kita name": "Katholische Kindertagesstätte Arche Noah",
+   "kita address": "Weihersweg 2\n36326 Antrifttal-Ruhlkirchen\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700763-189",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Angelburg-Lixfeld",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/angelburg-lixfeld",
+   "kita name": "Kindertagesstätte \"Brüllbär\"",
+   "kita address": "Winkelstraße 14\n35719 Angelburg-Lixfeld\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700766-190",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Angelburg-Gönnern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/angelburg-g%C3%B6nnern",
+   "kita name": "Evangelischer Kindergarten Gönnern",
+   "kita address": "Berliner Straße 17\n35719 Angelburg-Gönnern\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700769-191",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Amöneburg-Rossdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/am%C3%B6neburg-rossdorf",
+   "kita name": "Katholischer Kindergarten Auf der Boine",
+   "kita address": "Auf der Boine 2\n35287 Amöneburg-Rossdorf\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700772-192",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Amöneburg-Mardorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/am%C3%B6neburg-mardorf",
+   "kita name": "Katholischer Kindergarten St. Hubertus Mardorf",
+   "kita address": "Kindergartenstraße 7\n35287 Amöneburg-Mardorf\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700775-193",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Amöneburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/am%C3%B6neburg",
+   "kita name": "Katholischer Kindergarten Amöneburg",
+   "kita address": "Steinweg 35\n35287 Amöneburg\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700777-194",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Altenstadt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/altenstadt",
+   "kita name": "Kita Villla Kunterbunt",
+   "kita address": "Am Weihergarten 12\n63674 Altenstadt\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700780-195",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alsfeld-Berfa",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alsfeld-berfa",
+   "kita name": "Städt. Kindergarten Bechtelsberger Störche",
+   "kita address": "Zum Sportplatz 2\n36295 Alsfeld-Berfa\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700782-196",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alsfeld-Angenrod",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alsfeld-angenrod",
+   "kita name": "Städt. Kindertagesstätte Angenrod",
+   "kita address": "Kirtorfer Straße 9\n36295 Alsfeld-Angenrod\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700785-197",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alsfeld-Altenburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alsfeld-altenburg",
+   "kita name": "Evangelische Kindertagesstätte Altenburg",
+   "kita address": "Am Schlossberg 7\n36304 Alsfeld-Altenburg\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700788-198",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alsfeld",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alsfeld",
+   "kita name": "Städt. Kindertagesstätte \"Wichtelland\"",
+   "kita address": "Schellengasse 10\n36295 Alsfeld\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700791-199",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alsbach-Hähnlein",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alsbach-h%C3%A4hnlein",
+   "kita name": "Evangelische Kindertagesstätte Arche Noah",
+   "kita address": "Odenwaldstraße 7\n64665 Alsbach-Hähnlein\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700793-200",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Allendorf, Eder - Rennertehausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/allendorf%2C+eder+-+rennertehausen",
+   "kita name": "Evangelische Kindertagesstätte \"Die kleinen Strolche\"",
+   "kita address": "Jahnstraße 4\n35108 Allendorf, Eder - Rennertehausen\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700796-201",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Allendorf, Eder - Battenfeld",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/allendorf%2C+eder+-+battenfeld",
+   "kita name": "Evangelischer Kindergarten Battenfeld",
+   "kita address": "Heinrich-Sellmann Straße 6\n35108 Allendorf, Eder - Battenfeld\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700799-202",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Allendorf, Eder",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/allendorf%2C+eder",
+   "kita name": "Evangelischer Kindergarten Allendorf",
+   "kita address": "Freiherr-von-Rotsmann-Straße 6\n35108 Allendorf, Eder\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700801-203",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Allendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/allendorf",
+   "kita name": "Lebenshilfe-Kita Allendorf",
+   "kita address": "Totenhäuser Weg 17\n35469 Allendorf\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700807-204",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alheim-Heinebach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alheim-heinebach",
+   "kita name": "Haus der kleinen Füße",
+   "kita address": "Am Minnstück 9\n36211 Alheim-Heinebach\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700809-205",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Alheim-Baumbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/alheim-baumbach",
+   "kita name": "Kindergarten Baumbacher Weltentdecker",
+   "kita address": "Zum Bahnhof 20\n36211 Alheim-Baumbach\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700812-206",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Ahnatal-Weimar",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/ahnatal-weimar",
+   "kita name": "Gemeindekindergarten Weimar",
+   "kita address": "Königsfahrt 7\n34292 Ahnatal-Weimar\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700815-207",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Ahnatal-Kammerberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/ahnatal-kammerberg",
+   "kita name": "Gemeindekindergarten Regenbogen",
+   "kita address": "Berliner Straße 31\n34290 Ahnatal-Kammerberg\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700818-208",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Ahnatal-Heckershausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/ahnatal-heckershausen",
+   "kita name": "Kindergarten Heckershausen",
+   "kita address": "Dorfplatz 2\n34292 Ahnatal-Heckershausen\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700820-209",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Ahnatal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/ahnatal",
+   "kita name": "Montessori Kinderhaus Blumenwiese",
+   "kita address": "Weißes-Kreuz-Straße 4 \n34292 Ahnatal\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700823-210",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aarbergen-Rückershausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/aarbergen-r%C3%BCckershausen",
+   "kita name": "Kindergarten Rückershausen",
+   "kita address": "Friedrich-Ebert-Straße 5\n65326 Aarbergen-Rückershausen\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700826-211",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aarbergen-Panrod",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/aarbergen-panrod",
+   "kita name": "Kindergarten Aarbergen-Panrod",
+   "kita address": "Röderstraße 8\n65326 Aarbergen-Panrod\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700829-212",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aarbergen-Michelbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/aarbergen-michelbach",
+   "kita name": "Gemeindekindergarten \"Villa Kunterbunt\"",
+   "kita address": "Obergasse 6\n65326 Aarbergen-Michelbach\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700832-213",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Hessen",
+   "states-link-href": "https://www.kita.de/kindergaerten/hessen",
+   "cities-link": "Aarbergen-Kettenbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/hessen/aarbergen-kettenbach",
+   "kita name": "Krippe und Kita der Freien Schule Untertaunus",
+   "kita address": "Scheidertalstraße 22\n65326 Aarbergen-Kettenbach\nHessen"
+ },
+ {
+   "web-scraper-order": "1713700848-214",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Angermünde",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/angerm%C3%BCnde",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Richtstraße 8a\n16278 Angermünde\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700851-215",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Am Mellensee",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/am+mellensee",
+   "kita name": "Kita \"Storchennest\"",
+   "kita address": "Lücke 1\n15806 Am Mellensee\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700853-216",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Altlandsberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/altlandsberg",
+   "kita name": "Kita \"Wilde Wiese\"",
+   "kita address": "Alte Schulstraße 12 a\n15345 Altlandsberg\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700856-217",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Althüttendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/alth%C3%BCttendorf",
+   "kita name": "Johanniter-Kita Kunterbunt",
+   "kita address": "Bahnhofstraße 36\n16247 Althüttendorf\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700859-218",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Altdöbern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/altd%C3%B6bern",
+   "kita name": "AW-Kita Altdöbern",
+   "kita address": "Jauersche Straße 2b\n03229 Altdöbern\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700861-219",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Ahrensfelde-Blumberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/ahrensfelde-blumberg",
+   "kita name": "Kindertagesstätte \"Spielhaus\"",
+   "kita address": "Schloßstraße 7\n16356 Ahrensfelde-Blumberg\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700864-220",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Brandenburg",
+   "states-link-href": "https://www.kita.de/kindergaerten/brandenburg",
+   "cities-link": "Ahrensfelde",
+   "cities-link-href": "https://www.kita.de/kindergaerten/brandenburg/ahrensfelde",
+   "kita name": "Kindertagesstätte Lindenberg",
+   "kita address": "Ahrensfelder Straße 1\n16356 Ahrensfelde\nBrandenburg"
+ },
+ {
+   "web-scraper-order": "1713700877-221",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aystetten",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aystetten",
+   "kita name": "Kindergarten Schneeweisschen und Rosenrot",
+   "kita address": "Adalbert-Stoll-Straße 3+5\n86482 Aystetten\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700880-222",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aying",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aying",
+   "kita name": "Kindergarten Am Weiher",
+   "kita address": "Moosweg 6\n85653 Aying\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700883-223",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Außernzell",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/au%C3%9Fernzell",
+   "kita name": "Katholischer Kindergarten St. Leonhard",
+   "kita address": "Schulstraße 13\n94532 Außernzell\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700885-224",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aurachtal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aurachtal",
+   "kita name": "Ev. Kindergarten Sonnenschein",
+   "kita address": "Mönchweg 1\n91086 Aurachtal\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700889-225",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aurach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aurach",
+   "kita name": "Katholischer Kindergarten Peter und Paul",
+   "kita address": "Im Mooshof 6\n91589 Aurach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700892-226",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aura im Sinngrund",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aura+im+sinngrund",
+   "kita name": "Katholischer Kindergarten",
+   "kita address": "Hauptstraße 50\n97773 Aura im Sinngrund\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700894-227",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aura an der Saale",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aura+an+der+saale",
+   "kita name": "Katholischer Kindergarten St. Laurentius",
+   "kita address": "Schulstraße\n97717 Aura an der Saale\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700897-228",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Auhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/auhausen",
+   "kita name": "Evangelischer Kindergarten Die kleine Oase",
+   "kita address": "Klosterstraße 14\n86736 Auhausen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700900-229",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Augsburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/augsburg",
+   "kita name": "Betriebskindergarten Stadtsparkasse Augsburg",
+   "kita address": "Hermanstraße 33\n86150 Augsburg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700902-230",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aufseß",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aufse%C3%9F",
+   "kita name": "Ev. Kindergarten",
+   "kita address": "Haag 98\n91347 Aufseß\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700905-231",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aufhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aufhausen",
+   "kita name": "Kindergarten Philipp Neri",
+   "kita address": "Seidenbuschstraße 16\n93089 Aufhausen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700908-232",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Auerbach-Michelfeld",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/auerbach-michelfeld",
+   "kita name": "Kath. Kiga St. Otto",
+   "kita address": "In den Striemen 17\n91275 Auerbach-Michelfeld\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700911-233",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Auerbach in der Oberpfalz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/auerbach+in+der+oberpfalz",
+   "kita name": "Städt. Kindergarten Neuhauser Str",
+   "kita address": "Neuhauser Straße 3\n91275 Auerbach in der Oberpfalz\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700914-234",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Auerbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/auerbach",
+   "kita name": "Katholischer Kindergarten St. Margaretha",
+   "kita address": "Hauptstraße 8\n94530 Auerbach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700917-235",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aubstadt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aubstadt",
+   "kita name": "Gemeindekindergarten Aubstadt - Arche Noah",
+   "kita address": "Schulstraße 1\n97633 Aubstadt\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700920-236",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aub",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aub",
+   "kita name": "Kindergarten St. Georg Baldersheim",
+   "kita address": "St.-Georg-Straße 4\n97239 Aub\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700923-237",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Au in der Hallertau",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/au+in+der+hallertau",
+   "kita name": "Kiga Am Vogelhölzl",
+   "kita address": "Josef-Eberwein-Straße 4\n84072 Au in der Hallertau\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700925-238",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Atting",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/atting",
+   "kita name": "Kindergarten Mariä Himmelfahrt",
+   "kita address": "Hauptstraße 33a\n94348 Atting\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700929-239",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Attenkirchen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/attenkirchen",
+   "kita name": "Kindernest Sausewind",
+   "kita address": "Schulstraße 8\n85395 Attenkirchen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700931-240",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aßling",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/a%C3%9Fling",
+   "kita name": "AWO-Kita Aßling",
+   "kita address": "Mitterweg 29\n85617 Aßling\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700934-241",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aschheim-Dornach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aschheim-dornach",
+   "kita name": "Evangelische Kindertagesstätte Dornach",
+   "kita address": "Amselweg 11\n85609 Aschheim-Dornach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700937-242",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aschheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aschheim",
+   "kita name": "Gemeinde Kindertagesstätte an der Watzmannstraße",
+   "kita address": "Watzmannstraße 40\n85609 Aschheim\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700940-243",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aschau im Chiemgau",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aschau+im+chiemgau",
+   "kita name": "Kindergarten St. Michael Sachrang",
+   "kita address": "Schulstraße 3\n83229 Aschau im Chiemgau\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700942-244",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aschau am Inn",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aschau+am+inn",
+   "kita name": "Caritas-Kindergarten Mariä Himmelfahrt",
+   "kita address": "Schulstraße 8\n84544 Aschau am Inn\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700945-245",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aschaffenburg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aschaffenburg",
+   "kita name": "Naturkindergarten Am Wendelberg",
+   "kita address": "Postfach 10 06 05\n63704 Aschaffenburg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700948-246",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ascha",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ascha",
+   "kita name": "Kindergarten St. Mariä Himmelfahrt",
+   "kita address": "Untere Dorfstraße 9\n94347 Ascha\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700951-247",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Asbach-Bäumenheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/asbach-b%C3%A4umenheim",
+   "kita name": "Dr.-Hermann-Fendt-Kindergarten",
+   "kita address": "Am Schmutterwald 41\n86663 Asbach-Bäumenheim\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700953-248",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arzberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arzberg",
+   "kita name": "Ev. Kindergarten Villa Weinberggasse",
+   "kita address": "Weinberggasse 6\n95659 Arzberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700956-249",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arrach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arrach",
+   "kita name": "Kindergarten St. Leonhard",
+   "kita address": "Schulweg 4\n93474 Arrach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700959-250",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arnstorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arnstorf",
+   "kita name": "Kinderkrippe Schatzkiste",
+   "kita address": "Schönauer Straße 19\n94424 Arnstorf\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700961-251",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arnstein",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arnstein",
+   "kita name": "Katholischer Kindergarten Villa Kunterbunt Müdesheim",
+   "kita address": "Radegundisstraße 10\n97450 Arnstein\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700964-252",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arnschwang",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arnschwang",
+   "kita name": "Katholischer Kindergarten St. Martin",
+   "kita address": "Im Moos 9\n93473 Arnschwang\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700967-253",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arnbruck",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arnbruck",
+   "kita name": "Kindergarten St. Josef",
+   "kita address": "Gemeindezentrum 3\n93471 Arnbruck\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700969-254",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aresing",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aresing",
+   "kita name": "Katholischer Kindertagesstätte St. Martin",
+   "kita address": "Bischof-Sailer-Straße 5\n86561 Aresing\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700972-255",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Arberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/arberg",
+   "kita name": "Katholischer Kindergarten Kirchenstiftung Maria Heimsuchung",
+   "kita address": "Großlellenfeld 8\n91722 Arberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700975-256",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Apfeldorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/apfeldorf",
+   "kita name": "Gemeindekindergarten Apfeldorf",
+   "kita address": "Wiesenweg 15\n86974 Apfeldorf\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700978-257",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Anzing",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/anzing",
+   "kita name": "AWO-Kita Anzing",
+   "kita address": "Zugspitzring 2\n85646 Anzing\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700981-258",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ansbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ansbach",
+   "kita name": "Ev. Kiga Lummerland Brodswinden",
+   "kita address": "Am Wolfsbuck 42\n91522 Ansbach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700983-259",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Anger",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/anger",
+   "kita name": "Gemeindekindergarten Aufham",
+   "kita address": "Kirchenstraße 18\n83454 Anger\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700986-260",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Andechs",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/andechs",
+   "kita name": "BRK-Kindergarten Frieding",
+   "kita address": "Martinweg 5\n82346 Andechs\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700989-261",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ampfing",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ampfing",
+   "kita name": "Kath. Pfarrkindergarten Nuntius Pacelli",
+   "kita address": "Zangberger Straße 10\n84539 Ampfing\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700992-262",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Amorbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/amorbach",
+   "kita name": "Städt. Kindergarten Hintere Gasse",
+   "kita address": "HintereGasse 7\n63916 Amorbach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700995-263",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ammerthal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ammerthal",
+   "kita name": "Kindergarten St. Nikolaus",
+   "kita address": "Hopfengartenstraße 2\n92260 Ammerthal\nBayern"
+ },
+ {
+   "web-scraper-order": "1713700998-264",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ammerndorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ammerndorf",
+   "kita name": "Evangelische Kindertagesstätte \"Pusteblume\"",
+   "kita address": "Am Weinberg 2\n90614 Ammerndorf\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701001-265",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Amerdingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/amerdingen",
+   "kita name": "Kindergarten St. Vitus",
+   "kita address": "Schulstraße 7\n86735 Amerdingen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701004-266",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Amerang",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/amerang",
+   "kita name": "Kath. Pfarrkindergarten St. Rupert",
+   "kita address": "Kindergartenweg 1\n83123 Amerang\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701007-267",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Amberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/amberg",
+   "kita name": "Kindergarten \"Regenbogen\"",
+   "kita address": "Kirchplatz 1\n86854 Amberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701010-268",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Alzenau",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alzenau",
+   "kita name": "Städt. KiTa Zauberwald",
+   "kita address": "Bachstraße 14\n63755 Alzenau\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701013-269",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altusried",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altusried",
+   "kita name": "Katholischer Kindergarten St. Agatha Kimratshofen",
+   "kita address": "Sportstraße 2\n87452 Altusried\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701016-270",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altötting",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alt%C3%B6tting",
+   "kita name": "Kindergarten St. Franziskus",
+   "kita address": "Neuöttinger Straße 53\n84503 Altötting\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701018-271",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altomünster",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altom%C3%BCnster",
+   "kita name": "Kindergarten Regenbogen",
+   "kita address": "Am Brechfeld 10\n85250 Altomünster\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701021-272",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altmannstein",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altmannstein",
+   "kita name": "Kindergarten Mäusenest",
+   "kita address": "Augustinerstraße 2\n93336 Altmannstein\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701024-273",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Althegnenberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/althegnenberg",
+   "kita name": "Kindergarten Regenbogen",
+   "kita address": "Augsburger Straße 6\n82278 Althegnenberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701027-274",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altfraunhofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altfraunhofen",
+   "kita name": "Kindergarten St. Nikolaus",
+   "kita address": "Wambacher Straße 10\n84169 Altfraunhofen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701029-275",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altertheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altertheim",
+   "kita name": "Ev. Kindergarten Oberaltertheim",
+   "kita address": "Oberes Tor 8\n97237 Altertheim\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701032-276",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altenthann",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altenthann",
+   "kita name": "Katholischer Kindergarten St. Nikolaus",
+   "kita address": "Johannisbreite 3\n93177 Altenthann\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701035-277",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altenstadt an der Waldnaab",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altenstadt+an+der+waldnaab",
+   "kita name": "Katholischer Kindergarten Arche Noah",
+   "kita address": "Julius-Meister-Weg 6a\n92665 Altenstadt an der Waldnaab\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701037-278",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altenstadt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altenstadt",
+   "kita name": "Katholischer Kindergarten St. Michael",
+   "kita address": "Triebstraße 9\n86972 Altenstadt\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701040-279",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altenmünster",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altenm%C3%BCnster",
+   "kita name": "Gemeindekindergarten Zusamzell",
+   "kita address": "Am Schulberg 1\n86450 Altenmünster\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701043-280",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altenmarkt an der Alz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altenmarkt+an+der+alz",
+   "kita name": "Kath. Kiga St. Margareta",
+   "kita address": "Baumburger Leite 4\n83352 Altenmarkt an der Alz\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701046-281",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altendorf",
+   "kita name": "Gemeindekindergarten St. Andreas",
+   "kita address": "Zellweg 2\n92540 Altendorf\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701048-282",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altenbuch",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altenbuch",
+   "kita name": "Katholischer Kindergarten Pusteblume",
+   "kita address": "Kirchstraße 7\n97901 Altenbuch\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701051-283",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Alteglofsheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alteglofsheim",
+   "kita name": "Kindergarten St. Laurentius",
+   "kita address": "Kirchplatz 3\n93087 Alteglofsheim\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701054-284",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altdorf bei Nürnberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altdorf+bei+n%C3%BCrnberg",
+   "kita name": "Montessori-Kinderhaus",
+   "kita address": "Ohmstraße 3\n90518 Altdorf bei Nürnberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701056-285",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Altdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/altdorf",
+   "kita name": "Kindergarten St. Georg Eugenbach",
+   "kita address": "Espenstraße 2\n84032 Altdorf\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701059-286",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Allmannshofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/allmannshofen",
+   "kita name": "Kinderhaus am Kirchberg",
+   "kita address": "Hauptstraße 16\n86695 Allmannshofen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701062-287",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Alling",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alling",
+   "kita name": "Pfarrkindergarten Biburg",
+   "kita address": "Ammerseestraße 1\n82239 Alling\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701065-288",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Allershausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/allershausen",
+   "kita name": "Kath. Integrativer Kiga St. Josef",
+   "kita address": "Kirchstraße 15\n85391 Allershausen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701067-289",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Allersberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/allersberg",
+   "kita name": "Katholischer Kindergarten St. Antonius",
+   "kita address": "Hinterer Markt 31\n90584 Allersberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701070-290",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Alfeld",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alfeld",
+   "kita name": "Ev. Kindergarten Alfeld",
+   "kita address": "Tiefer Weg 11\n91236 Alfeld\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701072-291",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aletshausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aletshausen",
+   "kita name": "Kindergarten St. Tobias",
+   "kita address": "Haupeltshofer Straße 5\n86480 Aletshausen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701075-292",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Alesheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alesheim",
+   "kita name": "Ev. Kindergarten Storchennest Trommetsheim",
+   "kita address": "Kirchstraße 10\n91793 Alesheim\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701078-293",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Alerheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/alerheim",
+   "kita name": "Ev. Kindergarten Alerheim",
+   "kita address": "Raiffeisenstraße 8\n86733 Alerheim\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701080-294",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aldersbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aldersbach",
+   "kita name": "Katholischer Kindergarten St. Maria",
+   "kita address": "Klosterplatz 4\n94501 Aldersbach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701083-295",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Albertshofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/albertshofen",
+   "kita name": "Ev. Kindergarten St. Nikolaus",
+   "kita address": "Ulmenweg 11\n97320 Albertshofen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701086-296",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Albaching",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/albaching",
+   "kita name": "Katholischer Kindergarten St. Nikolaus",
+   "kita address": "Schulweg 1\n83544 Albaching\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701089-297",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aitrang",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aitrang",
+   "kita name": "Kindergarten \"Kunterbunt\"",
+   "kita address": "Römerstraße 42a\n87648 Aitrang\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701092-298",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aiterhofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aiterhofen",
+   "kita name": "Kindergarten Maria Schutz",
+   "kita address": "Rennweg 4f\n94330 Aiterhofen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701094-299",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aislingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aislingen",
+   "kita name": "Kindergarten Aislingen",
+   "kita address": "Am Marktplatz 5\n89344 Aislingen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701097-300",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ainring",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ainring",
+   "kita name": "Kindergarten Waldameise Ainring",
+   "kita address": "Am Alten Schulhaus 5\n83404 Ainring\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701100-301",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aindling",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aindling",
+   "kita name": "Katholischer Kindergarten St. Martin",
+   "kita address": "Schulstraße 29\n86447 Aindling\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701103-302",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aiglsbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aiglsbach",
+   "kita name": "Kindergarten St. Michael",
+   "kita address": "Geisenfelder Straße 23\n84089 Aiglsbach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701105-303",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aidhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aidhausen",
+   "kita name": "Kindergarten Hepp'sche Stiftung Happertshausen",
+   "kita address": "Ignaz-Ziegler-Straße 64a\n97491 Aidhausen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701108-304",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aidenbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aidenbach",
+   "kita name": "Katholischer Kindergarten St. Agatha",
+   "kita address": "Vilshofener Straße 3\n94501 Aidenbach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701111-305",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aichen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aichen",
+   "kita name": "Katholischer Kindergarten St. Ulrich",
+   "kita address": "St.-Ulrich-Straße 19\n86479 Aichen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701113-306",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aichach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aichach",
+   "kita name": "Integratives Kinderhaus der Lebenshilfe",
+   "kita address": "St.-Elisabeth-Straße 1\n86551 Aichach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701116-307",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aicha vorm Wald",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aicha+vorm+wald",
+   "kita name": "Katholischer Kindergarten St. Peter und Paul",
+   "kita address": "An der Ohe 1\n94529 Aicha vorm Wald\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701119-308",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ahorntal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ahorntal",
+   "kita name": "Kath. Kiga St. Burkard Kirchahorn",
+   "kita address": "Kirchahorn 56\n95491 Ahorntal\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701122-309",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Ahorn",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/ahorn",
+   "kita name": "Ev. Kindergarten Pusteblume",
+   "kita address": "Ringstraße 23\n96482 Ahorn\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701125-310",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aholming",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aholming",
+   "kita name": "Pfarrkindergarten St. Stephanus",
+   "kita address": "Sonnenstraße 25\n94527 Aholming\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701127-311",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aholfing",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aholfing",
+   "kita name": "Gemeindekindergarten \"St. Johannes Nepomuk\"",
+   "kita address": "Nepomukplatz 1\n94345 Aholfing\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701130-312",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Aham",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/aham",
+   "kita name": "Kindergarten St. Barbara",
+   "kita address": "Am Lerchenfeld 1\n84168 Aham\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701133-313",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Affing",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/affing",
+   "kita name": "Katholischer Kindergarten",
+   "kita address": "Kabisweg 2\n86444 Affing\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701135-314",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adlkofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adlkofen",
+   "kita name": "Kindergarten Adlkofen",
+   "kita address": "Am Himmelreich 48\n84166 Adlkofen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701138-315",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adelzhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adelzhausen",
+   "kita name": "Gemeindekindergarten Schulstraße",
+   "kita address": "Schulstraße 11\n86559 Adelzhausen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701141-316",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adelsried",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adelsried",
+   "kita name": "Gemeinde-Kindergarten Adelsried",
+   "kita address": "An der Laugna 5\n86477 Adelsried\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701143-317",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adelshofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adelshofen",
+   "kita name": "Kindergarten St. Michael",
+   "kita address": "Fuggerstraße 2a\n82276 Adelshofen\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701146-318",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adelsdorf/ Aisch",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adelsdorf---+aisch",
+   "kita name": "Kath. Kiga St. Theresia Aisch",
+   "kita address": "Am Uttsberg 8\n91325 Adelsdorf/ Aisch\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701149-319",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adelsdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adelsdorf",
+   "kita name": "Ev. Kindergarten Flohkiste",
+   "kita address": "Neuhauser Hauptstraße 48\n91325 Adelsdorf\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701152-320",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Adelschlag",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/adelschlag",
+   "kita name": "Kindergarten St. Marien Möckenlohe",
+   "kita address": "Prielhofer Weg 1\n85111 Adelschlag\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701154-321",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Achslach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/achslach",
+   "kita name": "Kindergarten St. Jakob",
+   "kita address": "Schulstraße 3\n94250 Achslach\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701157-322",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Achenmühle",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/achenm%C3%BChle",
+   "kita name": "Integratives Haus für Kinder \"Zwergerlmühle\"",
+   "kita address": "Rohrdorfer Straße 9\n83101 Achenmühle\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701160-323",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Abtswind",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/abtswind",
+   "kita name": "Kindergarten Fuchsbau",
+   "kita address": "Hauptstraße 44\n97355 Abtswind\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701163-324",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Abensberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/abensberg",
+   "kita name": "Städt. Kindergarten \"Fridolins Kindernest\" Sandharlanden",
+   "kita address": "Am Anger 32\n93326 Abensberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701165-325",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Bayern",
+   "states-link-href": "https://www.kita.de/kindergaerten/bayern",
+   "cities-link": "Abenberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/bayern/abenberg",
+   "kita name": "Evangelischer Kindergarten Wassermungenau",
+   "kita address": "Am Anger 11\n91183 Abenberg\nBayern"
+ },
+ {
+   "web-scraper-order": "1713701175-326",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aulendorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aulendorf",
+   "kita name": "Städt.Kindergarten Auf der Steige",
+   "kita address": "Sandweg 52\n88236 Aulendorf\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701178-327",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Auenwald",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/auenwald",
+   "kita name": "Kindergarten Brückenweg",
+   "kita address": "Brückenweg 5\n71549 Auenwald\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701181-328",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Au am Rhein",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/au+am+rhein",
+   "kita name": "Katholischer Kindergarten St. Josef",
+   "kita address": "Feldstraße 4\n76474 Au am Rhein\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701184-329",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Au",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/au",
+   "kita name": "Katholischer Kindergarten St. Johannes",
+   "kita address": "Dorfstraße 29\n79280 Au\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701187-330",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Attenweiler",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/attenweiler",
+   "kita name": "Kindergarten Attenweiler",
+   "kita address": "Hartäckerweg 10\n88448 Attenweiler\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701189-331",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Asselfingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/asselfingen",
+   "kita name": "Evangelischer Kindergarten Asselfingen",
+   "kita address": "Bühlweg 7\n89176 Asselfingen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701192-332",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Assamstadt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/assamstadt",
+   "kita name": "Katholischer Kindergarten St. Marien",
+   "kita address": "Kindergartenweg 8\n97959 Assamstadt\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701195-333",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Asperg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/asperg",
+   "kita name": "Kindergarten Badstraße",
+   "kita address": "Badstraße 24/1\n71679 Asperg\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701198-334",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aspach/Kleinaspach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aspach---kleinaspach",
+   "kita name": "Evangelischer Kindergarten Kleinaspach",
+   "kita address": "Kirchstraße 20\n71546 Aspach/Kleinaspach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701200-335",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aspach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aspach",
+   "kita name": "Evangelischer Kindergarten Schubertstraße",
+   "kita address": "Schubertstraße 1\n71546 Aspach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701203-336",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Argenbühl/Eisenharz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/argenb%C3%BChl---eisenharz",
+   "kita name": "Katholischer Kindergarten \"St. Josef\"Eisenharz",
+   "kita address": "Isnyer Straße 4\n88260 Argenbühl/Eisenharz\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701206-337",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Argenbühl",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/argenb%C3%BChl",
+   "kita name": "Katholischer Kindergarten Arche Noah",
+   "kita address": "Lärchenweg 8\n88260 Argenbühl\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701210-338",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Appenweier",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/appenweier",
+   "kita name": "Kindergarten Schauenburg",
+   "kita address": "Schauenburgstraße 8\n77767 Appenweier\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701213-339",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Angelbachtal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/angelbachtal",
+   "kita name": "Evangelischer Kindergarten",
+   "kita address": "Erlenweg 2\n74918 Angelbachtal\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701215-340",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Amtzell",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/amtzell",
+   "kita name": "Kindertagesstätte St. Gebhard",
+   "kita address": "Eisenbachweg 4\n88279 Amtzell\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701218-341",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Amstetten/Dorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/amstetten---dorf",
+   "kita name": "Evangelischer Kindergarten Kirchgasse",
+   "kita address": "Kirchgasse 14\n73340 Amstetten/Dorf\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701221-342",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Amstetten",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/amstetten",
+   "kita name": "Gemeindekindergarten Sandrain",
+   "kita address": "Am Sandrain 1\n73340 Amstetten\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701224-343",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Amoltern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/amoltern",
+   "kita name": "Katholischer Kindergarten St. Anna",
+   "kita address": "Dorfstraße 2\n79346 Amoltern\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701226-344",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Ammerbuch-Pfäffingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/ammerbuch-pf%C3%A4ffingen",
+   "kita name": "Evangelischer Kindergarten Ammerbuch-Pfäffingen",
+   "kita address": "Michaelstraße 9\n72119 Ammerbuch-Pfäffingen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701229-345",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Ammerbuch",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/ammerbuch",
+   "kita name": "Evangelischer Kindergarten Entringen",
+   "kita address": "Kirchstraße 52\n72119 Ammerbuch\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701232-346",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altlußheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altlu%C3%9Fheim",
+   "kita name": "Katholischer Kindergarten",
+   "kita address": "Hebelstraße 2a\n68804 Altlußheim\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701234-347",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Althütte",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alth%C3%BCtte",
+   "kita name": "Waldkindergarten Althütte - Fr. Floracks-",
+   "kita address": "Postfach 1127\n71564 Althütte\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701237-348",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Althengstett",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/althengstett",
+   "kita name": "Evangelischer Kindergarten Neuhengstett",
+   "kita address": "Brunnenstraße 10\n75382 Althengstett\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701240-349",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altheim (Alb)",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altheim+%28alb%29",
+   "kita name": "Evangelischer Kindergarten \"Am Bürzel\"",
+   "kita address": "Am Bürzel 8\n89174 Altheim (Alb)\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701242-350",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altheim",
+   "kita name": "Kindergarten \"Kleiner Biber\"",
+   "kita address": "Goethestraße 32\n88499 Altheim\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701245-351",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altensteig",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altensteig",
+   "kita name": "Evangelischer Kindergarten \"Bärenhöhle\"",
+   "kita address": "Calwer Straße 21\n72213 Altensteig\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701248-352",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altenriet",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altenriet",
+   "kita name": "Kindergarten Heerweg",
+   "kita address": "Heerweg 9\n72657 Altenriet\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701250-353",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altdorf",
+   "kita name": "Kindergarten Buchenweg",
+   "kita address": "Buchenweg 1\n71155 Altdorf\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701254-354",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Altbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/altbach",
+   "kita name": "Evang. Waldkindergarten Altbach \"Waldschnecken\"",
+   "kita address": "Bauwagen am Nordbahnhof\n73776 Altbach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701257-355",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alpirsbach-Rötenbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alpirsbach-r%C3%B6tenbach",
+   "kita name": "Evangelischer Kindergarten \"Villa Kunterbunt\"",
+   "kita address": "Steinbruchweg 11\n72275 Alpirsbach-Rötenbach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701259-356",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alpirsbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alpirsbach",
+   "kita name": "Evangelischer Kindergarten Schillerstraße",
+   "kita address": "Schillerstraße 5-7\n72275 Alpirsbach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701262-357",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Allmersbach im Tal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/allmersbach+im+tal",
+   "kita name": "Kindergarten Heutensbach",
+   "kita address": "Erpfenweg 4\n71573 Allmersbach im Tal\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701264-358",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Allmendingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/allmendingen",
+   "kita name": "Kindergarten \"LuBe\" Weilersteußlingen",
+   "kita address": "Schulweg 10/1\n89604 Allmendingen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701267-359",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alleshausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alleshausen",
+   "kita name": "Kindergarten \"Seegrashüpfer\"",
+   "kita address": "Hauptstraße 10\n88422 Alleshausen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701271-360",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Allensbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/allensbach",
+   "kita name": "Kindergarten Walzenberg",
+   "kita address": "Ackerweg 15\n78476 Allensbach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701273-361",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alfdorf-Vordersteinenberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alfdorf-vordersteinenberg",
+   "kita name": "Kindergarten Vordersteinenberg",
+   "kita address": "Forststraße 2\n73553 Alfdorf-Vordersteinenberg\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701276-362",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alfdorf-Rienharz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alfdorf-rienharz",
+   "kita name": "Kindergarten Rienharz",
+   "kita address": "Im Brühl 8\n73553 Alfdorf-Rienharz\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701279-363",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alfdorf-Pfahlbronn",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alfdorf-pfahlbronn",
+   "kita name": "Kindergarten Pusteblume",
+   "kita address": "Kurze Straße 4\n73553 Alfdorf-Pfahlbronn\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701281-364",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alfdorf-Hellershof",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alfdorf-hellershof",
+   "kita name": "Evangelischer Kindergarten Hellershof",
+   "kita address": "Cronhütteweg 4\n73553 Alfdorf-Hellershof\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701284-365",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alfdorf-Burgholz",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alfdorf-burgholz",
+   "kita name": "Kindergarten Burgholz",
+   "kita address": "Burgholzer Straße 16\n73553 Alfdorf-Burgholz\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701287-366",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Alfdorf",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/alfdorf",
+   "kita name": "Waldkindergarten \"Hasenköhl\"",
+   "kita address": "Lorcher Straße 4\n73553 Alfdorf\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701289-367",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aldingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aldingen",
+   "kita name": "Evangelischer Kindergarten \"Im Brühl\"",
+   "kita address": "Im Brühl 26\n78554 Aldingen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701292-368",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Albstadt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/albstadt",
+   "kita name": "Evangelische Kindertagesstätte Alfred Haux",
+   "kita address": "Leipziger Straße 25\n72458 Albstadt\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701294-369",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Albershausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/albershausen",
+   "kita name": "Kindergarten Pusteblume",
+   "kita address": "Edelstraße 10\n73095 Albershausen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701297-370",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Albbruck",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/albbruck",
+   "kita name": "Gemeindekindergarten Kiesenbach",
+   "kita address": "Eisenbahnstraße 43\n79774 Albbruck\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701300-371",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aitrach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aitrach",
+   "kita name": "Katholischer Kindergarten Arche Noah",
+   "kita address": "Beethovenweg 4\n88319 Aitrach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701303-372",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aitern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aitern",
+   "kita name": "Gemeindekindergarten Aitern",
+   "kita address": "Schulweg 3\n79677 Aitern\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701305-373",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aidlingen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aidlingen",
+   "kita name": "Waldkindergarten Waldwichtel",
+   "kita address": "Postfach 1180\n71132 Aidlingen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701308-374",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aichwald",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aichwald",
+   "kita name": "Aichhörnchen Waldkindergarten",
+   "kita address": "Beutelsbacher Straße 90/1\n73773 Aichwald\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701311-375",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aichtal",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aichtal",
+   "kita name": "Waldorfkindergarten Aichtal",
+   "kita address": "Schulstraße 25\n72631 Aichtal\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701313-376",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aichstetten / Altmannshofen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aichstetten+---+altmannshofen",
+   "kita name": "Katholischer Kindergarten St. Vitus",
+   "kita address": "Laubener Weg 4\n88317 Aichstetten / Altmannshofen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701316-377",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aichhalden",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aichhalden",
+   "kita name": "Evangelischer Kindergarten Alpirsbacher Straße",
+   "kita address": "Alpirsbacher Straße 15\n78733 Aichhalden\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701319-378",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aichelberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aichelberg",
+   "kita name": "Kindergarten Aichelberg",
+   "kita address": "Vorderbergstraße 2\n73101 Aichelberg\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701321-379",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Ahorn",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/ahorn",
+   "kita name": "Evangelischer Kindergarten Ölmühle",
+   "kita address": "Ölmühle 8\n74744 Ahorn\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701324-380",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aglasterhausen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aglasterhausen",
+   "kita name": "Kindergarten \"Alte Schule\"",
+   "kita address": "Schulstraße 3\n74858 Aglasterhausen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701326-381",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Affalterbach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/affalterbach",
+   "kita name": "Kindergarten Birkhau",
+   "kita address": "Birkenallee 60\n71563 Affalterbach\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701330-382",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Adelsheim",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/adelsheim",
+   "kita name": "Evangelischer Kindergarten Bahnhofstraße",
+   "kita address": "Bahnhofstraße 13\n74740 Adelsheim\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701333-383",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Adelmannsfelden",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/adelmannsfelden",
+   "kita name": "Evangelischer Kindergarten Adelmannsfelden",
+   "kita address": "Fasanenweg 10\n73486 Adelmannsfelden\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701335-384",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Adelberg",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/adelberg",
+   "kita name": "Gemeindekindergarten",
+   "kita address": "Frühlingstraße 11\n73099 Adelberg\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701338-385",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Achstetten",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/achstetten",
+   "kita name": "Katholischer Kindergarten St. Franziskus",
+   "kita address": "Kindergartenweg 17\n88480 Achstetten\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701341-386",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Achern",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/achern",
+   "kita name": "Kath. Kinderhaus \"St. Michael\"",
+   "kita address": "Am Acherrain 12\n77855 Achern\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701344-387",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Abtsgmünd",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/abtsgm%C3%BCnd",
+   "kita name": "Evangelischer Kindergarten Regenbogenhaus",
+   "kita address": "Hohenrainweg 1\n73453 Abtsgmünd\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701346-388",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Abstatt",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/abstatt",
+   "kita name": "Kindertagesstätte \"Hinter der Kirche\"",
+   "kita address": "Rathausstraße 29/1\n74232 Abstatt\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701349-389",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aalen-Dewangen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aalen-dewangen",
+   "kita name": "Katholischer Kindergarten St. Wendelin Dewangen",
+   "kita address": "Stollbergstraße 3\n73434 Aalen-Dewangen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701352-390",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aalen",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aalen",
+   "kita name": "Evangelischer Kindergarten Liliput",
+   "kita address": "Wilhelm-Merz-Straße 13\n73430 Aalen\nBaden-Württemberg"
+ },
+ {
+   "web-scraper-order": "1713701354-391",
+   "web-scraper-start-url": "https://www.kita.de/kindergaerten",
+   "states-link": "Baden-Württemberg",
+   "states-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg",
+   "cities-link": "Aach",
+   "cities-link-href": "https://www.kita.de/kindergaerten/baden-wuerttemberg/aach",
+   "kita name": "Katholischer Kindergarten St. Josef",
+   "kita address": "Langensteiner Straße 2\n78267 Aach\nBaden-Württemberg"
+ }
+]
