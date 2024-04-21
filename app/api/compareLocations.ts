@@ -1,50 +1,65 @@
 import { getUserLocation } from "@/app/api/userLocation";
-import schools from "@/lib/schools.json";
+import schoolsData from "@/lib/schools.json";
+import kitasData from "@/lib/kitas.json";
 
-export const compareLocations = async (): Promise<string> => {
+interface Location {
+  latitude: number;
+  longitude: number;
+}
+
+interface School {
+  lat: number;
+  lon: number;
+}
+
+interface Kita {
+  address: string;
+}
+
+const calculateDistance = (loc1: Location, loc2: Location): number => {
+  const R = 6371e3; // metres
+  const φ1 = (loc1.latitude * Math.PI) / 180; // φ, λ in radians
+  const φ2 = (loc2.latitude * Math.PI) / 180;
+  const Δφ = ((loc2.latitude - loc1.latitude) * Math.PI) / 180;
+  const Δλ = ((loc2.longitude - loc1.longitude) * Math.PI) / 180;
+
+  const a =
+    Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+    Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  return R * c; // in metres
+};
+
+const isNearLocation = (userLocation: Location, locations: School[] | Kita[]): boolean => {
+  for (const location of locations) {
+    const distance = calculateDistance(userLocation, location);
+    if (distance < 100) {
+      return true;
+    }
+  }
+  return false;
+};
+
+const compareLocations = async (): Promise<string> => {
   try {
-    // Get user's current location
     const userLocation = await getUserLocation();
-
-    // If user's location is not available, return an error message
     if (!userLocation) {
-      return 'Unable to retrieve user location.';
+      throw new Error('Unable to get user location.');
     }
 
-    // Iterate through the list of schools and calculate distances
-    const minDistance = schools.reduce((minDist, school) => {
-      const dist = calculateDistance(userLocation.latitude, userLocation.longitude, school.latitude, school.longitude);
-      return Math.min(minDist, dist);
-    }, Infinity);
+    const isNearSchool = isNearLocation(userLocation, schoolsData as School[]);
+    const isNearKita = isNearLocation(userLocation, kitasData as Kita[]);
 
-    // Determine if the user is within 100m of any school
-    const isNearSchool = minDistance <= 100;
-
-    // Return the result based on whether the user is near a school or not
-    return isNearSchool ? 'You canna smoke here' : 'You canna not smoke here';
+    if (isNearSchool || isNearKita) {
+      return 'You canna smoke here';
+    } else {
+      return 'You canna not smoke here';
+    }
   } catch (error) {
-    return 'Error comparing locations: ' + error.message;
+    console.error('Error comparing locations:', error);
+    return 'Error comparing locations';
   }
 };
 
-// Function to calculate distance between two points using Haversine formula
-const calculateDistance = (lat1: number, lon1: number, lat2: number, lon2: number): number => {
-  const R = 6371; // Radius of the Earth in km
-  const dLat = deg2rad(lat2 - lat1);
-  const dLon = deg2rad(lon2 - lon1);
-  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-            Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
-            Math.sin(dLon / 2) * Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  const d = R * c; // Distance in km
-  const distanceInMeters = d * 1000; // Convert distance to meters
-  return distanceInMeters;
-};
-
-// Function to convert degrees to radians
-const deg2rad = (deg: number): number => {
-  return deg * (Math.PI / 180);
-};
-
-// Export compareLocations function
 export default compareLocations;
