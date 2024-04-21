@@ -1,13 +1,38 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import scrapeBubatzkarte from '@/app/api/scrape';
+import compareLocations from '@/app/api/compareLocations';
+import { getUserLocation } from '@/app/api/userLocation';
 
 const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
+  const [locationResult, setLocationResult] = useState<string>('');
 
-  console.log(scrapeBubatzkarte, "hohoho")
+  useEffect(() => {
+    const checkLocation = async () => {
+      try {
+        // Get user's current location
+        const location = await getUserLocation();
+        if (location) {
+          setUserLocation(location);
+          // Compare user's location with schools
+          const result = await compareLocations();
+          setLocationResult(result);
+          setLocationChecked(true);
+        } else {
+          setLocationResult('Unable to retrieve user location.');
+          setLocationChecked(true);
+        }
+      } catch (error) {
+        console.error('Error checking location:', error);
+        setLocationResult('Error checking location.');
+        setLocationChecked(true);
+      }
+    };
+
+    checkLocation();
+  }, []);
 
   return (
     <div>
@@ -17,6 +42,7 @@ const CheckLocationPage: React.FC = () => {
       ) : (
         <>
           <p>Location checked successfully!</p>
+          <p>{locationResult}</p>
         </>
       )}
     </div>
