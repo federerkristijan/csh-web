@@ -19,8 +19,10 @@
     "cheerio": "^1.0.0-rc.12",
     "cookies-next": "^4.1.1",
     "framer-motion": "^11.0.24",
+    "fs": "^0.0.1-security",
     "leaflet": "^1.9.4",
     "next": "14.1.4",
+    "node-jq": "^4.3.1",
     "react": "^18",
     "react-dom": "^18"
   },
