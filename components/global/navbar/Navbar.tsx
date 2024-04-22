@@ -1,5 +1,6 @@
 import Link from "next/link";
-import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import Image from "next/image";
+import location from "@/assets/location.svg"
 
 const NavBar = async () => {
   return (
@@ -26,7 +27,12 @@ const NavBar = async () => {
           "
         >
           <Link href="/check-location" className="">
-            <LocationOnOutlinedIcon className="text-4xl" />
+            <Image
+              src={location}
+              alt="Location"
+              width={50}
+              height={50}
+            />
           </Link>
         </div>
       </div>
