@@ -20,7 +20,7 @@ const NavBar = async () => {
           className="
           flex
           items-center
-          justify-between
+          justify-center
           gap-3
           md:gap-0
           "
