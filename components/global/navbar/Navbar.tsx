@@ -8,12 +8,10 @@ const NavBar = async () => {
       className="
   sticky
   top-0
-  w-full
+  w-screen
   bg-none
   z-30
   shadow-sm
-  border-2
-  border-blue-500
   "
     >
       <div className="py-4 border-b-[1px]">
