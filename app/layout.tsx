@@ -16,12 +16,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen mx-auto">
+      <body className="h-screen w-screen overflow-hidden">
         <Providers>
-          <div className="flex-grow">
-            {children}
+          <div>
+            <div className="">
+              <Navbar />
+            </div>
+            <div className="flex-grow">
+              {children}
+            </div>
           </div>
-            <Navbar />
         </Providers>
       </body>
     </html>

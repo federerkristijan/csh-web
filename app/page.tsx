@@ -2,19 +2,15 @@ import Container from "@/components/global/Container";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-2">
+    <div className="flex min-h-screen items-center justify-center">
       <Container>
         <div className="relative">
-          <div className="absolute border-5 border-white top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-            <h1 className="text-4xl font-bold p-3">
+            <h1 className="absolute border-4 border-blue-500 text-4xl font-bold p-3 bottom-12 left-32 transform -translate-x-1/2 -translate-y-1/6">
               CANNA SMOKE HERE?
             </h1>
-          </div>
-          <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-            <h3 className="text-2xl font-bold">
+            <h3 className="absolute text-2xl font-bold top-48 text-nowrap">
               Your best bud in your pocket
             </h3>
-          </div>
         </div>
       </Container>
     </div>
