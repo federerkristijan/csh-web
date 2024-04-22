@@ -2,7 +2,7 @@ import Container from "@/components/global/Container";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-between p-2">
+    <div className="flex min-h-screen items-center justify-center">
       <Container>
         <div className="relative">
             <h1 className="text-4xl font-bold p-3 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">

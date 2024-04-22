@@ -19,11 +19,11 @@ export default function RootLayout({
       <body className="h-screen w-screen overflow-hidden">
         <Providers>
           <div>
+            <div className="">
+              <Navbar />
+            </div>
             <div className="flex-grow">
               {children}
-            </div>
-            <div className="mt-auto">
-              <Navbar />
             </div>
           </div>
         </Providers>
