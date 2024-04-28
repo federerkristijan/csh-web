@@ -14,7 +14,7 @@ const NavBar = async () => {
   shadow-sm
   "
     >
-      <div className="py-4 border-b-[1px]">
+      <div className="py-4">
         <div
           className="
           flex
