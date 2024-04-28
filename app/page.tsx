@@ -9,8 +9,8 @@ export default function Home() {
               CANNA SMOKE HERE?
             </h1>
         </div>
-        <div className="relative">
-            <h3 className="absolute text-white text-5xl font-bold top-48 text-nowrap">
+        <div className="absolute bottom-72 right-8">
+            <h3 className=" text-white text-5xl font-extrabold  text-nowrap">
               Your best bud in your pocket
             </h3>
         </div>
