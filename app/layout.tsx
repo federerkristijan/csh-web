@@ -19,9 +19,7 @@ export default function RootLayout({
       <body className="h-screen w-screen overflow-hidden bg-[url('./background.png')] bg-cover">
         <Providers>
           <div>
-            <div className="">
-              <Navbar />
-            </div>
+            <Navbar />
             <div className="flex-grow">
               {children}
             </div>
