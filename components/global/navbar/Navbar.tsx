@@ -9,7 +9,7 @@ const NavBar = async () => {
   sticky
   top-0
   w-screen
-  bg-none
+  bg-black
   z-30
   shadow-sm
   "
