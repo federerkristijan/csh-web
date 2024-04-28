@@ -1,34 +1,36 @@
-"use client";
-
 import React, { useEffect, useState } from 'react';
-import compareLocations from '@/app/api/compareLocations';
 import { getUserLocation } from '@/app/api/userLocation';
+import Result from './Result';
+import { isNearbySchoolOrKindergarten } from '@/utils/proximityCheck';
+import { FacilitesData } from '@/types/global';
 
-const CheckLocationPage: React.FC = () => {
+const CheckLocationPage = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
-  const [locationResult, setLocationResult] = useState<string>('');
+  const [canSmoke, setCanSmoke] = useState<boolean>(false);
 
   useEffect(() => {
     const checkLocation = async () => {
       try {
-        // Get user's current location
         const location = await getUserLocation();
         if (location) {
           setUserLocation(location);
-          // Compare user's location with schools
-          const result = await compareLocations();
-          setLocationResult(result);
-          setLocationChecked(true);
-        } else {
-          setLocationResult('Unable to retrieve user location.');
-          setLocationChecked(true);
+          if (typeof window === 'undefined') {
+            // Dynamically import the server-specific module
+            const { fetchSchoolsAndKindergartens } = await import('@/lib/schoolData');
+            const facilitiesData = await fetchSchoolsAndKindergartens();
+            const facilities = (facilitiesData as FacilitesData[]).map(el => ({
+              latitude: el.latitude,
+              longitude: el.longitude
+            }));
+            const nearby = isNearbySchoolOrKindergarten(location.latitude, location.longitude, facilities);
+            setCanSmoke(!nearby);
+          }
         }
       } catch (error) {
         console.error('Error checking location:', error);
-        setLocationResult('Error checking location.');
-        setLocationChecked(true);
       }
+      setLocationChecked(true);
     };
 
     checkLocation();
@@ -36,15 +38,8 @@ const CheckLocationPage: React.FC = () => {
 
   return (
     <div>
-      <h1>Check Location Page</h1>
-      {!locationChecked ? (
-        <p>Checking location...</p>
-      ) : (
-        <>
-          <p>Location checked successfully!</p>
-          <p>{locationResult}</p>
-        </>
-      )}
+      <h1 className='text-white'>Check Location Page</h1>
+      {!locationChecked ? <p>Checking location...</p> : <Result canSmoke={canSmoke} />}
     </div>
   );
 };

@@ -2,24 +2,9 @@
 
 import Container from '@/components/global/Container';
 import CheckLocation from '@/components/pages/CheckLocation';
-import React, { useEffect } from 'react';
-import { getUserLocation } from '../api/userLocation';
+import React from 'react';
 
 const CheckLocationPage: React.FC = () => {
-
-  useEffect(() => {
-    const checkUserLocation = async () => {
-      try {
-        const userLocation = await getUserLocation();
-        console.log('User Location:', userLocation);
-        // Now you can use the userLocation object for further processing
-      } catch (error) {
-        console.error('Error getting user location:', error);
-      }
-    };
-
-    checkUserLocation();
-  }, []);
 
   return (
     <div className='text-center'>

@@ -1,10 +1,6 @@
 // lib/schoolData.ts
-import fetch from 'node-fetch';
-
-// Define the base URL for the Overpass API
 const OVERPASS_API_URL = 'https://overpass-api.de/api/interpreter';
 
-// The Overpass query to fetch schools and kindergartens in Germany
 const constructQuery = () => `
     [out:json][timeout:25];
     (
@@ -20,10 +16,6 @@ const constructQuery = () => `
     out skel qt;
 `;
 
-/**
- * Fetches data on schools and kindergartens from OpenStreetMap via the Overpass API.
- * @returns {Promise<any>} The JSON response containing all nodes, ways, and relations tagged as schools or kindergartens.
- */
 export async function fetchSchoolsAndKindergartens() {
     const query = constructQuery();
     try {

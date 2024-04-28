@@ -1,20 +1,7 @@
 import { getUserLocation } from "@/app/api/userLocation";
 import schoolsData from "@/lib/schools.json";
 import kitasData from "@/lib/kitas.json";
-
-interface Location {
-  latitude: number;
-  longitude: number;
-}
-
-interface School {
-  lat: number;
-  lon: number;
-}
-
-interface Kita {
-  address: string;
-}
+import { Kita, Location, School } from "@/types/global";
 
 const calculateDistance = (loc1: Location, loc2: Location): number => {
   const R = 6371e3; // metres
@@ -31,9 +18,9 @@ const calculateDistance = (loc1: Location, loc2: Location): number => {
   return R * c; // in metres
 };
 
-const isNearLocation = (userLocation: Location, locations: School[] | Kita[]): boolean => {
+const isNearLocation = (userLocation: Location, locations: (School | Kita)[]): boolean => {
   for (const location of locations) {
-    const distance = calculateDistance(userLocation, location);
+    const distance = calculateDistance(userLocation, location as Location);
     if (distance < 100) {
       return true;
     }
