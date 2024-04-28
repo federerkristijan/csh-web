@@ -3,6 +3,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { ReactNode } from "react";
 import Navbar from "@/components/global/navbar/Navbar";
+import AdSection from "@/components/global/AdSection";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -16,11 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen w-screen overflow-hidden bg-[url('./background.png')] bg-cover">
+      <body className="h-screen w-screen overflow-hidden m-auto">
         <Providers>
           <div>
             <Navbar />
-            <div className="flex-grow">
+            <AdSection />
+            <div className="flex-grow min-h-fit bg-[url('./background.png')] bg-cover">
               {children}
             </div>
           </div>
