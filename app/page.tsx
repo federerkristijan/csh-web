@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen">
       <Container>
-        <div className="absolute top-4 right-16 w-min sm:top-0">
+        <div className="absolute top-8 right-24 w-min sm:top-0 mt-6">
             <h1 className="border-5 border-blue-500 text-8xl font-bold p-4">
               CANNA SMOKE HERE?
             </h1>
