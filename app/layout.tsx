@@ -19,13 +19,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <div>
             <Navbar />
             <AdSection />
             <div className="flex-grow min-h-fit bg-[url('./background.png')] bg-cover">
               {children}
             </div>
-          </div>
+            <AdSection />
         </Providers>
       </body>
     </html>
