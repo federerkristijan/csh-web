@@ -25,6 +25,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             body: `data=${encodeURIComponent(query)}`,
         });
         const data = await response.json();
+        console.log("Fetched data:", data);
         res.status(200).json(data);
     } catch (error) {
         res.status(500).json({ error: "Failed to fetch data" });

@@ -26,6 +26,7 @@ export async function fetchSchoolsAndKindergartens() {
             },
             body: `data=${encodeURIComponent(query)}`,
         });
+        console.log('schools and kitas:', response)
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

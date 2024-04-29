@@ -1,4 +1,3 @@
-// app/api/getUserLocation.ts
 export const getUserLocation = async (): Promise<{ latitude: number; longitude: number } | null> => {
   return new Promise((resolve, reject) => {
       if (!navigator.geolocation) {
