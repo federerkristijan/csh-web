@@ -26,13 +26,14 @@ export async function fetchSchoolsAndKindergartens() {
             },
             body: `data=${encodeURIComponent(query)}`,
         });
-        console.log('schools and kitas:', response)
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        return await response.json();
+        const data = await response.json();
+        // Ensure there's an 'elements' field and it's an array
+        return data.elements || [];
     } catch (error) {
         console.error("Failed to fetch schools and kindergartens:", error);
-        throw error;
+        return []; // Return an empty array in case of error
     }
 }
