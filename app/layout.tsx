@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen w-screen overflow-hidden bg-[url('./background.png')] bg-cover">
+      <body>
         <Providers>
           <div>
             <div className="">

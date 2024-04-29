@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Nunito', sans-serif;
+  background-image: url('./background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
 .loader {
   width: 48px;
   height: 48px;

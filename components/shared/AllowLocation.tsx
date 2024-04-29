@@ -1,28 +1,15 @@
-'use client'
-
 import { Dialog, Transition } from '@headlessui/react';
-import { Button, ButtonGroup } from "@nextui-org/button";
-import React, { Fragment, useRef, useState } from 'react';
+import React, { useState } from 'react';
 
 type Props = {
   open: boolean;
-  title: string;
-  message: string;
-  button: string;
-  type: 'success' | 'error';
   onClose: () => void;
 };
 
-const AllowLocationDialog: React.FC<Props> = () => {
-  const [open, setOpen] = useState<boolean>(true);
-
+const AllowLocationDialog: React.FC<Props> = ({ open, onClose }) => {
   return (
     <Transition.Root show={open} as={React.Fragment}>
-      <Dialog
-        as="div"
-        className="fixed inset-0 z-10 overflow-y-auto"
-        onClose={setOpen}
-      >
+      <Dialog as="div" className="fixed inset-0 z-10 overflow-y-auto" onClose={onClose}>
         <div className="flex items-center justify-center min-h-screen">
           <Transition.Child
             as={React.Fragment}
@@ -50,23 +37,16 @@ const AllowLocationDialog: React.FC<Props> = () => {
                 Allow Location Access
               </Dialog.Title>
               <Dialog.Description className="text-sm mb-4">
-                We need access to your location to provide personalized content
-                based on your location. Do you want to allow location access?
+                We need access to your location to provide personalized content based on your location. Do you want to allow location access?
               </Dialog.Description>
-              <div className="flex justify-end">
-                <button
-                  className="text-blue-600 hover:text-blue-700 mr-4"
-                  onClick={() => setOpen(false)}
-                >
+              {/* <div className="flex justify-end">
+                <button className="text-blue-600 hover:text-blue-700 mr-4" onClick={() => onClose(false)}>
                   No
                 </button>
-                <button
-                  className="text-blue-600 hover:text-blue-700"
-                  onClick={() => setOpen(false)}
-                >
+                <button className="text-blue-600 hover:text-blue-700" onClick={() => onClose(true)}>
                   Yes
                 </button>
-              </div>
+              </div> */}
             </div>
           </Transition.Child>
         </div>
