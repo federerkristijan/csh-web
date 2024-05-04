@@ -5,7 +5,7 @@ export interface CookieBannerProps {
   rejectButton?: string;
 }
 
-export interface FacilitesData {
+export interface FacilitiesData {
   latitude: number;
   longitude: number;
 }

@@ -1,6 +1,7 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+// Importing the standard Web API Request type
+import { NextRequest, NextResponse } from 'next/server';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export async function GET(request: NextRequest) {
     // Construct the Overpass API query to fetch schools and kindergartens in Germany
     const query = `
         [out:json][timeout:25];
@@ -22,11 +23,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
-            body: `data=${encodeURIComponent(query)}`,
+            body: `data=${encodeURIComponent(query)}`
         });
+
         const data = await response.json();
-        res.status(200).json(data);
+        return new NextResponse(JSON.stringify(data), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+        });
     } catch (error) {
-        res.status(500).json({ error: "Failed to fetch data" });
+        return new NextResponse(JSON.stringify({ error: "Failed to fetch data" }), {
+            status: 500,
+            headers: { 'Content-Type': 'application/json' }
+        });
     }
 }

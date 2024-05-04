@@ -1,16 +1,19 @@
+// @/components/pages/CheckLocation.tsx
 import React, { useEffect, useState } from "react";
-import { getUserLocation } from "@/app/api/userLocation";
+import { getUserLocation } from "@/lib/getUserLocation";
 import Result from "./Result";
+import MapComponent from "./MapComponent";
 import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
-import { FacilitesData } from "@/types/global";
+import { FacilitiesData } from "@/types/global";
 
-const CheckLocationPage = () => {
+const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{
     latitude: number;
     longitude: number;
   } | null>(null);
   const [canSmoke, setCanSmoke] = useState<boolean>(false);
+  const [facilities, setFacilities] = useState<FacilitiesData[]>([]);
 
   useEffect(() => {
     const checkLocation = async () => {
@@ -18,17 +21,18 @@ const CheckLocationPage = () => {
         const location = await getUserLocation();
         if (location) {
           setUserLocation(location);
-          if (typeof window === "undefined") {
-            // Dynamically import the server-specific module
-            const { fetchSchoolsAndKindergartens } = await import(
-              "@/lib/schoolData"
-            );
-            const facilitiesData = await fetchSchoolsAndKindergartens();
-            const facilities = (facilitiesData as FacilitesData[]).map(
-              (el) => ({
-                latitude: el.latitude,
-                longitude: el.longitude,
-              })
+
+          const { fetchSchoolsAndKindergartens } = await import(
+            "@/lib/schoolData"
+          );
+          const facilitiesData = await fetchSchoolsAndKindergartens();
+
+          if (facilitiesData.length > 0) {
+            setFacilities(
+              facilitiesData.map((el: any) => ({
+                latitude: el.lat,
+                longitude: el.lon,
+              }))
             );
             const nearby = isNearbySchoolOrKindergarten(
               location.latitude,
@@ -36,29 +40,44 @@ const CheckLocationPage = () => {
               facilities
             );
             setCanSmoke(!nearby);
+          } else {
+            setCanSmoke(true); // Assume smoking is allowed if no facilities
           }
         }
       } catch (error) {
         console.error("Error checking location:", error);
+        setCanSmoke(false);
       }
       setLocationChecked(true);
     };
 
     checkLocation();
-  }, []);
+  }, [facilities]);
 
-  return (
-    <div className="flex justify-center items-center h-screen text-gray-800">
-    {!locationChecked ? (
+  if (!locationChecked) {
+    return (
       <div className="text-center">
         <p>Checking location...</p>
-        {/* https://cssloaders.github.io/ */}
         <span className="loader"></span>
       </div>
-    ) : (
-      <Result canSmoke={canSmoke} />
-    )}
-  </div>
+    );
+  } else if (!userLocation) {
+    return <p>Error: Unable to fetch user location.</p>; // Handle error state
+  }
+
+  return (
+    <div className="check-location-page flex flex-row">
+      <MapComponent
+        userPosition={{
+          lat: userLocation.latitude,
+          lng: userLocation.longitude,
+        }}
+        facilities={facilities}
+      />
+      <div className="flex items-center justify-center w-[30vw]">
+        <Result canSmoke={canSmoke} />
+      </div>
+    </div>
   );
 };
 

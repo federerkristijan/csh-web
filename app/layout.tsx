@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen w-screen overflow-hidden m-auto">
+      <body>
         <Providers>
           <div>
             <Navbar />
@@ -25,6 +25,7 @@ export default function RootLayout({
             <div className="flex-grow min-h-fit bg-[url('./background.png')] bg-cover">
               {children}
             </div>
+            <AdSection />
           </div>
         </Providers>
       </body>
