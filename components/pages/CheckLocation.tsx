@@ -22,14 +22,18 @@ const CheckLocationPage: React.FC = () => {
         if (location) {
           setUserLocation(location);
 
-          const { fetchSchoolsAndKindergartens } = await import('@/lib/schoolData');
+          const { fetchSchoolsAndKindergartens } = await import(
+            "@/lib/schoolData"
+          );
           const facilitiesData = await fetchSchoolsAndKindergartens();
 
           if (facilitiesData.length > 0) {
-            setFacilities(facilitiesData.map((el: any) => ({
-              latitude: el.lat,
-              longitude: el.lon,
-            })));
+            setFacilities(
+              facilitiesData.map((el: any) => ({
+                latitude: el.lat,
+                longitude: el.lon,
+              }))
+            );
             const nearby = isNearbySchoolOrKindergarten(
               location.latitude,
               location.longitude,
@@ -62,10 +66,18 @@ const CheckLocationPage: React.FC = () => {
   }
 
   return (
-    <>
-      <MapComponent userPosition={{ lat: userLocation.latitude, lng: userLocation.longitude }} facilities={facilities} />
-      <Result canSmoke={canSmoke} />
-    </>
+    <div className="check-location-page flex flex-row">
+      <MapComponent
+        userPosition={{
+          lat: userLocation.latitude,
+          lng: userLocation.longitude,
+        }}
+        facilities={facilities}
+      />
+      <div className="flex items-center justify-center w-[30vw]">
+        <Result canSmoke={canSmoke} />
+      </div>
+    </div>
   );
 };
 
