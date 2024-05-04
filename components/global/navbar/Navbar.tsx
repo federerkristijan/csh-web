@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import location from "@/assets/location.svg"
+import location from "@/assets/images/location.svg"
 
 const NavBar = async () => {
   return (
