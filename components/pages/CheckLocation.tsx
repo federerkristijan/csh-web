@@ -1,51 +1,48 @@
+// @/components/pages/CheckLocation.tsx
 import React, { useEffect, useState } from "react";
 import { getUserLocation } from "@/lib/getUserLocation";
 import Result from "./Result";
+import MapComponent from "./MapComponent";
 import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
 import { FacilitiesData } from "@/types/global";
 
-const CheckLocationPage = () => {
+const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{
     latitude: number;
     longitude: number;
   } | null>(null);
   const [canSmoke, setCanSmoke] = useState<boolean>(false);
+  const [facilities, setFacilities] = useState<FacilitiesData[]>([]);
 
   useEffect(() => {
     const checkLocation = async () => {
       try {
         const location = await getUserLocation();
         if (location) {
-          console.log("User Location:", location); // Log user location
           setUserLocation(location);
 
-          // Dynamically import the module that fetches schools and kindergartens data
           const { fetchSchoolsAndKindergartens } = await import('@/lib/schoolData');
           const facilitiesData = await fetchSchoolsAndKindergartens();
-          console.log("Schools and Kindergartens Data:", facilitiesData); // Log fetched data
 
-          // Check if there are any facilities to proceed with the map function
           if (facilitiesData.length > 0) {
-            const facilities = facilitiesData.map((el: FacilitiesData) => ({
-              latitude: el.latitude,
-              longitude: el.longitude,
-            }));
+            setFacilities(facilitiesData.map((el: any) => ({
+              latitude: el.lat,
+              longitude: el.lon,
+            })));
             const nearby = isNearbySchoolOrKindergarten(
               location.latitude,
               location.longitude,
               facilities
             );
-            console.log("Nearest school or kindergarten:", nearby ? "Found nearby facility" : "No nearby facility found");
             setCanSmoke(!nearby);
           } else {
-            console.log("No facilities found");
-            setCanSmoke(true); // Assume smoking is allowed if no nearby facilities are found
+            setCanSmoke(true); // Assume smoking is allowed if no facilities
           }
         }
       } catch (error) {
         console.error("Error checking location:", error);
-        setCanSmoke(false); // Assume smoking is not allowed if there is an error
+        setCanSmoke(false);
       }
       setLocationChecked(true);
     };
@@ -53,18 +50,22 @@ const CheckLocationPage = () => {
     checkLocation();
   }, []);
 
+  if (!locationChecked) {
+    return (
+      <div className="text-center">
+        <p>Checking location...</p>
+        <span className="loader"></span>
+      </div>
+    );
+  } else if (!userLocation) {
+    return <p>Error: Unable to fetch user location.</p>; // Handle error state
+  }
+
   return (
-    <div className="flex justify-center items-center h-screen text-gray-800">
-      {!locationChecked ? (
-        <div className="text-center">
-          <p>Checking location...</p>
-          {/* Placeholder for loading spinner */}
-          <span className="loader"></span>
-        </div>
-      ) : (
-        <Result canSmoke={canSmoke} />
-      )}
-    </div>
+    <>
+      <MapComponent userPosition={{ lat: userLocation.latitude, lng: userLocation.longitude }} facilities={facilities} />
+      <Result canSmoke={canSmoke} />
+    </>
   );
 };
 
