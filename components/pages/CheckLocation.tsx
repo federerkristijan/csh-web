@@ -52,7 +52,7 @@ const CheckLocationPage: React.FC = () => {
     };
 
     checkLocation();
-  }, []);
+  }, [facilities]);
 
   if (!locationChecked) {
     return (
