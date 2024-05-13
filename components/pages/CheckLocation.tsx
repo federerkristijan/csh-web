@@ -1,10 +1,12 @@
 // @/components/pages/CheckLocation.tsx
 import React, { useEffect, useState } from "react";
-import { getUserLocation } from "@/lib/getUserLocation";
+import dynamic from 'next/dynamic';
 import Result from "./Result";
-import MapComponent from "./MapComponent";
+import { getUserLocation } from "@/lib/getUserLocation";
 import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
 import { FacilitiesData } from "@/types/global";
+
+const MapComponent = dynamic(() => import('./MapComponent'), { ssr: false });
 
 const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
@@ -28,20 +30,15 @@ const CheckLocationPage: React.FC = () => {
           const facilitiesData = await fetchSchoolsAndKindergartens();
 
           if (facilitiesData.length > 0) {
-            setFacilities(
-              facilitiesData.map((el: any) => ({
-                latitude: el.lat,
-                longitude: el.lon,
-              }))
-            );
+            setFacilities(facilitiesData);
             const nearby = isNearbySchoolOrKindergarten(
               location.latitude,
               location.longitude,
-              facilities
+              facilitiesData
             );
             setCanSmoke(!nearby);
           } else {
-            setCanSmoke(true); // Assume smoking is allowed if no facilities
+            setCanSmoke(true);
           }
         }
       } catch (error) {
@@ -52,7 +49,7 @@ const CheckLocationPage: React.FC = () => {
     };
 
     checkLocation();
-  }, [facilities]);
+  }, []);
 
   if (!locationChecked) {
     return (
@@ -62,7 +59,7 @@ const CheckLocationPage: React.FC = () => {
       </div>
     );
   } else if (!userLocation) {
-    return <p>Error: Unable to fetch user location.</p>; // Handle error state
+    return <p>Error: Unable to fetch user location.</p>;
   }
 
   return (
