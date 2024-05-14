@@ -22,7 +22,7 @@ export default function RootLayout({
           <div>
             <Navbar />
             <AdSection />
-            <div className="flex-grow min-h-fit bg-[url('./background.png')] bg-cover">
+            <div className="flex-grow min-h-fit h-fit">
               {children}
             </div>
             <AdSection />
