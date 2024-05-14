@@ -7,15 +7,10 @@ body {
   background-image: url('./backgroundMobile.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
+  height: 100vh;
+  margin: 0;
   background-color: rgb(0 0 0 / 97%);
-  height: 100%;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -56,4 +51,23 @@ h1, h2, h3, h4, h5, h6, p {
 @keyframes pulse {
   0% , 60% , 100%{ transform:  scale(1) }
   80% { transform:  scale(1.2)}
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url('./backgroundMobile.png');
+    background-size: contain;
+    width: fit-content;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .ad-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 30vw;
+  }
 }

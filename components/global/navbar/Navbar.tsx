@@ -8,7 +8,7 @@ const NavBar = async () => {
       className="
   sticky
   top-0
-  w-screen
+  w-fit
   bg-black
   z-30
   shadow-sm
