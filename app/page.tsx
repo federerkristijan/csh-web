@@ -2,7 +2,7 @@ import Container from "@/components/global/Container";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-[70vh]">
       <Container>
         <div className="absolute top-8 right-24 w-min sm:top-0 mt-6">
             <h1 className="border-5 border-blue-500 text-8xl font-bold p-4">
