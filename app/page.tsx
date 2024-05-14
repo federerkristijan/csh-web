@@ -2,17 +2,19 @@ import Container from "@/components/global/Container";
 
 export default function Home() {
   return (
-    <div className="relative min-h-[70vh]">
+    <div className="relative min-h-[55vh]">
       <Container>
-        <div className="absolute top-8 right-24 w-min sm:top-0 mt-6">
-            <h1 className="border-5 border-blue-500 text-8xl font-bold p-4">
+        <div className="border-2 border-blue-500">
+          <div className="absolute right-[15%] w-min -top-4 mt-6 bg-slate-900/70">
+            <h1 className="border-3 rounded-md border-blue-500 text-5xl font-bold px-1 py-3">
               CANNA SMOKE HERE?
             </h1>
-        </div>
-        <div className="absolute bottom-[21rem] right-4 sm:bottom-[22rem]sm:right-8">
-            <h3 className="text-5xl font-extrabold">
+          </div>
+          <div className="absolute bottom-2 text-center w-max">
+            <h3 className="text-[1.6rem] font-extrabold">
               Your best bud in your pocket
             </h3>
+          </div>
         </div>
       </Container>
     </div>
