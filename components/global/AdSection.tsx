@@ -2,7 +2,7 @@ import React from "react";
 
 const AdSection = () => {
   return (
-    <div className="ad-section bg-gray-700 p-4 text-center opacity-80">
+    <div className="ad-section bg-gray-700 p-3 text-center opacity-80">
       <h2 className="text-lg font-semibold">Advertise Here</h2>
       <p>This is a great spot for your advertisements.</p>
     </div>

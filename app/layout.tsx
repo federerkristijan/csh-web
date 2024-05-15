@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col items-center justify-center min-h-screen bg-[url('./backgroundMobile.png')] bg-no-repeat bg-center">
         <Providers>
-          <div className="flex flex-col items-center justify-center">
+          <div className="">
             <Navbar />
             <div>
               <AdSection />
