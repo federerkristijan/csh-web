@@ -10,22 +10,20 @@ export const metadata: Metadata = {
   description: "Geolocation checking website for cannabis smokers in Germany",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col items-center justify-center h-full">
         <Providers>
-          <div>
+          <div className="">
             <Navbar />
-            <AdSection />
-            <div className="flex-grow min-h-fit bg-[url('./background.png')] bg-cover">
-              {children}
+            <div>
+              <AdSection />
             </div>
-            <AdSection />
+            {children}
+            <div>
+              <AdSection />
+            </div>
           </div>
         </Providers>
       </body>
