@@ -2,17 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Nunito', sans-serif;
-  background-image: url('./background.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100%;
+html, body {
+  height: 100vh;
   width: 100vw;
-  margin: 0;
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  overflow: hidden; /* Prevents scrolling */
   display: flex;
-  flex-direction: column;
-  overflow: hidden; 
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(0 0 0 / 97%);
+}
+
+body {
+  background-image: url('./backgroundMobile.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -53,4 +60,15 @@ h1, h2, h3, h4, h5, h6, p {
 @keyframes pulse {
   0% , 60% , 100%{ transform:  scale(1) }
   80% { transform:  scale(1.2)}
+}
+
+@media (min-width: 768px) {
+  .ad-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    width: 28vw;
+  }
 }
