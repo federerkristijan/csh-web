@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="flex flex-col items-center justify-center min-h-screen bg-[url('./backgroundMobile.png')] bg-no-repeat bg-center">
+      <body className="flex flex-col items-center justify-center h-full">
         <Providers>
           <div className="">
             <Navbar />
