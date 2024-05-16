@@ -1,11 +1,42 @@
+'use client';
+
 import Container from "@/components/global/Container";
 import Search from "@/assets/Search.svg"
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+import AllowLocationDialog from "@/components/shared/AllowLocation";
 
 export default function Home() {
+  const [isModalOpen, setIsModalOpen] = useState(true);
+
+  const handleLocationResponse = (allow: boolean) => {
+    setIsModalOpen(false);
+    if (allow) {
+      // Request geolocation access
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            console.log('Location allowed:', position.coords);
+            // You can now use the position.coords to get the user's location
+          },
+          (error) => {
+            console.error('Error getting location:', error);
+          }
+        );
+      } else {
+        console.error('Geolocation is not supported by this browser.');
+      }
+    } else {
+      console.log('Location access denied');
+      // Handle the case where the user denies location access
+    }
+  };
+
+
   return (
       <Container>
+        <AllowLocationDialog open={isModalOpen} onClose={() => handleLocationResponse} />
         <div className="flex flex-col items-center justify-center gap-[5rem]">
           <div className="w-min mt-6 bg-slate-900/70">
             <h1 className="border-5 rounded-md border-white text-4xl font-bold py-2 px-3 tracking-[.6rem]">

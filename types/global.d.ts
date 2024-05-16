@@ -1,3 +1,8 @@
+export type AllowLocationDialogProps = {
+  open: boolean;
+  onClose: () => void;
+};
+
 export interface CookieBannerProps {
   title?: string;
   description?: LocalePortableTextBlock;
