@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import { ReactNode } from "react";
 import Navbar from "@/components/global/navbar/Navbar";
 import AdSection from "@/components/global/AdSection";
+import Footer from "@/components/global/Footer";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -18,11 +19,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <div className="">
             <Navbar />
             <div>
-              <AdSection />
+              {/* <AdSection /> */}
             </div>
             {children}
+            <Footer />
             <div>
-              <AdSection />
+              {/* <AdSection /> */}
             </div>
           </div>
         </Providers>
