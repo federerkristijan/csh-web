@@ -35,10 +35,10 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
           >
-            <div className="bg-black rounded-lg p-8 max-w-md w-full">
+            <div className="flex flex-col justify-center items-center bg-[#383838] rounded-lg p-8 max-w-md w-2/5">
               <Dialog.Title
                 as="h3"
-                className="flex text-lg font-medium mb-4 gap-2 "
+                className="flex text-lg font-bold mb-4 gap-2"
               >
                 Using this app you agree to
                 <div className="flex">
@@ -57,7 +57,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
                 result of using this app than you would have by not using it.
               </Dialog.Description>
               <button
-                className="flex flex-row items-center justify-center text-xl gap-3 bg-[#C900A5] p-4 rounded-full hover:bg-blue-900 hover:scale-110 text-white hover:text-blue-700 mr-4"
+                className="flex flex-row items-center justify-center text-xl gap-3 bg-[#C900A5] p-4 rounded-full hover:bg-blue-900 hover:scale-110 text-white hover:text-blue-700 mr-4 w-fit px-5 mt-4"
                 onClick={() => onClose()}
               >
                 I agree to T&(H)C
