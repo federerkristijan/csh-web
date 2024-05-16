@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="flex flex-col items-center justify-center h-full">
         <Providers>
           <div className="">
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
               {/* <AdSection /> */}
             </div>
