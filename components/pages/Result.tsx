@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { ResultProps } from '@/types/global';
-import YES from '@/assets/images/YES.svg';
-import NO from '@/assets/images/NO.svg';
+import YES from '@/assets/YES.svg';
+import NO from '@/assets/NO.svg';
 
 const Result: React.FC<ResultProps> = ({ canSmoke }) => {
   return (
