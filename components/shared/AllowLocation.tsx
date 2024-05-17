@@ -57,8 +57,8 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
                 result of using this app than you would have by not using it.
               </Dialog.Description>
               <button
-                className="flex flex-row items-center justify-center text-xl gap-3 bg-[#C900A5] p-4 rounded-full hover:bg-blue-900 hover:scale-110 text-white hover:text-blue-700 mr-4 w-fit px-5 mt-4"
-                onClick={() => onClose()}
+                className="flex flex-row items-center justify-center text-xl gap-3 bg-[#C900A5] p-4 rounded-full hover:bg-blue-900 hover:scale-110 text-white hover:text-blue-700 mr-4 w-fit px-5 mt-4 cursor-pointer"
+                onClick={onClose}
               >
                 I agree to T&(H)C
               </button>
