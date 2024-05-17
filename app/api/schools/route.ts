@@ -4,17 +4,47 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(request: NextRequest) {
     // Construct the Overpass API query to fetch schools and kindergartens in Germany
     const query = `
-        [out:json][timeout:180];
-        (node["amenity"="school"](area:3600062421);
-         way["amenity"="school"](area:3600062421);
-         relation["amenity"="school"](area:3600062421);
-         node["amenity"="kindergarten"](area:3600062421);
-         way["amenity"="kindergarten"](area:3600062421);
-         relation["amenity"="kindergarten"](area:3600062421);
-        );
-        out body;
-        >;
-        out skel qt;
+    [out:json]
+    [timeout:3600];
+
+    // Retrieve (surrounding) ways with amenity=school
+    way({{bbox}})[amenity=school];
+
+    // Retrieve (surrounding) ways with amenity=school
+    way({{bbox}})[amenity=kindergarten];
+
+    // Retrieve (surrounding) ways with amenity=school
+    way({{bbox}})[amenity=nursery];
+
+    // convert ways to area for later area query
+    map_to_area ->.area;
+
+    (
+      // Determine difference of all school buildings in bbox
+      // minus those inside the closed way with an amenity=school tag
+
+      // All nodes+ways with building=school and no amenity=* tag in bbox
+      (
+        node ["building"="school"]["amenity"!~"."]({{bbox}});
+        way  ["building"="school"]["amenity"!~"."]({{bbox}});
+        node ["building"="kindergarten"]["amenity"!~"."]({{bbox}});
+        way  ["building"="kindergarten"]["amenity"!~"."]({{bbox}});
+        node ["building"="nursery"]["amenity"!~"."]({{bbox}});
+        way  ["building"="nursery"]["amenity"!~"."]({{bbox}});
+      );
+    - // except for
+      (
+        // All nodes+ways with building=school and no amenity=* tag in area
+        node ["building"="school"]["amenity"!~"."](area.area);
+        way  ["building"="school"]["amenity"!~"."](area.area);
+        node ["building"="kindergarten"]["amenity"!~"."](area.area);
+        way  ["building"="kindergarten"]["amenity"!~"."](area.area);
+      node ["building"="nursery"]["amenity"!~"."](area.area);
+        way  ["building"="nursery"]["amenity"!~"."](area.area);
+      );
+    );
+
+    out geom;
     `;
 
     try {
