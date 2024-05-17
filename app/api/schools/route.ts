@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function GET(request: NextRequest) {
     // Construct the Overpass API query to fetch schools and kindergartens in Germany
     const query = `
-        [out:json][timeout:25];
+        [out:json][timeout:180];
         (node["amenity"="school"](area:3600062421);
          way["amenity"="school"](area:3600062421);
          relation["amenity"="school"](area:3600062421);
