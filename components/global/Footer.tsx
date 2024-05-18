@@ -27,9 +27,9 @@ export default function Footer(props: Props) {
 
   return (
     <div className="fixed bottom-0 w-full flex justify-center mx-auto">
-      <div className="flex gap-4 text-2xl pb-12">
+      <div className="flex gap-4 lg:text-2xl pb-12 md:text-lg">
         {items.map((item, index) => (
-          <a key={index} href={item.url} className="text-[#C900A5]">
+          <a key={index} href={item.url} className="lg:text-[#C900A5]">
             {item.title}
           </a>
         ))}

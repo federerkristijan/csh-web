@@ -34,7 +34,7 @@ body::before {
   z-index: -1;
 }
 
-h1, h2, h3, h4, h5, h6, p, span {
+h1, h2, h3, h4, h5, h6, p, span, a {
   font-family: 'Poppins', sans-serif;
   color: rgb(255 255 255);
   letter-spacing: 0.025em;
