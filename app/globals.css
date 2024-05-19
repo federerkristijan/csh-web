@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, span, a {
 }
 
 .leaflet-control-zoom-in leaflet-disabled, .leaflet-control-zoom-out leaflet-disabled {
-  background: black;
+  background: black!important;
 }
 
 @keyframes scaleUp {

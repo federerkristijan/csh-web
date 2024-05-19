@@ -63,7 +63,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
     <MapContainer
       center={{ lat: userPosition.lat, lng: userPosition.lng }}
       zoom={30}
-      style={{ height: "35vh", width: "30%" , borderRadius: "1rem", color: "black"}}
+      style={{ height: "35vh", width: "30%" , borderRadius: "1rem"}}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
