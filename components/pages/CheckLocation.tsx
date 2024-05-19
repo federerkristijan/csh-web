@@ -7,6 +7,7 @@ import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
 import { FacilitiesData } from "@/types/global";
 import Image from "next/image";
 import Location from "@/assets/location.svg";
+import LocationUpdateTimer from "@/components/ui/LocationUpdateTimer";
 
 const MapComponent = dynamic(() => import("./Map/MapComponent"), { ssr: false });
 
@@ -18,6 +19,7 @@ const CheckLocationPage: React.FC = () => {
   } | null>(null);
   const [canSmoke, setCanSmoke] = useState<boolean>(false);
   const [facilities, setFacilities] = useState<FacilitiesData[]>([]);
+  const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
     const checkLocation = async () => {
@@ -25,6 +27,8 @@ const CheckLocationPage: React.FC = () => {
         const location = await getUserLocation();
         if (location) {
           setUserLocation(location);
+          setLastUpdated(new Date());
+          console.log(setLastUpdated, 'hihi')
 
           const { fetchSchoolsAndKindergartens } = await import(
             "@/lib/schoolData"
@@ -77,6 +81,7 @@ const CheckLocationPage: React.FC = () => {
       <div className="result flex items-center justify-center">
         <Result canSmoke={canSmoke} />
       </div>
+      <LocationUpdateTimer lastUpdated={lastUpdated} />
       <MapComponent
         userPosition={{
           lat: userLocation.latitude,
