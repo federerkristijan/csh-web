@@ -73,7 +73,10 @@ const CheckLocationPage: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-row items-center justify-center">
+    <div className="check-location-page flex flex-col items-center justify-center gap-6 h-[90vh]">
+      <div className="result flex items-center justify-center">
+        <Result canSmoke={canSmoke} />
+      </div>
       <MapComponent
         userPosition={{
           lat: userLocation.latitude,
@@ -81,9 +84,6 @@ const CheckLocationPage: React.FC = () => {
         }}
         facilities={facilities}
       />
-      <div className="flex items-center justify-center w-[30vw]">
-        <Result canSmoke={canSmoke} />
-      </div>
     </div>
   );
 };
