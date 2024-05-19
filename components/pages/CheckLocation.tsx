@@ -1,12 +1,14 @@
 // @/components/pages/CheckLocation.tsx
 import React, { useEffect, useState } from "react";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 import Result from "./Result";
 import { getUserLocation } from "@/lib/getUserLocation";
 import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
 import { FacilitiesData } from "@/types/global";
+import Image from "next/image";
+import Location from "@/assets/Location.svg";
 
-const MapComponent = dynamic(() => import('./MapComponent'), { ssr: false });
+const MapComponent = dynamic(() => import("./MapComponent"), { ssr: false });
 
 const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
@@ -53,9 +55,17 @@ const CheckLocationPage: React.FC = () => {
 
   if (!locationChecked) {
     return (
-      <div className="text-center">
-        <p>Checking location...</p>
-        <span className="loader"></span>
+      <div className="flex items-center justify-center h-screen">
+        <div className="check-location flex flex-col items-center justify-center text-center w-fit text-2xl">
+          <Image
+            src={Location}
+            alt="Checking location"
+            width={100}
+            height={100}
+          />
+          <p>Checking location...</p>
+          {/* <span className="loader"></span> */}
+        </div>
       </div>
     );
   } else if (!userLocation) {
@@ -63,7 +73,10 @@ const CheckLocationPage: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-row">
+    <div className="check-location-page flex flex-col items-center justify-center gap-6 h-[90vh]">
+      <div className="result flex items-center justify-center">
+        <Result canSmoke={canSmoke} />
+      </div>
       <MapComponent
         userPosition={{
           lat: userLocation.latitude,
@@ -71,9 +84,6 @@ const CheckLocationPage: React.FC = () => {
         }}
         facilities={facilities}
       />
-      <div className="flex items-center justify-center w-[30vw]">
-        <Result canSmoke={canSmoke} />
-      </div>
     </div>
   );
 };

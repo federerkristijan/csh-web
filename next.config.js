@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 
 module.exports = {
-  webpack: (config, { isServer }) => {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     if (!isServer) {
       // config.output.publicPath = `/_next/static/chunks/`;
       // config.resolve.fallback = config.resolve.fallback || {};
