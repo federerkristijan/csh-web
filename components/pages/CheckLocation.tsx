@@ -8,7 +8,7 @@ import { FacilitiesData } from "@/types/global";
 import Image from "next/image";
 import Location from "@/assets/location.svg";
 
-const MapComponent = dynamic(() => import("./MapComponent"), { ssr: false });
+const MapComponent = dynamic(() => import("./Map/MapComponent"), { ssr: false });
 
 const CheckLocationPage: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);

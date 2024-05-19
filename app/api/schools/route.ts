@@ -3,8 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(request: NextRequest) {
     // Construct the Overpass API query to fetch schools and kindergartens in Germany
-    const query = `
-    [out:json]
+    const query = `[out:json]
     [timeout:3600];
 
     // Retrieve (surrounding) ways with amenity=school
@@ -20,33 +19,32 @@ export async function GET(request: NextRequest) {
     map_to_area ->.area;
 
     (
-      // Determine difference of all school buildings in bbox
-      // minus those inside the closed way with an amenity=school tag
+    // Determine difference of all school buildings in bbox
+    // minus those inside the closed way with an amenity=school tag
 
-      // All nodes+ways with building=school and no amenity=* tag in bbox
-      (
-        node ["building"="school"]["amenity"!~"."]({{bbox}});
-        way  ["building"="school"]["amenity"!~"."]({{bbox}});
-        node ["building"="kindergarten"]["amenity"!~"."]({{bbox}});
-        way  ["building"="kindergarten"]["amenity"!~"."]({{bbox}});
-        node ["building"="nursery"]["amenity"!~"."]({{bbox}});
-        way  ["building"="nursery"]["amenity"!~"."]({{bbox}});
-      );
-    - // except for
-      (
-        // All nodes+ways with building=school and no amenity=* tag in area
-        node ["building"="school"]["amenity"!~"."](area.area);
-        way  ["building"="school"]["amenity"!~"."](area.area);
-        node ["building"="kindergarten"]["amenity"!~"."](area.area);
-        way  ["building"="kindergarten"]["amenity"!~"."](area.area);
-      node ["building"="nursery"]["amenity"!~"."](area.area);
-        way  ["building"="nursery"]["amenity"!~"."](area.area);
-      );
+    // All nodes+ways with building=school and no amenity=* tag in bbox
+    (
+    node ["building"="school"]"amenity"!~".";
+    way ["building"="school"]"amenity"!~".";
+    node ["building"="kindergarten"]"amenity"!~".";
+    way ["building"="kindergarten"]"amenity"!~".";
+    node ["building"="nursery"]"amenity"!~".";
+    way ["building"="nursery"]"amenity"!~".";
     );
 
-    out geom;
-    `;
-
+    // except for
+    (
+    // All nodes+ways with building=school and no amenity=* tag in area
+    node ["building"="school"]"amenity"!~".";
+    way ["building"="school"]"amenity"!~".";
+    node ["building"="kindergarten"]"amenity"!~".";
+    way ["building"="kindergarten"]"amenity"!~".";
+    node ["building"="nursery"]"amenity"!~".";
+    way ["building"="nursery"]"amenity"!~".";
+    );
+    );
+    out geom;`
+    
     try {
         const response = await fetch('https://overpass-api.de/api/interpreter', {
             method: 'POST',
