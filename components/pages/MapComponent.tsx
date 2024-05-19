@@ -70,7 +70,14 @@ const MapComponent: React.FC<MapComponentProps> = ({
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={userPosition} icon={userIcon} />
+      <Marker position={userPosition} icon={userIcon}>
+        <Circle
+          center={{ lat: userPosition.lat, lng: userPosition.lng }}
+          radius={10}
+          color="blue"
+          fillOpacity={0.7}
+        />
+      </Marker>
       {facilities.map((facility, index) => (
         <Circle
           key={index}

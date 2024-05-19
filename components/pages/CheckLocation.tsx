@@ -56,7 +56,7 @@ const CheckLocationPage: React.FC = () => {
   if (!locationChecked) {
     return (
       <div className="flex items-center justify-center h-screen">
-        <div className="check-location flex flex-col items-center justify-center text-center w-fit text-2xl bg-black bg-opacity-45 rounded-2xl p-1">
+        <div className="check-location flex flex-col items-center justify-center text-center w-fit text-2xl bg-black bg-opacity-0 rounded-2xl p-1">
           <Image
             src={Location}
             alt="Checking location"
