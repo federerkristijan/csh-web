@@ -3,19 +3,22 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer, Marker, Circle } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
+import Smoker from "@/assets/Smoker.svg";
+import Image from "next/image";
 import ReactDOMServer from "react-dom/server";
 import { FacilitiesData } from "@/types/global"; // Ensure this type is correctly defined to match the expected facility data structure
 
 // Custom marker using MUI Icon
 const createCustomMarkerIcon = () => {
   const iconHtml = ReactDOMServer.renderToString(
-    <EmojiPeopleIcon style={{ fontSize: "30px", color: "blue" }} />
+    <div style={{ background: "green", borderRadius: "100%", paddingTop: "15px", paddingBottom: "15px", paddingLeft: "30px", paddingRight: "30px",display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <Image src={Smoker} alt="Smoker" width={26} height={26} />
+  </div>
   );
 
   return L.divIcon({
     html: iconHtml,
-    iconSize: [30, 30],
+    iconSize: [20, 20],
     iconAnchor: [15, 15], // Adjust as needed
     className: "", // This removes default extra padding and border
   });
@@ -56,23 +59,17 @@ const MapComponent: React.FC<MapComponentProps> = ({
   console.log(facilities, "look at me");
 
   return (
+    <div className="flex flex-col items-center justify-center w-screen ">
     <MapContainer
       center={{ lat: userPosition.lat, lng: userPosition.lng }}
-      zoom={13}
-      style={{ height: "70vh", width: "65%" , marginTop: "4rem", borderRadius: "1rem"}}
+      zoom={30}
+      style={{ height: "35vh", width: "30%" , borderRadius: "1rem", color: "black"}}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={userPosition} icon={userIcon}>
-        <Circle
-          center={userPosition}
-          radius={100}
-          color="blue"
-          fillOpacity={0.4}
-        />
-      </Marker>
+      <Marker position={userPosition} icon={userIcon} />
       {facilities.map((facility, index) => (
         <Circle
           key={index}
@@ -83,6 +80,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
         />
       ))}
     </MapContainer>
+    </div>
   );
 };
 
