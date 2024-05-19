@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="text-center w-max">
-            <h3 className="lg:text-[1.6rem] font-extrabold md:w-fit md:text-lg">
+            <h3 className="lg:text-[1.6rem] font-extrabold md:w-fit text-[1.4rem]">
               Your best bud in your pocket
             </h3>
           </div>
