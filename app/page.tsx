@@ -44,12 +44,12 @@ export default function Home() {
             </h1>
           </div>
           <div className="text-center w-max">
-            <h3 className="text-[1.6rem] font-extrabold">
+            <h3 className="lg:text-[1.6rem] font-extrabold md:w-fit text-[1.4rem]">
               Your best bud in your pocket
             </h3>
           </div>
-          <div className="text-center w-max">
-            <span className="text-[1rem] font-extrabold">
+          <div className="text-center w-fit mx-4 ">
+            <span className="text-[1rem] font-extrabold md:text-lg">
               Find out where you can smoke your cannabis in Berlin
             </span>
           </div>

@@ -34,36 +34,14 @@ body::before {
   z-index: -1;
 }
 
-h1, h2, h3, h4, h5, h6, p, span {
+h1, h2, h3, h4, h5, h6, p, span, a {
   font-family: 'Poppins', sans-serif;
   color: rgb(255 255 255);
   letter-spacing: 0.025em;
 }
 
-.loader {
-  width: 48px;
-  height: 48px;
-  border: 5px solid #FFF;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  position: relative;
-  animation: pulse 1s linear infinite;
-}
-
-.loader:after {
-  content: '';
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  border: 5px solid #FFF;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  animation: scaleUp 1s linear infinite;
+.leaflet-control-zoom-in leaflet-disabled, .leaflet-control-zoom-out leaflet-disabled {
+  background: black!important;
 }
 
 @keyframes scaleUp {
