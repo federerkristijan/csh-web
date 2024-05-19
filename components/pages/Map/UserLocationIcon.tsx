@@ -2,13 +2,14 @@
 import L from "leaflet";
 import ReactDOMServer from "react-dom/server";
 import Smoker from "@/assets/Smoker.svg";
+import Image from "next/image";
 
 export const createUserLocationIcon = () => {
   const iconHtml = ReactDOMServer.renderToString(
     <div
       style={{
         background: "green",
-        opacity: 0.6,
+        opacity: 0.7,
         borderRadius: "50%",
         width: "30px",
         height: "30px",
@@ -17,7 +18,7 @@ export const createUserLocationIcon = () => {
         justifyContent: "center",
       }}
     >
-      <img src={Smoker} alt="User Location" style={{ width: "26px", height: "26px" }} />
+      <Image src={Smoker} alt="User Location" style={{ width: "24px", height: "24px" }} />
     </div>
   );
 
