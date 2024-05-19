@@ -63,7 +63,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
     <MapContainer
       center={{ lat: userPosition.lat, lng: userPosition.lng }}
       zoom={30}
-      className="w-full md:w-3/5"
+      className="map-container"
       style={{ height: "35vh", borderRadius: "1rem"}}
     >
       <TileLayer
