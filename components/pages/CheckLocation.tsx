@@ -6,7 +6,7 @@ import { getUserLocation } from "@/lib/getUserLocation";
 import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
 import { FacilitiesData } from "@/types/global";
 import Image from "next/image";
-import Location from "@/assets/Location.svg";
+import Location from "@/assets/location.svg";
 
 const MapComponent = dynamic(() => import("./MapComponent"), { ssr: false });
 
