@@ -40,8 +40,14 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   letter-spacing: 0.025em;
 }
 
-.leaflet-control-zoom-in leaflet-disabled, .leaflet-control-zoom-out leaflet-disabled {
-  background: black!important;
+.map-container {
+  height: 35vh;
+  width: 30%;
+  border-radius: 1rem;
+}
+
+a.leaflet-control-zoom-in.leaflet-disabled > span, body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > div > div.flex.flex-col.items-center.justify-center.w-screen > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out > span {
+  color: black!important;
 }
 
 @keyframes scaleUp {
@@ -62,5 +68,11 @@ h1, h2, h3, h4, h5, h6, p, span, a {
     flex-direction: column;
     height: 15vh;
     width: 28vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .map-container {
+    width: 60%;
   }
 }
