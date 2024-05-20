@@ -36,3 +36,8 @@ export interface School {
   latitude: number;
   longitude: number;
 }
+
+export interface ShareModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
