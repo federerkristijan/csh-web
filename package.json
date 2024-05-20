@@ -30,6 +30,7 @@
     "https-browserify": "^1.0.0",
     "leaflet": "^1.9.4",
     "next": "14.1.4",
+    "next-share": "^0.27.0",
     "node-fetch": "^3.3.2",
     "node-jq": "^4.3.1",
     "osm": "^1.0.0",
