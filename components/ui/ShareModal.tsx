@@ -2,10 +2,20 @@
 import React from 'react';
 import { FacebookShareButton, TwitterShareButton, WhatsappShareButton, FacebookIcon, TwitterIcon, WhatsappIcon, TelegramShareButton, TelegramIcon, RedditShareButton, RedditIcon } from 'next-share';
 import { ShareModalProps } from '@/types/global';
+import CopyLink from '@/assets/link.png'
+import Image from 'next/image';
 
 
 
 const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose }) => {
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      alert('Link copied to clipboard');
+    }).catch((err) => {
+      console.error('Failed to copy: ', err);
+    });
+  };
+
   if (!isOpen) return null;
 
   return (
@@ -28,6 +38,9 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose }) => {
           <RedditShareButton url={window.location.href}>
             <RedditIcon size={48} round />
           </RedditShareButton>
+          <button onClick={handleCopyLink} className="flex items-center justify-center p-2 rounded-full bg-gray-200 hover:bg-gray-300">
+            <Image src={CopyLink} alt="Copy link" width={24} height={24} />
+          </button>
         </div>
         <button onClick={onClose} className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
           Close
