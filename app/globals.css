@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   border-radius: 1rem;
 }
 
-a.leaflet-control-zoom-in.leaflet-disabled > span, body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > div > div.flex.flex-col.items-center.justify-center.w-screen > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out > span {
+body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > div > div.flex.flex-col.items-center.justify-center.w-screen > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-in > span, body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > div > div.flex.flex-col.items-center.justify-center.w-screen > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out > span {
   color: black!important;
 }
 
