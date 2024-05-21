@@ -7,7 +7,7 @@ const CheckLocationClient = dynamic(() => import('@/components/pages/CheckLocati
 });
 
 const fetchGeoJsonData = async () => {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  const baseUrl = "https://www.cannasmokehere.de/";
   try {
     const response = await fetch(`${baseUrl}/export.geojson`);
     if (!response.ok) {
@@ -23,6 +23,7 @@ const fetchGeoJsonData = async () => {
 
 const CheckLocationPage = async () => {
   const geoJsonData = await fetchGeoJsonData();
+  console.log(geoJsonData, 'look at me');
 
   if (!geoJsonData) {
     return <p>Error loading GeoJSON data</p>;
