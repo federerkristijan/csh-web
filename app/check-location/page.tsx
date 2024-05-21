@@ -7,9 +7,9 @@ const CheckLocationClient = dynamic(() => import('@/components/pages/CheckLocati
 });
 
 const fetchGeoJsonData = async () => {
-  const baseUrl = process.env.NEXT_PUBLIC_GEOJSON_URL;
+  const geoJsonUrl = process.env.NEXT_PUBLIC_GEOJSON_URL;
   try {
-    const response = await fetch(`${baseUrl}/export.geojson`);
+    const response = await fetch(geoJsonUrl);
     console.log(response.ok, 'let us hear a prayer');
     if (!response.ok) {
       throw new Error('Failed to fetch GeoJSON data');
