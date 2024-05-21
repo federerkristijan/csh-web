@@ -10,6 +10,7 @@ const fetchGeoJsonData = async () => {
   const baseUrl = "https://www.cannasmokehere.de/";
   try {
     const response = await fetch(`${baseUrl}/export.geojson`);
+    console.log(response.ok, 'let us hear a prayer');
     if (!response.ok) {
       throw new Error('Failed to fetch GeoJSON data');
     }
