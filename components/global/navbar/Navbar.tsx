@@ -15,6 +15,7 @@ const NavBar = async () => {
   z-30
   shadow-sm
   inline
+  contents
   "
     >
       <div className="py-4">

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Result from "./Result";
 import { getUserLocation } from "@/lib/getUserLocation";
-import { isNearbySchoolOrKindergarten } from "@/utils/proximityCheck";
 import { FacilitiesData } from "@/types/global";
 import Image from "next/image";
 import Location from "@/assets/location.svg";
@@ -17,8 +16,7 @@ const CheckLocationPage: React.FC = () => {
     latitude: number;
     longitude: number;
   } | null>(null);
-  const [canSmoke, setCanSmoke] = useState<boolean>(false);
-  const [facilities, setFacilities] = useState<FacilitiesData[]>([]);
+  const [geoJsonData, setGeoJsonData] = useState<any>(null);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -28,30 +26,18 @@ const CheckLocationPage: React.FC = () => {
         if (location) {
           setUserLocation(location);
           setLastUpdated(new Date());
-          console.log(setLastUpdated, 'hihi')
 
-          const { fetchSchoolsAndKindergartens } = await import(
-            "@/lib/schoolData"
-          );
-          const facilitiesData = await fetchSchoolsAndKindergartens();
+          // Fetch and parse the GeoJSON data
+          const response = await fetch("/export.geojson");
+          const data = await response.json();
+          setGeoJsonData(data);
 
-          if (facilitiesData.length > 0) {
-            setFacilities(facilitiesData);
-            const nearby = isNearbySchoolOrKindergarten(
-              location.latitude,
-              location.longitude,
-              facilitiesData
-            );
-            setCanSmoke(!nearby);
-          } else {
-            setCanSmoke(true);
-          }
+          setLocationChecked(true);
         }
       } catch (error) {
         console.error("Error checking location:", error);
-        setCanSmoke(false);
+        setLocationChecked(true);
       }
-      setLocationChecked(true);
     };
 
     checkLocation();
@@ -68,7 +54,6 @@ const CheckLocationPage: React.FC = () => {
             height={100}
           />
           <p>Checking location...</p>
-          {/* <span className="loader"></span> */}
         </div>
       </div>
     );
@@ -77,9 +62,9 @@ const CheckLocationPage: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center justify-center gap-6 h-[60vh]">
+    <div className="check-location-page flex flex-col items-center justify-center gap-6 h-[90vh]">
       <div className="result flex items-center justify-center">
-        <Result canSmoke={canSmoke} />
+        <Result canSmoke={true} />
       </div>
       <LocationUpdateTimer lastUpdated={lastUpdated} />
       <MapComponent
@@ -87,7 +72,7 @@ const CheckLocationPage: React.FC = () => {
           lat: userLocation.latitude,
           lng: userLocation.longitude,
         }}
-        facilities={facilities}
+        geoJsonData={geoJsonData}
       />
     </div>
   );
