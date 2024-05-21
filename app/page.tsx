@@ -46,7 +46,7 @@ export default function Home() {
           </h3>
         </div>
         <div className="text-center w-fit mx-4 ">
-          <span className="text-[1rem]">
+          <span className="text-[1rem] ">
             Your little helper for finding safe, designated smoking spots in
             your kiez. Using your phone&apos;s GPS, we pinpoint your location
             and guide you to where you Canna Smoke.
