@@ -10,13 +10,10 @@ const NavBar = async () => {
       className="
   sticky
   top-0
-  w-fit
   bg-black
   w-fit
-  bg-black
   z-30
   shadow-sm
-  inline
   contents
   "
     >
