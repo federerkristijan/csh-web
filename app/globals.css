@@ -53,6 +53,7 @@ body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > 
 @keyframes scaleUp {
   0% { transform: translate(-50%, -50%) scale(0) }
   60%, 100% { transform: translate(-50%, -50%) scale(1) }
+  60%, 100% { transform: translate(-50%, -50%) scale(1) }
 }
 
 @keyframes pulse {
