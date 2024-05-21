@@ -1,18 +1,34 @@
-"use client";
-
-import Container from '@/components/global/Container';
-import CheckLocation from '@/components/pages/CheckLocation';
 import React from 'react';
+import dynamic from 'next/dynamic';
 
-const CheckLocationPage: React.FC = () => {
+// Dynamically import the client component
+const CheckLocationClient = dynamic(() => import('@/components/pages/CheckLocationClient'), {
+  ssr: false,
+});
 
-  return (
-    <div className='text-center'>
-      <Container>
-        <CheckLocation />
-      </Container>
-    </div>
-  );
+const fetchGeoJsonData = async () => {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  try {
+    const response = await fetch(`${baseUrl}/export.geojson`);
+    if (!response.ok) {
+      throw new Error('Failed to fetch GeoJSON data');
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+};
+
+const CheckLocationPage = async () => {
+  const geoJsonData = await fetchGeoJsonData();
+
+  if (!geoJsonData) {
+    return <p>Error loading GeoJSON data</p>;
+  }
+
+  return <CheckLocationClient initialGeoJsonData={geoJsonData} />;
 };
 
 export default CheckLocationPage;

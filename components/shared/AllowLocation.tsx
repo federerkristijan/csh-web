@@ -10,7 +10,8 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
     <Transition.Root show={open} as={React.Fragment}>
       <Dialog
         as="div"
-        className="fixed inset-0 z-10 overflow-y-auto"
+        className="fixed inset-0 z-1 overflow-y-auto"
+        // onClose should be only on the button
         onClose={onClose}
       >
         <div className="flex items-center justify-center min-h-screen">
@@ -38,10 +39,10 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
             <div className="flex flex-col justify-center items-center bg-[#383838] rounded-lg p-8 max-w-md w-2/5">
               <Dialog.Title
                 as="h3"
-                className="flex text-lg font-bold mb-4 gap-2"
+                className="flex text-lg font-bold mb-4 gap-2 max-w-fit"
               >
                 Using this app you agree to
-                <div className="flex">
+                <div className="flex text-[24px]">
                   <div className="text-[#C900A5]">T&</div>
                   <div className="text-[#0BB257]">(H)</div>
                   <div className="text-[#C900A5]">Cs</div>

@@ -38,11 +38,6 @@ export default function Home() {
       <Container>
           <AllowLocationDialog open={isModalOpen} onClose={() => handleLocationResponse(true)} />
         <div className="flex flex-col items-center justify-center gap-[5rem]">
-          <div className="w-min mt-6 bg-slate-900/70">
-            <h1 className="border-5 rounded-md border-white text-4xl font-bold py-2 px-3 tracking-[.6rem]">
-              CANNA SMOKE HERE?
-            </h1>
-          </div>
           <div className="text-center w-max">
             <h3 className="lg:text-[1.6rem] font-extrabold md:w-fit text-[1.4rem]">
               Your best bud in your pocket
