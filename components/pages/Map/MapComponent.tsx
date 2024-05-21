@@ -1,4 +1,3 @@
-// @/components/Map/MapComponent.tsx
 import React from "react";
 import { MapContainer, TileLayer, Marker, GeoJSON, Circle } from "react-leaflet";
 import "leaflet/dist/leaflet.css";

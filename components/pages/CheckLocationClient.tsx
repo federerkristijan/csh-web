@@ -1,22 +1,30 @@
-// @/components/pages/CheckLocation.tsx
-import React, { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-import Result from "./Result";
-import { getUserLocation } from "@/lib/getUserLocation";
-import { FacilitiesData } from "@/types/global";
-import Image from "next/image";
-import Location from "@/assets/location.svg";
-import LocationUpdateTimer from "@/components/ui/LocationUpdateTimer";
+'use client';
 
-const MapComponent = dynamic(() => import("./Map/MapComponent"), { ssr: false });
+import React, { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic';
+import Result from './Result';
+import { getUserLocation } from '@/lib/getUserLocation';
+import Image from 'next/image';
+import Location from '@/assets/location.svg';
+import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
 
-const CheckLocationPage: React.FC = () => {
+const MapComponent = dynamic(() => import('./Map/MapComponent'), {
+  ssr: false,
+});
+
+interface CheckLocationClientProps {
+  initialGeoJsonData: any;
+}
+
+const CheckLocationClient: React.FC<CheckLocationClientProps> = ({
+  initialGeoJsonData,
+}) => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{
     latitude: number;
     longitude: number;
   } | null>(null);
-  const [geoJsonData, setGeoJsonData] = useState<any>(null);
+  const [geoJsonData, setGeoJsonData] = useState<any>(initialGeoJsonData);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -26,16 +34,10 @@ const CheckLocationPage: React.FC = () => {
         if (location) {
           setUserLocation(location);
           setLastUpdated(new Date());
-
-          // Fetch and parse the GeoJSON data
-          const response = await fetch("/export.geojson");
-          const data = await response.json();
-          setGeoJsonData(data);
-
           setLocationChecked(true);
         }
       } catch (error) {
-        console.error("Error checking location:", error);
+        console.error('Error checking location:', error);
         setLocationChecked(true);
       }
     };
@@ -78,4 +80,4 @@ const CheckLocationPage: React.FC = () => {
   );
 };
 
-export default CheckLocationPage;
+export default CheckLocationClient;
