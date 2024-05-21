@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
-import Result from './Result';
+import Result from '@/components/pages/Result';
 import { getUserLocation } from '@/lib/getUserLocation';
 import Image from 'next/image';
 import Location from '@/assets/location.svg';
@@ -16,15 +16,13 @@ interface CheckLocationClientProps {
   initialGeoJsonData: any;
 }
 
-const CheckLocationClient: React.FC<CheckLocationClientProps> = ({
-  initialGeoJsonData,
-}) => {
+const CheckLocationClient: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{
     latitude: number;
     longitude: number;
   } | null>(null);
-  const [geoJsonData, setGeoJsonData] = useState<any>(initialGeoJsonData);
+  const [geoJsonData, setGeoJsonData] = useState<any>(null);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -43,6 +41,37 @@ const CheckLocationClient: React.FC<CheckLocationClientProps> = ({
     };
 
     checkLocation();
+  }, []);
+
+  useEffect(() => {
+    const fetchGeoJsonData = async () => {
+      const geoJsonUrl = process.env.NEXT_PUBLIC_GEOJSON_URL;
+      if (!geoJsonUrl) {
+        console.error('GeoJSON URL is not defined');
+        return;
+      }
+      try {
+        const response = await fetch(geoJsonUrl);
+        console.log(response.ok, 'Response OK');
+        if (!response.ok) {
+          console.log('Failed to fetch GeoJSON data:', response.status, response.statusText);
+          throw new Error('Failed to fetch GeoJSON data');
+        }
+        const text = await response.text();
+        console.log('Fetched Data:', text);
+        try {
+          const data = JSON.parse(text);
+          console.log('GeoJSON Data:', data);
+          setGeoJsonData(data);
+        } catch (jsonError) {
+          console.error('JSON Parse Error:', jsonError);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    fetchGeoJsonData();
   }, []);
 
   if (!locationChecked) {
@@ -69,13 +98,15 @@ const CheckLocationClient: React.FC<CheckLocationClientProps> = ({
         <Result canSmoke={true} />
       </div>
       <LocationUpdateTimer lastUpdated={lastUpdated} />
-      <MapComponent
-        userPosition={{
-          lat: userLocation.latitude,
-          lng: userLocation.longitude,
-        }}
-        geoJsonData={geoJsonData}
-      />
+      {geoJsonData && (
+        <MapComponent
+          userPosition={{
+            lat: userLocation.latitude,
+            lng: userLocation.longitude,
+          }}
+          geoJsonData={geoJsonData}
+        />
+      )}
     </div>
   );
 };
