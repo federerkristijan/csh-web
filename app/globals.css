@@ -35,7 +35,7 @@ body::before {
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserat', sans-serif;
   color: rgb(255 255 255);
   letter-spacing: 0.025em;
 }

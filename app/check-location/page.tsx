@@ -30,7 +30,6 @@ const fetchGeoJsonData = async () => {
 
 const CheckLocationPage = async () => {
   const geoJsonData = await fetchGeoJsonData();
-  console.log(geoJsonData, 'look at me');
 
   if (!geoJsonData) {
     return <p>Error loading GeoJSON data</p>;

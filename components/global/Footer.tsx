@@ -37,7 +37,7 @@ export default function Footer(props: Props) {
 
   return (
     <div className="flex fixed bottom-0 w-full justify-center">
-       <div className="flex lg:text-2xl pb-4 md:text-lg mx-2 font-semibold">
+       <div className="flex text-[1rem] pb-4 md:text-lg mx-2 ">
           {items.map((item, index) => (
             <div key={index}>
               {item.title === "Share our app" ? (
