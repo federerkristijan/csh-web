@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-grow justify-center">
+      <body className="min-h-screen flex flex-grow">
         <Providers>
-          <div className="flex flex-grow flex-col justify-center items-center">
+          <div className="flex flex-grow flex-col justify-center items-center gap-y-[1.875rem]">
             <Navbar />
             {children}
             <Footer />

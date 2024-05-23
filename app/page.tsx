@@ -45,19 +45,19 @@ export default function Home() {
             Your best bud in your pocket
           </h3>
         </div>
-        <div className="text-center w-fit mx-4 ">
-          <span className="text-[1rem] ">
+        <div className="flex flex-col text-center w-[48vw]">
+          <span className="text-[1rem]">
             Your little helper for finding safe, designated smoking spots in
             your kiez. Using your phone&apos;s GPS, we pinpoint your location
             and guide you to where you Canna Smoke.
           </span>
           <br />
-          <span className="bold">Enjoy your doobies responsibly with this free service.</span>
+          <span className="font-bold">Enjoy your doobies responsibly with this free service.</span>
         </div>
         <div>
           <Link
             href="/check-location"
-            className="flex flex-row items-center justify-center text-2xl gap-3 bg-[#C900A5] p-4 rounded-full hover:bg-blue-900 hover:scale-110"
+            className="flex flex-row items-center justify-center text-[16] gap-3 bg-[#C900A5] py-[22px] px-[30px] rounded-full"
           >
             <h1>Check your location</h1>
             <Image src={Search} alt="Location" width={30} height={30} />

@@ -28,15 +28,6 @@ const NavBar = async () => {
           md:gap-0
           "
         >
-          {/* <Link href="/check-location" className="flex flex-row items-center justify-center text-3xl gap-3 border-2 border-s-neutral-300 p-3 rounded-2xl hover:bg-blue-900 hover:scale-110">
-            <h1>Check your</h1>
-            <Image
-              src={location}
-              alt="Location"
-              width={50}
-              height={50}
-            />
-          </Link> */}
           <AdSection />
           <Logo />
         </div>
