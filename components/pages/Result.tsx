@@ -7,7 +7,7 @@ import NO from "@/assets/NO.svg";
 const Result: React.FC<ResultProps> = ({ canSmoke }) => {
   return (
     <div className="result">
-      <h2 className="text-4xl font-bold text-white">
+      <h2 className="text-2xl font-bold text-white">
         {canSmoke ? (
           <div className="flex flex-col items-center justify-center text-white">
             <Image src={YES} alt="yes" width={80} height={80} />

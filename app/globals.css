@@ -18,20 +18,19 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('./bg2.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: -1;
+main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {
@@ -44,21 +43,6 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   height: 35vh;
   width: 30%;
   border-radius: 1rem;
-}
-
-body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > div > div.flex.flex-col.items-center.justify-center.w-screen > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-in > span, body > div > div.flex.flex-col.justify-around.mx-auto > div.text-center > div > div > div.flex.flex-col.items-center.justify-center.w-screen > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out > span {
-  color: black!important;
-}
-
-@keyframes scaleUp {
-  0% { transform: translate(-50%, -50%) scale(0) }
-  60%, 100% { transform: translate(-50%, -50%) scale(1) }
-  60%, 100% { transform: translate(-50%, -50%) scale(1) }
-}
-
-@keyframes pulse {
-  0%, 60%, 100% { transform: scale(1) }
-  80% { transform: scale(1.2) }
 }
 
 @media (min-width: 768px) {
