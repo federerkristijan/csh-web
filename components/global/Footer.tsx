@@ -36,7 +36,7 @@ export default function Footer(props: Props) {
   ];
 
   return (
-    <div className="flex fixed bottom-0 w-full justify-center">
+    <footer className="flex fixed bottom-0 w-full justify-center">
        <div className="flex text-[1rem] pb-4 md:text-lg mx-2 ">
           {items.map((item, index) => (
             <div key={index}>
@@ -60,6 +60,6 @@ export default function Footer(props: Props) {
           ))}
         </div>
         <ShareModal isOpen={isShareModalOpen} onClose={() => setIsShareModalOpen(false)} />
-    </div>
+    </footer>
   );
 }

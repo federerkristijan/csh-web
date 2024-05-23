@@ -6,7 +6,7 @@ import Logo from "@/components/shared/Logo";
 
 const NavBar = async () => {
   return (
-    <div
+    <nav
       className="
   sticky
   top-0
@@ -41,7 +41,7 @@ const NavBar = async () => {
           <Logo />
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
