@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="min-h-screen flex flex-grow justify-center">
         <Providers>
-          <div className="flex flex-col justify-around mx-auto">
+          <div className="flex flex-grow flex-col justify-center items-center">
             <Navbar />
             {children}
             <Footer />
