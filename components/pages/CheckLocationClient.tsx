@@ -49,6 +49,7 @@ const CheckLocationClient: React.FC = () => {
             userLocation.latitude,
             userLocation.longitude
           );
+          console.log('Fetched places:', places);
           setPlaces(places);
         } catch (error) {
           console.error('Error fetching nearby places:', error);

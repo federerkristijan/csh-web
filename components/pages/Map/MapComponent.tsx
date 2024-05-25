@@ -13,12 +13,12 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => 
     const loader = new Loader({
       apiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
       version: "weekly",
-      libraries: ["places"]
+      libraries: ["marker"],
     });
 
     loader.load().then(() => {
       if (mapRef.current) {
-        const { Map, Marker } = google.maps;
+        const { Map, Marker, Circle } = google.maps;
 
         const map = new Map(mapRef.current, {
           center: userPosition,
@@ -29,17 +29,33 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => 
         new Marker({
           map,
           position: userPosition,
+          title: "You are here",
         });
 
-        // Add markers for the places
+        // Add circles for the places
         places.forEach((place: any) => {
-          new Marker({
+          new Circle({
             map,
-            position: {
+            center: {
               lat: place.geometry.location.lat,
               lng: place.geometry.location.lng,
             },
+            radius: 100, // radius in meters
+            strokeColor: "#FF0000",
+            strokeOpacity: 0.8,
+            strokeWeight: 2,
+            fillColor: "#FF0000",
+            fillOpacity: 0.35,
           });
+
+          // new Marker({
+          //   map,
+          //   position: {
+          //     lat: place.geometry.location.lat,
+          //     lng: place.geometry.location.lng,
+          //   },
+          //   title: place.name,
+          // });
         });
       }
     });
