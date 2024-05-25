@@ -3,7 +3,6 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { ReactNode } from "react";
 import Navbar from "@/components/global/navbar/Navbar";
-import AdSection from "@/components/global/AdSection";
 import Footer from "@/components/global/Footer";
 
 export const metadata: Metadata = {
