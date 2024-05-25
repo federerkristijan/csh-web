@@ -1,6 +1,9 @@
 import { Dialog, Transition } from "@headlessui/react";
 import React, { Fragment } from "react";
 import { AllowLocationDialogProps } from "@/types/global";
+import Image from "next/image";
+import Agree from "@/assets/Agree.png";
+import { THCs } from "./T&(H)Cs";
 
 const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
   open,
@@ -30,7 +33,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
         className="fixed inset-0 z-10 overflow-y-auto"
         onClose={() => {}} // No-op function to satisfy the type requirement
       >
-        <div className="flex items-center justify-center min-h-screen text-center sm:block sm:p-0">
+        <div className="flex items-center justify-center min-h-screen text-center sm:p-0">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -57,13 +60,12 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
                 <div className="mt-3 text-center sm:mt-5">
                   <Dialog.Title
                     as="h3"
-                    className="text-lg leading-6 font-medium text-gray-100"
+                    className="text-[24px] text-center leading-6 w-full font-semibold text-gray-100"
                   >
-                    Using this app you agree to
-                    <div className="text-[24px]">
-                      <span className="text-[#C900A5]">T&</span>
-                      <span className="text-[#0BB257]">(H)</span>
-                      <span className="text-[#C900A5]">Cs</span>
+                    <div className="header flex flex-col items-center justify-center">
+                      <span>Using this app</span>
+                      <span>you agree to</span>
+                      <THCs />
                     </div>
                   </Dialog.Title>
                   <div className="mt-2">
@@ -80,13 +82,18 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
                   </div>
                 </div>
               </div>
-              <div className="mt-5 sm:mt-6">
+              <div className="flex justify-center mt-5 sm:mt-6">
                 <button
                   type="button"
-                  className="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-[#C900A5] text-base font-medium text-white hover:bg-blue-900 hover:scale-110 sm:text-sm"
+                  className="inline-flex justify-center rounded-full border border-transparent shadow-sm px-4 py-2 bg-[#C900A5]"
                   onClick={handleAgreeClick}
                 >
-                  I agree to T&(H)C
+                  <Image
+                    src={Agree}
+                    width={200}
+                    height={40}
+                    alt="Agree Button"
+                  />
                 </button>
               </div>
             </div>
