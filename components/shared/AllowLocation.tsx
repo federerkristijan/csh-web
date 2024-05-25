@@ -52,24 +52,8 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
           >
-            <div className="inline-block align-bottom bg-[#383838] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6">
+            <div className="inline-block align-bottom md:w-1/4 bg-[#383838] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-fit sm:p-6">
               <div>
-                <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-[#C900A5]">
-                  <svg
-                    className="h-6 w-6 text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 10h4l3 9 4-14 3 6h4"
-                    />
-                  </svg>
-                </div>
                 <div className="mt-3 text-center sm:mt-5">
                   <Dialog.Title
                     as="h3"

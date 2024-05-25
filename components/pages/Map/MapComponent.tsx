@@ -47,15 +47,6 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => 
             fillColor: "#FF0000",
             fillOpacity: 0.35,
           });
-
-          // new Marker({
-          //   map,
-          //   position: {
-          //     lat: place.geometry.location.lat,
-          //     lng: place.geometry.location.lng,
-          //   },
-          //   title: place.name,
-          // });
         });
       }
     });
