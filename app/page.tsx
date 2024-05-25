@@ -13,20 +13,8 @@ export default function Home() {
   const handleLocationResponse = (allow: boolean) => {
     setIsModalOpen(false);
     if (allow) {
-      // Request geolocation access
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-          (position) => {
-            console.log("Location allowed:", position.coords);
-            // You can now use the position.coords to get the user's location
-          },
-          (error) => {
-            console.error("Error getting location:", error);
-          }
-        );
-      } else {
-        console.error("Geolocation is not supported by this browser.");
-      }
+      console.log("Location access granted");
+      // You can now use the position.coords to get the user's location
     } else {
       console.log("Location access denied");
       // Handle the case where the user denies location access

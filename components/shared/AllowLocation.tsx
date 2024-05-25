@@ -14,7 +14,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
       navigator.geolocation.getCurrentPosition(
         (position) => {
           console.log("Geolocation allowed:", position.coords);
-          onClose();
+          onClose(true);
         },
         (error) => {
           console.error("Error getting location:", error);
@@ -55,7 +55,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-95"
           >
-            <div className="inline-block align-bottom md:w-1/4 bg-[#383838] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-fit sm:p-6">
+            <div className="inline-block align-bottom md:w-2/6 bg-[#383838] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-fit sm:p-6">
               <div>
                 <div className="mt-3 text-center sm:mt-5">
                   <Dialog.Title
@@ -85,13 +85,13 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
               <div className="flex justify-center mt-5 sm:mt-6">
                 <button
                   type="button"
-                  className="inline-flex justify-center rounded-full border border-transparent shadow-sm px-4 py-2 bg-[#C900A5]"
+                  className=""
                   onClick={handleAgreeClick}
                 >
                   <Image
                     src={Agree}
-                    width={200}
-                    height={40}
+                    width={242}
+                    height={64}
                     alt="Agree Button"
                   />
                 </button>
