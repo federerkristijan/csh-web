@@ -29,11 +29,11 @@ const CheckLocationClient: React.FC = () => {
         if (location) {
           setUserLocation(location);
           setLastUpdated(new Date());
-          console.log("Location allowed:", location);
+          // console.log("Location allowed:", location);
           setLocationChecked(true);
         }
       } catch (error) {
-        console.error('Error checking location:', error);
+        // console.error('Error checking location:', error);
         setLocationChecked(true);
       }
     };
@@ -49,7 +49,7 @@ const CheckLocationClient: React.FC = () => {
             userLocation.latitude,
             userLocation.longitude
           );
-          console.log('Fetched places:', places);
+          // console.log('Fetched places:', places);
           setPlaces(places);
         } catch (error) {
           console.error('Error fetching nearby places:', error);
