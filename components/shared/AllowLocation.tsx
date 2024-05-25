@@ -14,7 +14,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
       navigator.geolocation.getCurrentPosition(
         (position) => {
           console.log("Geolocation allowed:", position.coords);
-          onClose(true);
+          onClose();
         },
         (error) => {
           console.error("Error getting location:", error);
