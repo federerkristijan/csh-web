@@ -4,6 +4,7 @@ import { AllowLocationDialogProps } from "@/types/global";
 import Image from "next/image";
 import Agree from "@/assets/Agree.png";
 import { THCs } from "./T&(H)Cs";
+import AgreeButton from "../ui/AgreeButton";
 
 const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
   open,
@@ -83,18 +84,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
                 </div>
               </div>
               <div className="flex justify-center mt-5 sm:mt-6">
-                <button
-                  type="button"
-                  className=""
-                  onClick={handleAgreeClick}
-                >
-                  <Image
-                    src={Agree}
-                    width={242}
-                    height={64}
-                    alt="Agree Button"
-                  />
-                </button>
+                <AgreeButton onClick={handleAgreeClick} />
               </div>
             </div>
           </Transition.Child>
