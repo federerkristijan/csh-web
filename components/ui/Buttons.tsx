@@ -10,12 +10,12 @@ interface ButtonProps {
 
 const buttonStyles = {
   primary: {
-    normal: 'flex items-center justify-center gap-2 bg-[#0AB157] text-white px-6 py-4 rounded-full',
-    hover: 'hover:bg-[#0A9145]',
+    normal: 'flex items-center justify-center gap-2 bg-[#C900A5] text-white px-6 py-4 rounded-full',
+    hover: 'hover:bg-[#0BB257]',
   },
   secondary: {
-    normal: 'flex items-center justify-center gap-2 bg-gray-300 text-black px-6 py-4 rounded-full',
-    hover: 'hover:bg-gray-400',
+    normal: 'flex items-center justify-center gap-2 bg-gray-300 text-black px-6 py-4 rounded-full border-1 border-[#C900A5] text-[#C900A5]',
+    hover: 'hover:bg-gray-400 hover:border-[#0BB257] hover:text-[#0BB257]',
   },
 };
 
