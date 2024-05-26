@@ -48,6 +48,7 @@ export default function Home() {
             type="primary"
             text="Check your smoke-cation"
             onClick={() => window.location.href = '/check-location'}
+            icon={Search}
           />
         </div>
       </div>
