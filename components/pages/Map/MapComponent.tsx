@@ -23,6 +23,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => 
         const map = new Map(mapRef.current, {
           center: userPosition,
           zoom: 15,
+          mapTypeControl: false,
         });
 
         // Add the user's location marker
