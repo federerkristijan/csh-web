@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import AllowLocationDialog from "@/components/shared/AllowLocation";
+import Button from "@/components/ui/Buttons";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true);
@@ -27,7 +28,7 @@ export default function Home() {
         open={isModalOpen}
         onClose={() => handleLocationResponse(true)}
       />
-      <div className="flex flex-col items-center justify-center gap-[5rem]">
+      <div className="flex flex-col items-center justify-center gap-[5rem] w-1/3">
         <div className="text-center w-max">
           <h3 className="text-[2rem] font-semibold md:w-fit">
             Your best bud in your pocket
@@ -43,13 +44,11 @@ export default function Home() {
           <span className="bold">Enjoy your doobies responsibly with this free service.</span>
         </div>
         <div>
-          <Link
-            href="/check-location"
-            className="flex flex-row items-center justify-center text-2xl gap-3 bg-[#C900A5] p-4 rounded-full hover:bg-blue-900 hover:scale-110"
-          >
-            <h1>Check your location</h1>
-            <Image src={Search} alt="Location" width={30} height={30} />
-          </Link>
+          <Button
+            type="primary"
+            text="Check your smoke-cation"
+            onClick={() => window.location.href = '/check-location'}
+          />
         </div>
       </div>
     </Container>
