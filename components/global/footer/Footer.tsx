@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from "react";
-import ShareModal from "../ui/ShareModal";
+import ShareModal from "../../ui/ShareModal";
 
 type Props = {};
 

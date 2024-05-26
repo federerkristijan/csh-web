@@ -5,10 +5,10 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0; /* Removes default margin */
-  padding: 0; /* Removes default padding */
-  overflow: hidden; /* Prevents scrolling */
-  font-family: 'Montserat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
   background-color: rgb(0 0 0 / 97%);
 }
 
@@ -20,6 +20,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 main {
@@ -34,29 +35,37 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {
-  font-family: 'Montserat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(255 255 255);
   letter-spacing: 0.025em;
 }
 
-/* .map-container {
-  height: 35vh;
-  width: 30%;
-  border-radius: 1rem;
-} */
-
-/* @media (min-width: 768px) {
-  .ad-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 28vw;
+@media (max-width: 767px) {
+  .map-container {
+    width: 100%;
+    height: 50vh;
   }
-} */
 
-/* @media (max-width: 767px) {
+  .button-primary, .button-secondary {
+    font-size: 12px; /* Smaller text size for mobile */
+    padding-left: 1rem; /* Smaller padding for mobile */
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
   .map-container {
     width: 60%;
+    height: 70vh;
   }
-} */
+
+  .button-primary, .button-secondary {
+  font-size: 14px; /* Text size equivalent to text-[14px] */
+  padding-left: 1.5rem; /* Padding left equivalent to px-6 */
+  padding-right: 1.5rem; /* Padding right equivalent to px-6 */
+  padding-top: 0.75rem; /* Padding top equivalent to py-3 */
+  padding-bottom: 0.75rem; /* Padding bottom equivalent to py-3 */
+  }
+}
