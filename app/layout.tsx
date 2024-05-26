@@ -22,11 +22,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <body className="min-h-screen flex flex-grow justify-center">
+      <body className="min-h-screen flex flex-col justify-center">
         <Providers>
-          <div className="flex flex-grow flex-col justify-center items-center">
+          <div className="flex flex-col min-h-screen w-full">
             <Navbar />
-            {children}
+            <main className="flex-grow-0">{children}</main>
             <Footer />
           </div>
         </Providers>

@@ -42,7 +42,7 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose }) => {
             <Image src={CopyLink} alt="Copy link" width={24} height={24} />
           </button>
         </div>
-        <button onClick={onClose} className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
+        <button onClick={onClose} className="mt-4 bg-primary text-white py-2 px-4 rounded">
           Close
         </button>
       </div>

@@ -24,7 +24,7 @@ const LocationUpdateTimer: React.FC<LocationUpdateTimerProps> = ({ lastUpdated }
     return () => clearInterval(interval);
   }, [lastUpdated]);
 
-  return <p>Last updated {timeElapsed}</p>;
+  return <p className="text-[16px]">Last updated {timeElapsed}</p>;
 };
 
 export default LocationUpdateTimer;
