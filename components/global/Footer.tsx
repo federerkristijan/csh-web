@@ -8,6 +8,7 @@ type Props = {};
 export default function Footer(props: Props) {
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
+  //  TODO: CLEAN code, extract handleShareClick form ShareAppButton.tsx
   const handleShareClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     event.preventDefault();
     setIsShareModalOpen(true);
@@ -20,7 +21,6 @@ export default function Footer(props: Props) {
     },
     {
       title: "Share our app",
-      // TODO: url share app
       url: "/",
     },
     // {
@@ -30,20 +30,19 @@ export default function Footer(props: Props) {
     // },
     {
       title: "Rules on Berlin.de",
-      // TODO: url gov rules
-      url: "/",
+      url: "/https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/bezirkliche-planung-und-koordinierung/planungs-und-koordinierungsstelle-gesundheit/artikel.243960.php",
     },
   ];
 
   return (
     <footer className="flex fixed bottom-0 w-full justify-center">
-       <div className="flex text-[1rem] pb-4 md:text-lg mx-2 ">
+       <div className="flex text-[16px] py-2 mx-2 ">
           {items.map((item, index) => (
             <div key={index}>
               {item.title === "Share our app" ? (
                 <a
                   href={item.url}
-                  className="flex lg:text-[#C900A5] mx-2 w-fit text-center"
+                  className="flex lg:text-primary mx-2 w-fit text-center"
                   onClick={handleShareClick}
                 >
                   {item.title}
@@ -51,7 +50,7 @@ export default function Footer(props: Props) {
               ) : (
                 <a
                   href={item.url}
-                  className="flex lg:text-[#C900A5] mx-2 w-fit text-center"
+                  className="flex lg:text-primary mx-2 w-fit text-center"
                 >
                   {item.title}
                 </a>

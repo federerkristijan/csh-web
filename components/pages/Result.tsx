@@ -26,18 +26,18 @@ const Result: React.FC<ResultProps> = ({ canSmoke }) => {
 
   return (
     <div className="result">
-      <h2 className="text-2xl font-bold text-white">
+      <h2 className="text-white">
         {canSmoke ? (
           <div className="flex flex-col items-center justify-center text-white">
-            <Image src={YES} alt="yes" width={80} height={80} />
-            <p className="text-2xl font-bold py-4">Yes, you can smoke here</p>
-            <p className="text-xl bg-green-600 rounded-2xl py-3 px-2">{quote}</p>
+            <Image src={YES} alt="yes" width={60} height={60} />
+            <p className="text-[27px] font-bold py-1">Yes, you can smoke here</p>
+            <p className="text-[22px] bg-green-600 rounded-2xl py-1 px-2">{quote}</p>
           </div>
         ) : (
-          <div className="flex items-center justify-center text-white py-3">
-            <Image src={NO} alt="no" width={80} height={80} />
-            <p className="text-2xl font-bold">You can NOT smoke here</p>
-            <p className="text-xl bg-red-600 rounded-2xl">{quote}</p>
+          <div className="flex items-center justify-center text-white">
+            <Image src={NO} alt="no" width={60} height={60} />
+            <p className="text-[27px] font-bold py-1">You can NOT smoke here</p>
+            <p className="text-[22px] bg-red-600 rounded-2xl py-1 px-2">{quote}</p>
           </div>
         )}
       </h2>

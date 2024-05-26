@@ -8,6 +8,10 @@ import Image from 'next/image';
 import Location from '@/assets/location.svg';
 import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
 import { getNearbySchoolsAndKindergartens } from '@/lib/googleMapsApi';
+import Button from '../ui/Buttons';
+import Search from "@/assets/Search.svg";
+import Hand from "@/assets/hand.svg";
+import ShareAppButton from '../ui/ShareAppButton';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
@@ -74,17 +78,29 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-6 h-[90vh]">
+    <div className="check-location-page flex flex-col items-center gap-4 h-[65vh]">
       <div className="result flex items-center justify-center">
         <Result canSmoke={true} />
       </div>
       <LocationUpdateTimer lastUpdated={lastUpdated} />
+      <Button
+        type="primary"
+        text="Check again"
+        onClick={() => window.location.href = '/check-location'}
+        icon={Search}
+      />
+      <ShareAppButton />
       <MapComponent
         userPosition={{
           lat: userLocation.latitude,
           lng: userLocation.longitude,
         }}
         places={places}
+      />
+      <Button
+        type="primary"
+        text="Read more on berline.de"
+        onClick={() => window.location.href = 'https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/bezirkliche-planung-und-koordinierung/planungs-und-koordinierungsstelle-gesundheit/artikel.243960.php'}
       />
     </div>
   );
