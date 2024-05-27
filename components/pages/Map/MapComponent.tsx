@@ -53,7 +53,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => 
     });
   }, [userPosition, places]);
 
-  return <div ref={mapRef} style={{ height: "35vh", width: "100%", borderRadius: "1rem" }} />;
+  return <div ref={mapRef} style={{ height: "40vh", width: "35%", borderRadius: "1rem" }} />;
 };
 
 export default MapComponent;
