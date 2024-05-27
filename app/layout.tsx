@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <MobileFooter />
             </div>
             <Navbar />
-            {children}
+            <main className="flex justify-center items-center">{children}</main>
             <div className="hidden lg:block md:block">
               <Footer />
             </div>
