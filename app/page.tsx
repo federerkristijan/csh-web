@@ -28,14 +28,14 @@ export default function Home() {
         open={isModalOpen}
         onClose={() => handleLocationResponse(true)}
       />
-      <div className="flex flex-col items-center justify-center gap-[5rem] w-1/3">
-        <div className="text-center w-max">
-          <h3 className="text-[2rem] font-semibold md:w-fit">
+      <div className="flex flex-col items-center justify-center gap-10 md:w-1/3 md:gap-20">
+        <div className="text-center w-full md:w-max">
+          <h3 className="text-[22px] font-semibold md:w-fit">
             Your best bud in your pocket
           </h3>
         </div>
         <div className="text-center w-fit mx-4 ">
-          <span className="text-[1rem] ">
+          <span className="text-[16px] ">
             Your little helper for finding safe, designated smoking spots in
             your kiez. Using your phone&apos;s GPS, we pinpoint your location
             and guide you to where you Canna Smoke.
