@@ -34,11 +34,11 @@ const MobileFooter: React.FC<Props> = (props) => {
   return (
     <>
       <Menu as="div" className="relative inline-block text-left">
-        <div>
-          <Menu.Button className="flex items-center p-2 text-sm font-medium text-primary bg-none rounded-md hover:bg-secondary">
+        <div className='flex justify-center'>
+          <Menu.Button className="flex items-center justify-center p-2 text-sm font-medium text-primary bg-none rounded-md">
             <Image
               src={Hamburger}
-              className="ml-2 -mr-1 text-violet-200 hover:text-violet-100"
+              className="ml-2 -mr-1 text-primary"
               aria-hidden="true"
               alt="Hamburger menu"
               width={40}
