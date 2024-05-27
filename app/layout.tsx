@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <MobileFooter />
             </div>
             <Navbar />
-            <main className="flex-grow">{children}</main>
+            {children}
             <div className="hidden lg:block md:block">
               <Footer />
             </div>
