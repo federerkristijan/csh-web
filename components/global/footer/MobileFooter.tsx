@@ -33,7 +33,7 @@ const MobileFooter: React.FC<Props> = (props) => {
 
   return (
     <>
-      <Menu as="div" className="relative inline-block text-left">
+      <Menu as="div" className="relative inline-block text-left z-20">
         <div className='flex justify-center'>
           <Menu.Button className="flex items-center justify-center p-2 text-sm font-medium text-primary bg-none rounded-md">
             <Image
@@ -46,7 +46,7 @@ const MobileFooter: React.FC<Props> = (props) => {
             />
           </Menu.Button>
         </div>
-        <Menu.Items className="absolute right-0 z-10 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg w-44 ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute left-2 z-30 mt-2 origin-top-right bg-black divide-y divide-gray-100 rounded-md shadow-lg w-44 ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             {items.map((item, index) => (
               <Menu.Item key={index}>
@@ -54,8 +54,8 @@ const MobileFooter: React.FC<Props> = (props) => {
                   <a
                     href={item.url}
                     className={`${
-                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'
-                    } flex justify-between w-full px-4 py-2 text-sm`}
+                      active ? 'bg-black text-white' : 'text-white'
+                    } flex justify-between w-full px-4 py-4 text-sm`}
                     onClick={item.title === "Share our app" ? handleShareClick : undefined}
                   >
                     {item.title}
