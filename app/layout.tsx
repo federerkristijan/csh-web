@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: "Geolocation checking website for cannabis smokers in Germany",
 };
 
+const apiKey = process.env.GOOGLE_MAPS_SERVER_API_KEY_PRODUCTION;
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
@@ -36,6 +38,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
+        <script
+          async
+          defer
+          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_SERVER_API_KEY_PRODUCTION}&libraries=places`}
+        ></script>
       </Head>
       <body className="min-h-screen flex flex-col justify-center p-2">
         <Providers>
