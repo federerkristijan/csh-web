@@ -11,7 +11,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => 
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: process.env.GOOGLE_MAPS_CLIENT_API_KEY!,
+      apiKey: process.env.GOOGLE_MAPS_API_KEY_PRODUCTION!,
       version: "weekly",
       libraries: ["marker"],
     });
