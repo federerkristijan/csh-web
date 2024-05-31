@@ -1,5 +1,3 @@
-// CheckLocationClient.tsx
-
 'use client';
 
 import React, { useEffect, useState } from 'react';
@@ -9,7 +7,6 @@ import { getUserLocation } from '@/lib/getUserLocation';
 import Image from 'next/image';
 import Location from '@/assets/location.svg';
 import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
-import { getNearbySchoolsAndKindergartens } from '@/lib/googleMapsApi';
 import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
 
@@ -35,6 +32,7 @@ const CheckLocationClient: React.FC = () => {
           setLastUpdated(new Date());
           console.log("Location allowed:", location);
           setLocationChecked(true);
+          console.log('please Jesus show me where I am', location);
         }
       } catch (error) {
         console.error('Error checking location:', error);
@@ -44,25 +42,6 @@ const CheckLocationClient: React.FC = () => {
 
     checkLocation();
   }, []);
-
-  useEffect(() => {
-    const fetchNearbyPlaces = async () => {
-      if (userLocation) {
-        try {
-          const places = await getNearbySchoolsAndKindergartens(
-            userLocation.latitude,
-            userLocation.longitude
-          );
-          console.log('Fetched places:', places);
-          setPlaces(places);
-        } catch (error) {
-          console.error('Error fetching nearby places:', error);
-        }
-      }
-    };
-
-    fetchNearbyPlaces();
-  }, [userLocation]);
 
   if (!locationChecked) {
     return (
@@ -78,7 +57,7 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-6 h-full md:h-[70vh]">
+    <div className="check-location-page flex flex-col items-center gap-4 h-full md:h-[70vh]">
       <div className="result flex items-center justify-center text-center ">
         <Result canSmoke={true} />
       </div>
@@ -94,13 +73,12 @@ const CheckLocationClient: React.FC = () => {
           lat: userLocation.latitude,
           lng: userLocation.longitude,
         }}
-        places={places}
       />
-      <Button
+      {/* <Button
         type="primary"
         text="Read more on Berlin.de"
         onClick={() => window.location.href = 'https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/bezirkliche-planung-und-koordinierung/planungs-und-koordinierungsstelle-gesundheit/artikel.243960.php'}
-      />
+      /> */}
     </div>
   );
 };
