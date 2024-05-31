@@ -18,9 +18,9 @@ const fetchQuotes = async () => {
     );
 
     // Set credentials using an OAuth 2.0 token
-    auth.setCredentials({
-      refresh_token: process.env.GOOGLE_OAUTH_REFRESH_TOKEN,
-    });
+    // auth.setCredentials({
+    //   refresh_token: process.env.GOOGLE_OAUTH_REFRESH_TOKEN,
+    // });
 
     const responseYes = await sheets.spreadsheets.values.get({
       spreadsheetId: SPREADSHEET_ID,

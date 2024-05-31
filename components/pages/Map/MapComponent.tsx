@@ -1,59 +1,51 @@
 import React, { useEffect, useRef } from "react";
-import { Loader } from "@googlemaps/js-api-loader";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import Image from "next/image";
+import Smoker from "@/assets/smoker.svg";
 
 interface MapComponentProps {
   userPosition: { lat: number; lng: number };
-  places: any[];
 }
 
-const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => {
-  const mapRef = useRef<HTMLDivElement>(null);
+const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
+  const mapRef = useRef<L.Map>(null);
 
   useEffect(() => {
-    const loader = new Loader({
-      apiKey: process.env.GOOGLE_MAPS_CLIENT_API_KEY!,
-      version: "weekly",
-      libraries: ["marker"],
-    });
+    if (mapRef.current) {
+      const map = mapRef.current;
+      map.setView([userPosition.lat, userPosition.lng], 15);
+    }
+  }, [userPosition]);
 
-    loader.load().then(() => {
-      if (mapRef.current) {
-        const { Map, Marker, Circle } = google.maps;
+  // Dynamically create the OSM URL
+  const osmUrl = `https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`;
 
-        const map = new Map(mapRef.current, {
-          center: userPosition,
-          zoom: 15,
-          mapTypeControl: false,
-        });
-
-        // Add the user's location marker
-        new Marker({
-          map,
-          position: userPosition,
-          title: "You are here",
-        });
-
-        // Add circles for the places
-        places.forEach((place: any) => {
-          new Circle({
-            map,
-            center: {
-              lat: place.geometry.location.lat,
-              lng: place.geometry.location.lng,
-            },
-            radius: 100, // radius in meters
-            strokeColor: "#FF0000",
-            strokeOpacity: 0.8,
-            strokeWeight: 2,
-            fillColor: "#FF0000",
-            fillOpacity: 0.35,
-          });
-        });
-      }
-    });
-  }, [userPosition, places]);
-
-  return <div className="map h-[40vh] w-[70%] rounded-xl" ref={mapRef} />;
+  return (
+    <div>
+      <div style={{ height: "30vh", width: "30vw", borderRadius: "10px", border: "2px solid white" }}>
+        <MapContainer
+          center={[userPosition.lat, userPosition.lng]}
+          zoom={15}
+          style={{ height: "100%", width: "100%", borderRadius: "10px" }}
+          ref={mapRef}
+        >
+          <TileLayer
+            url={osmUrl}
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          />
+          <Marker position={[userPosition.lat, userPosition.lng]} icon={L.icon({
+            iconUrl: Smoker.src,
+            iconSize: [40, 40],
+            iconAnchor: [20, 40],
+            popupAnchor: [0, -40]
+          })}>
+          </Marker>
+        </MapContainer>
+      </div>
+    </div>
+  );
 };
 
 export default MapComponent;
