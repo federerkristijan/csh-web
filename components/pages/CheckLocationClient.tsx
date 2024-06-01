@@ -28,6 +28,7 @@ const CheckLocationClient: React.FC = () => {
           setLastUpdated(new Date());
           console.log("Location allowed:", location);
           setLocationChecked(true);
+          console.log('please Jesus show me where I am', location);
         }
       } catch (error) {
         console.error('Error checking location:', error);
@@ -69,11 +70,11 @@ const CheckLocationClient: React.FC = () => {
           lng: userLocation.longitude,
         }}
       />
-      <Button
+      {/* <Button
         type="primary"
         text="Read more on Berlin.de"
         onClick={() => window.location.href = 'https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/bezirkliche-planung-und-koordinierung/planungs-und-koordinierungsstelle-gesundheit/artikel.243960.php'}
-      />
+      /> */}
     </div>
   );
 };

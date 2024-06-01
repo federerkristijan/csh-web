@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <body className="min-h-screen flex flex-col justify-center p-2">
+      <body className="flex flex-col justify-center p-2 overflow-hidden">
         <Providers>
           <div className="flex flex-col min-h-screen w-full">
             <div className="flex justify-center lg:hidden md:hidden">
