@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { useEffect } from "react";
 
@@ -15,7 +15,7 @@ const AdSection = () => {
   }, []);
 
   return (
-    <section className="ad-section bg-gray-700 p-2 text-center opacity-80 border-2 border-red">
+    <section className="ad-section flex justify-center items-center bg-gray-700 p-2 text-center h-[10vh] w-[35%] mb-2 opacity-80 border-2 border-red">
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
@@ -24,6 +24,7 @@ const AdSection = () => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
+      <h1>Ad come here</h1>
     </section>
   );
 };

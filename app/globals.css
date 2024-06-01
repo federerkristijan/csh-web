@@ -39,6 +39,14 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   letter-spacing: 0.025em;
 }
 
+.leaflet-container {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 10px !important;
+  position: relative !important;
+}
+
+
 @media (max-width: 767px) {
   .map-container {
     width: 100%;

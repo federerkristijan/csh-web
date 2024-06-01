@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <MobileFooter />
             </div>
             <Navbar />
-            <main className="flex flex-col flex-grow justify-center items-center">
+            <main className="flex flex-col justify-center items-center">
               <AdSection />
               {children}
             </main>

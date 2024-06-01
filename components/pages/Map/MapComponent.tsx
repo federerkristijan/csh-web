@@ -66,8 +66,8 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
   };
 
   return (
-    <div className="contents ">
-      <div className="relative" style={{ height: "30vh", width: "70%", borderRadius: "10px" }}>
+    <div className="flex justify-center w-full">
+      <div className="relative" style={{ height: "25vh", width: "60%", borderRadius: "10px" }}>
         {userPosition.lat && userPosition.lng && (
           <DynamicMapContainer
             center={[userPosition.lat, userPosition.lng]}
