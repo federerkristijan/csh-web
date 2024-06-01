@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import Smoker from "@/assets/smoker.svg";
+import Smoker from "@/assets/Smoker.svg";
 
 // Dynamically import components from react-leaflet
 const DynamicMapContainer = dynamic(
