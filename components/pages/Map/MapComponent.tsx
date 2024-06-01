@@ -66,7 +66,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
   };
 
   return (
-    <div className="w-full">
+    <div className="flex justify-center w-full">
       <div style={{ height: "30vh", width: "70%", borderRadius: "10px" }}>
         {userPosition.lat && userPosition.lng && (
           <DynamicMapContainer
