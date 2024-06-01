@@ -1,5 +1,3 @@
-// CheckLocationClient.tsx
-
 'use client';
 
 import React, { useEffect, useState } from 'react';
@@ -9,7 +7,6 @@ import { getUserLocation } from '@/lib/getUserLocation';
 import Image from 'next/image';
 import Location from '@/assets/location.svg';
 import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
-import { getNearbySchoolsAndKindergartens } from '@/lib/googleMapsApi';
 import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
 
@@ -19,11 +16,7 @@ const MapComponent = dynamic(() => import('./Map/MapComponent'), {
 
 const CheckLocationClient: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
-  const [userLocation, setUserLocation] = useState<{
-    latitude: number;
-    longitude: number;
-  } | null>(null);
-  const [places, setPlaces] = useState<any[]>([]);
+  const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -45,25 +38,6 @@ const CheckLocationClient: React.FC = () => {
     checkLocation();
   }, []);
 
-  useEffect(() => {
-    const fetchNearbyPlaces = async () => {
-      if (userLocation) {
-        try {
-          const places = await getNearbySchoolsAndKindergartens(
-            userLocation.latitude,
-            userLocation.longitude
-          );
-          console.log('Fetched places:', places);
-          setPlaces(places);
-        } catch (error) {
-          console.error('Error fetching nearby places:', error);
-        }
-      }
-    };
-
-    fetchNearbyPlaces();
-  }, [userLocation]);
-
   if (!locationChecked) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -78,8 +52,8 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-6 h-full md:h-[70vh]">
-      <div className="result flex items-center justify-center text-center ">
+    <div className="check-location-page flex flex-col items-center gap-6 h-fit md:h-[50vh]">
+      <div className="result flex items-center justify-center text-center">
         <Result canSmoke={true} />
       </div>
       <LocationUpdateTimer lastUpdated={lastUpdated} />
@@ -94,7 +68,6 @@ const CheckLocationClient: React.FC = () => {
           lat: userLocation.latitude,
           lng: userLocation.longitude,
         }}
-        places={places}
       />
       <Button
         type="primary"

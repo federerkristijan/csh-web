@@ -1,59 +1,89 @@
-import React, { useEffect, useRef } from "react";
-import { Loader } from "@googlemaps/js-api-loader";
+import React, { useEffect, useRef, useState } from "react";
+import dynamic from 'next/dynamic';
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import Smoker from "@/assets/smoker.svg";
+
+// Dynamically import components from react-leaflet
+const DynamicMapContainer = dynamic(() => import("react-leaflet").then(mod => mod.MapContainer), { ssr: false });
+const TileLayer = dynamic(() => import("react-leaflet").then(mod => mod.TileLayer), { ssr: false });
+const Marker = dynamic(() => import("react-leaflet").then(mod => mod.Marker), { ssr: false });
 
 interface MapComponentProps {
   userPosition: { lat: number; lng: number };
-  places: any[];
 }
 
-const MapComponent: React.FC<MapComponentProps> = ({ userPosition, places }) => {
-  const mapRef = useRef<HTMLDivElement>(null);
+const getOverpassQuery = (userLat: number, userLon: number, radius: number) => `
+  [out:json][timeout:1800];
+  (
+    node["amenity"="school"](around:${radius}, ${userLat}, ${userLon});
+    way["amenity"="school"](around:${radius}, ${userLat}, ${userLon});
+    relation["amenity"="school"](around:${radius}, ${userLat}, ${userLon});
+    node["amenity"="kindergarten"](around:${radius}, ${userLat}, ${userLon});
+    way["amenity"="kindergarten"](around:${radius}, ${userLat}, ${userLon});
+    relation["amenity"="kindergarten"](around:${radius}, ${userLat}, ${userLon});
+  );
+  out body;
+  >;
+  out skel qt;
+`;
+
+const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
+  const mapRef = useRef<L.Map | null>(null);
+  const [radius, setRadius] = useState(500); // Default radius
+  const [places, setPlaces] = useState<any[]>([]);
+
+  const fetchPlaces = async (query: string) => {
+    const response = await fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`);
+    const data = await response.json();
+    setPlaces(data.elements);
+  };
 
   useEffect(() => {
-    const loader = new Loader({
-      apiKey: process.env.GOOGLE_MAPS_CLIENT_API_KEY!,
-      version: "weekly",
-      libraries: ["marker"],
-    });
+    const query = getOverpassQuery(userPosition.lat, userPosition.lng, radius);
+    fetchPlaces(query);
+  }, [userPosition, radius]);
 
-    loader.load().then(() => {
-      if (mapRef.current) {
-        const { Map, Marker, Circle } = google.maps;
+  // Use a ref to store the map instance
+  const handleMapReady = (mapInstance: L.Map) => {
+    mapRef.current = mapInstance;
+    mapInstance.setView([userPosition.lat, userPosition.lng], 18);
+  };
 
-        const map = new Map(mapRef.current, {
-          center: userPosition,
-          zoom: 15,
-          mapTypeControl: false,
-        });
-
-        // Add the user's location marker
-        new Marker({
-          map,
-          position: userPosition,
-          title: "You are here",
-        });
-
-        // Add circles for the places
-        places.forEach((place: any) => {
-          new Circle({
-            map,
-            center: {
-              lat: place.geometry.location.lat,
-              lng: place.geometry.location.lng,
-            },
-            radius: 100, // radius in meters
-            strokeColor: "#FF0000",
-            strokeOpacity: 0.8,
-            strokeWeight: 2,
-            fillColor: "#FF0000",
-            fillOpacity: 0.35,
-          });
-        });
-      }
-    });
-  }, [userPosition, places]);
-
-  return <div className="map h-[40vh] w-[70%] rounded-xl" ref={mapRef} />;
+  return (
+    <div className="w-full">
+      <div style={{ height: "30vh", width: "70%", borderRadius: "10px" }}>
+        {userPosition.lat && userPosition.lng && (
+          <DynamicMapContainer
+            center={[userPosition.lat, userPosition.lng]}
+            zoom={18} // Fixed zoom level
+            style={{ height: "70%", width: "100%", borderRadius: "10px" }}
+            whenReady={() => handleMapReady}
+          >
+            <TileLayer
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            />
+            <Marker position={[userPosition.lat, userPosition.lng]} icon={L.icon({
+              iconUrl: Smoker.src,
+              iconSize: [40, 40],
+              iconAnchor: [20, 40],
+              popupAnchor: [0, -40]
+            })}>
+            </Marker>
+            {places.map(place => (
+              place.lat && place.lon && (
+                <Marker
+                  key={place.id}
+                  position={[place.lat, place.lon]}
+                />
+              )
+            ))}
+          </DynamicMapContainer>
+        )}
+      </div>
+    </div>
+  );
 };
 
 export default MapComponent;

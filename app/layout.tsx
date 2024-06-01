@@ -13,12 +13,9 @@ export const metadata: Metadata = {
   description: "Geolocation checking website for cannabis smokers in Germany",
 };
 
-const apiKey = process.env.GOOGLE_MAPS_SERVER_API_KEY_PRODUCTION;
-
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <Script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_SERVER_API_KEY_PRODUCTION}&libraries=places`} />
       <Head>
         <link
           rel="apple-touch-icon"
