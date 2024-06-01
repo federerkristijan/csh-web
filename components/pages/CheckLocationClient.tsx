@@ -16,11 +16,7 @@ const MapComponent = dynamic(() => import('./Map/MapComponent'), {
 
 const CheckLocationClient: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
-  const [userLocation, setUserLocation] = useState<{
-    latitude: number;
-    longitude: number;
-  } | null>(null);
-  const [places, setPlaces] = useState<any[]>([]);
+  const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -57,8 +53,8 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-4 h-full md:h-[70vh]">
-      <div className="result flex items-center justify-center text-center ">
+    <div className="check-location-page flex flex-col items-center gap-6 h-fit md:h-[50vh]">
+      <div className="result flex items-center justify-center text-center">
         <Result canSmoke={true} />
       </div>
       <LocationUpdateTimer lastUpdated={lastUpdated} />
