@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 import Navbar from "@/components/global/navbar/Navbar";
 import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
+import AdSection from "@/components/global/AdSection";
 import Head from "next/head";
 import Script from "next/script";
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="google-adsense-account" content="ca-pub-5001082863117848"></meta>
       </Head>
       <body className="flex flex-col justify-center p-2 overflow-hidden">
         <Providers>
@@ -45,12 +47,20 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <MobileFooter />
             </div>
             <Navbar />
-            <main className="flex justify-center items-center">{children}</main>
+            <main className="flex flex-col flex-grow justify-center items-center">
+              <AdSection />
+              {children}
+            </main>
             <div className="hidden lg:block md:block">
               <Footer />
             </div>
           </div>
         </Providers>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001082863117848"
+          crossOrigin="anonymous"
+        />
       </body>
     </html>
   );
