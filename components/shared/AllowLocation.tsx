@@ -32,7 +32,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
       <Dialog
         as="div"
         className="fixed inset-0 z-10 overflow-y-auto"
-        onClose={() => {}} // No-op function to satisfy the type requirement
+        onClose={onClose} // No-op function to satisfy the type requirement
       >
         <div className="flex items-center justify-center min-h-screen text-center sm:p-0">
           <Transition.Child
