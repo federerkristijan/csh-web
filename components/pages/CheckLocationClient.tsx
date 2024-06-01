@@ -53,7 +53,7 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-6 h-fit md:h-[50vh]">
+    <div className="check-location-page flex flex-col items-center gap-2 h-min md:h-[50vh]">
       <div className="result flex items-center justify-center text-center">
         <Result canSmoke={true} />
       </div>
@@ -70,11 +70,11 @@ const CheckLocationClient: React.FC = () => {
           lng: userLocation.longitude,
         }}
       />
-      {/* <Button
+      <Button
         type="primary"
         text="Read more on Berlin.de"
         onClick={() => window.location.href = 'https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/bezirkliche-planung-und-koordinierung/planungs-und-koordinierungsstelle-gesundheit/artikel.243960.php'}
-      /> */}
+      />
     </div>
   );
 };
