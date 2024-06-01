@@ -28,7 +28,6 @@ const NavBar = async () => {
           md:gap-0
           "
         >
-          <AdSection />
           <Logo />
         </div>
       </div>

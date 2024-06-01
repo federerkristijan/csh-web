@@ -66,13 +66,13 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
   };
 
   return (
-    <div className="flex justify-center w-full">
-      <div style={{ height: "30vh", width: "70%", borderRadius: "10px" }}>
+    <div className="contents ">
+      <div className="relative" style={{ height: "30vh", width: "70%", borderRadius: "10px" }}>
         {userPosition.lat && userPosition.lng && (
           <DynamicMapContainer
             center={[userPosition.lat, userPosition.lng]}
             zoom={18} // Fixed zoom level
-            style={{ height: "70%", width: "100%", borderRadius: "10px" }}
+            style={{ height: "50%", width: "100%", borderRadius: "10px" }}
             whenReady={() => handleMapReady}
           >
             <TileLayer

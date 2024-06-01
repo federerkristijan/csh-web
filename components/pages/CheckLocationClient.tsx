@@ -53,7 +53,7 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-2 h-min md:h-[50vh]">
+    <div className="check-location-page flex flex-col items-center gap-2 h-min md:h-fit">
       <div className="result flex items-center justify-center text-center">
         <Result canSmoke={true} />
       </div>
