@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsAndPrivacy: React.FC = () => (
   <div className="flex flex-col items-center text-start gap-2 w-full max-w-screen-lg px-4 py-6">
-    <div className="w-full max-h-screen overflow-y-auto">
+    <div className="w-full max-h-screen overflow-y-auto border-1 border-white shadow-lg p-3 rounded-xl">
       <h1>Terms and Conditions</h1>
       <br/>
       <h2>1. Introduction</h2>
@@ -67,7 +67,7 @@ const TermsAndPrivacy: React.FC = () => (
       </p>
     </div>
     <br />
-    <div className="w-full max-h-screen overflow-y-auto">
+    <div className="w-full max-h-screen overflow-y-auto border-1 border-white shadow-lg p-3 rounded-xl">
       <h1>Privacy Policy</h1>
       <br/>
       <h2>1. Introduction</h2>
