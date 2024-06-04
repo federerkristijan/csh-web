@@ -4,12 +4,14 @@ const TermsAndPrivacy: React.FC = () => (
   <div className="flex flex-col items-center text-start gap-2 w-full max-w-screen-lg px-4 py-6">
     <div className="w-full max-h-screen overflow-y-auto">
       <h1>Terms and Conditions</h1>
+      <br/>
       <h2>1. Introduction</h2>
       <p>
         These Terms and Conditions (&ldquo;Terms&rdquo;) govern your use of our
         website (&ldquo;Site&rdquo;) and services (&ldquo;Services&rdquo;). By
         using our Site and Services, you agree to comply with these Terms.
       </p>
+      <br/>
       <h2>2. Use of the Site</h2>
       <ul>
         <li>You must be at least 18 years old to use this Site.</li>
@@ -20,6 +22,7 @@ const TermsAndPrivacy: React.FC = () => (
           functionality of the Site.
         </li>
       </ul>
+      <br/>
       <h2>3. Intellectual Property</h2>
       <p>
         All content on the Site, including text, graphics, logos, and images, is
@@ -28,12 +31,14 @@ const TermsAndPrivacy: React.FC = () => (
         works from any content on the Site without our express written
         permission.
       </p>
+      <br/>
       <h2>4. User Accounts</h2>
       <p>
         You are responsible for maintaining the confidentiality of your account
         information. You agree to notify us immediately of any unauthorized use
         of your account.
       </p>
+      <br/>
       <h2>5. Limitation of Liability</h2>
       <p>
         The Site and Services are provided &quot;as is&quot; without any
@@ -41,12 +46,14 @@ const TermsAndPrivacy: React.FC = () => (
         direct, indirect, incidental, or consequential damages arising from your
         use of the Site or Services.
       </p>
+      <br/>
       <h2>6. Changes to Terms</h2>
       <p>
         We reserve the right to update these Terms at any time. Changes will be
         posted on this page, and it is your responsibility to review these Terms
         regularly.
       </p>
+      <br/>
       <h2>7. Governing Law</h2>
       <p>
         These Terms are governed by and construed in accordance with the laws of
@@ -62,11 +69,13 @@ const TermsAndPrivacy: React.FC = () => (
     <br />
     <div className="w-full max-h-screen overflow-y-auto">
       <h1>Privacy Policy</h1>
+      <br/>
       <h2>1. Introduction</h2>
       <p>
         We are committed to protecting your privacy. This Privacy Policy
         explains how we collect, use, and share your personal information.
       </p>
+      <br/>
       <h2>2. Information We Collect</h2>
       <ul>
         <li>
@@ -85,18 +94,21 @@ const TermsAndPrivacy: React.FC = () => (
           our Services. This includes geolocation data from your device.
         </li>
       </ul>
+      <br/>
       <h2>3. How We Use Your Information</h2>
       <ul>
         <li>To provide and improve our Services.</li>
         <li>To communicate with you about updates, offers, and promotions.</li>
         <li>To analyze Site usage and improve our content and offerings.</li>
       </ul>
+      <br/>
       <h2>4. Legal Basis for Processing</h2>
       <p>
         We process your personal data based on your consent, the necessity to
         perform a contract, compliance with legal obligations, or our legitimate
         interests.
       </p>
+      <br/>
       <h2>5. Sharing Your Information</h2>
       <ul>
         <li>We do not sell your personal information to third parties.</li>
@@ -109,6 +121,7 @@ const TermsAndPrivacy: React.FC = () => (
           rights.
         </li>
       </ul>
+      <br/>
       <h2>6. Google AdSense</h2>
       <p>
         We use Google AdSense to serve ads on our Site. Google may use cookies
@@ -123,6 +136,7 @@ const TermsAndPrivacy: React.FC = () => (
         </a>
         .
       </p>
+      <br/>
       <h2>7. Your Rights</h2>
       <ul>
         <li>
@@ -134,29 +148,34 @@ const TermsAndPrivacy: React.FC = () => (
         </li>
         <li>You have the right to data portability.</li>
       </ul>
+      <br/>
       <h2>8. Data Retention</h2>
       <p>
         We retain your personal data only for as long as necessary to fulfill
         the purposes for which it was collected and to comply with legal
         obligations.
       </p>
+      <br/>
       <h2>9. Security</h2>
       <p>
         We implement appropriate technical and organizational measures to
         protect your personal data against unauthorized access, loss, or misuse.
       </p>
+      <br/>
       <h2>10. Changes to this Privacy Policy</h2>
       <p>
         We may update this Privacy Policy from time to time. Changes will be
         posted on this page, and it is your responsibility to review this
         Privacy Policy regularly.
       </p>
+      <br/>
       <h2>11. Contact Information</h2>
       {/* <TODO: check about the contact */}
       <p>
         If you have any questions about this Privacy Policy, please contact us
         at info@burnerbuds.de.
       </p>
+      <br/>
       <h2>12. Complaints</h2>
       <p>
         If you believe your privacy rights have been violated, you have the
