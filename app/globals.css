@@ -7,7 +7,6 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
   overflow-y: auto;
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(0 0 0 / 97%);
@@ -21,10 +20,19 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   overflow-y: auto; /* Enable vertical scrolling */
 }
 
+#root, #__next {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 main {
+  flex-grow: 1;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +42,7 @@ footer {
   margin-top: auto;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, a {
+h1, h2, h3, h4, h5, h6, p, span, li, a {
   font-family: 'Montserrat', sans-serif;
   color: rgb(255 255 255);
   letter-spacing: 0.025em;
