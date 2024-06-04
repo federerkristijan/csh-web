@@ -17,7 +17,7 @@ export default function Footer(props: Props) {
   const items = [
     {
       title: "T&(H)Cs",
-      url: "/about-us",
+      url: "/t&hcs",
     },
     {
       title: "Share our app",
@@ -35,7 +35,7 @@ export default function Footer(props: Props) {
   ];
 
   return (
-    <footer className="flex fixed bottom-0 w-full justify-center">
+    <footer className="flex sticky bottom-0 w-full justify-center bg-[#060606]">
        <div className="flex text-[16px] py-2 mx-2 ">
           {items.map((item, index) => (
             <div key={index}>

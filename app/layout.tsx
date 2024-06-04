@@ -40,15 +40,20 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta name="theme-color" content="#ffffff" />
         <meta name="google-adsense-account" content="ca-pub-5001082863117848"></meta>
       </Head>
-      <body className="flex flex-col justify-center p-2 overflow-hidden">
+      <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001082863117848"
+          crossOrigin="anonymous"
+        />
+      <body className="flex flex-col min-h-screen">
         <Providers>
-          <div className="flex flex-col min-h-screen w-full">
+          <div className="flex flex-col min-h-screen items-center">
             <div className="flex justify-center lg:hidden md:hidden">
               <MobileFooter />
             </div>
             <Navbar />
-            <main className="flex flex-col justify-center items-center">
-              <AdSection />
+            <AdSection />
+            <main className="flex-grow flex flex-col items-center overflow-y-auto">
               {children}
             </main>
             <div className="hidden lg:block md:block">
@@ -56,11 +61,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </div>
           </div>
         </Providers>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001082863117848"
-          crossOrigin="anonymous"
-        />
       </body>
     </html>
   );
