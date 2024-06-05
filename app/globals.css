@@ -55,6 +55,18 @@ h1, h2, h3, h4, h5, h6, p, span, li, a {
   position: relative !important;
 }
 
+.button-primary, .button-secondary {
+  font-size: 12px; /* Smaller text size for mobile */
+  padding-left: 30px; /* Smaller padding for mobile */
+  padding-right: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.button-secondary {
+  text-color: var(--tw-color-primary)!important;
+}
+
 body > div > div > main > div > div.flex.justify-center.w-full > div > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-in.leaflet-disabled,
 body > div > div > main > div > div.flex.justify-center.w-full > div > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out {
   background: hsl(201.82deg 4.51% 52.44%)!important;
@@ -73,10 +85,10 @@ body > div > div > main > div > div.flex.justify-center.w-full > div > div > div
 
   .button-primary, .button-secondary {
     font-size: 12px; /* Smaller text size for mobile */
-    padding-left: 1rem; /* Smaller padding for mobile */
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 30px; /* Smaller padding for mobile */
+    padding-right: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
 }
 

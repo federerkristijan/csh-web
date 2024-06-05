@@ -14,7 +14,7 @@ const buttonStyles = {
     hover: 'hover:bg-secondary',
   },
   secondary: {
-    normal: 'button-secondary flex items-center justify-center gap-2 bg-black text-black rounded-full border-2 text-bold border-primary text-primary',
+    normal: 'button-secondary flex items-center justify-center gap-2 bg-black text-primary rounded-full border-2 border-primary',
     hover: 'hover:bg-black hover:border-secondary hover:text-secondary',
   },
 };
@@ -25,7 +25,7 @@ const Button: React.FC<ButtonProps> = ({ type, text, onClick, icon }) => {
       className={`${buttonStyles[type].normal} ${buttonStyles[type].hover}`}
       onClick={onClick}
     >
-      <span className="font-bold">{text}</span>
+      <span className={`${type === 'primary' ? 'text-white' : 'text-primary hover:text-secondary'} font-bold`}>{text}</span>
       {icon && <Image src={icon} alt="Icon" width={24} height={24} />}
     </button>
   );

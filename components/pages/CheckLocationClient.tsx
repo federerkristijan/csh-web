@@ -9,6 +9,7 @@ import Location from '@/assets/location.svg';
 import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
 import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
+import Search from '@/assets/Search.svg';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
@@ -53,7 +54,7 @@ const CheckLocationClient: React.FC = () => {
   }
 
   return (
-    <div className="check-location-page flex flex-col items-center gap-2 h-min md:h-fit pb-4">
+    <div className="check-location-page flex flex-col items-center gap-8 h-min md:h-fit pb-4">
       <div className="result flex items-center justify-center text-center">
         <Result canSmoke={true} />
       </div>
@@ -62,6 +63,7 @@ const CheckLocationClient: React.FC = () => {
         type="primary"
         text="Check again"
         onClick={() => window.location.reload()}
+        icon={Search}
       />
       <ShareAppButton />
       <MapComponent
