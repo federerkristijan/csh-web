@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6, p, span, li, a {
   padding-bottom: 22px;
 }
 
+.button-secondary {
+  text-color: var(--tw-color-primary)!important;
+}
+
 body > div > div > main > div > div.flex.justify-center.w-full > div > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-in.leaflet-disabled,
 body > div > div > main > div > div.flex.justify-center.w-full > div > div > div.leaflet-control-container > div.leaflet-top.leaflet-left > div > a.leaflet-control-zoom-out {
   background: hsl(201.82deg 4.51% 52.44%)!important;
