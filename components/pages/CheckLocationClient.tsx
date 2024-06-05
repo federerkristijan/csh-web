@@ -9,6 +9,7 @@ import Location from '@/assets/location.svg';
 import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
 import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
+import Search from '@/assets/Search.svg';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
@@ -62,6 +63,7 @@ const CheckLocationClient: React.FC = () => {
         type="primary"
         text="Check again"
         onClick={() => window.location.reload()}
+        icon={Search}
       />
       <ShareAppButton />
       <MapComponent
