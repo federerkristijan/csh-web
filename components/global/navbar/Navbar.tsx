@@ -17,14 +17,13 @@ const NavBar = async () => {
   contents
   "
     >
-      <div className="py-4">
+      <div className="">
         <div
           className="
           flex
           flex-col
           items-center
           justify-center
-          gap-3
           md:gap-0
           "
         >

@@ -46,8 +46,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="flex justify-center lg:hidden md:hidden">
               <MobileFooter />
             </div>
-            <Navbar />
-            <GoogleAdsense pId="5001082863117848" />
+            <div className="border-1 border-white mt-5">
+              <p>Ads come here</p>
+              <GoogleAdsense pId="5001082863117848" />
+            </div>
+            <div className="mb-[20px] mt-[40px]">
+              <Navbar />
+            </div>
             <main className="flex-grow flex flex-col items-center overflow-y-auto">
               {children}
             </main>

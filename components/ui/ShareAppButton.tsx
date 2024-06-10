@@ -21,7 +21,7 @@ const ShareAppButton: React.FC<ShareAppButtonProps> = () => {
     <>
       <a
         href="/"
-        className="flex items-center font-bold tracking-wide mx-2 w-fit text-center text-[16px] border-3 border-primary rounded-full px-6 py-3 text-primary hover:text-secondary hover:border-secondary"
+        className="flex items-center font-bold tracking-wide mx-2 w-fit text-center bg-black text-[16px] border-3 border-primary rounded-full px-6 py-3 text-primary hover:text-secondary hover:border-secondary"
         onClick={handleShareClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
