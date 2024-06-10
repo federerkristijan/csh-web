@@ -1,6 +1,5 @@
 "use client";
 
-import Container from "@/components/global/Container";
 import Search from "@/assets/Search.svg";
 import Link from "next/link";
 import Image from "next/image";
