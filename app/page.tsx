@@ -23,12 +23,12 @@ export default function Home() {
   };
 
   return (
-    <Container>
+    <>
       <AllowLocationDialog
         open={isModalOpen}
         onClose={() => handleLocationResponse(true)}
       />
-      <div className="flex flex-col items-center justify-center gap-10 md:w-1/3 md:gap-20">
+      <div className="flex flex-col items-center justify-center space-y-[30px] md:w-1/3 mt-[30px]">
         <div className="text-center w-full md:w-max">
           <h3 className="text-[22px] font-semibold md:w-fit">
             Your best bud in your pocket
@@ -41,17 +41,19 @@ export default function Home() {
             and guide you to where you Canna Smoke.
           </span>
           <br />
-          <span className="bold">Enjoy your doobies responsibly with this free service.</span>
+          <span className="bold">
+            Enjoy your doobies responsibly with this free service.
+          </span>
         </div>
         <div>
           <Button
             type="primary"
             text="Check your smoke-cation"
-            onClick={() => window.location.href = '/check-location'}
+            onClick={() => (window.location.href = "/check-location")}
             icon={Search}
           />
         </div>
       </div>
-    </Container>
+    </>
   );
 }

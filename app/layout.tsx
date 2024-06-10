@@ -5,9 +5,8 @@ import { ReactNode } from "react";
 import Navbar from "@/components/global/navbar/Navbar";
 import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
-import AdSection from "@/components/global/AdSection";
 import Head from "next/head";
-import GoogleAdsense from "@/components/global/GoogleAdSense"; // Import the GoogleAdsense component
+import GoogleAdsense from "@/components/global/GoogleAdSense";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -53,7 +52,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="mb-[20px] mt-[40px]">
               <Navbar />
             </div>
-            <main className="flex-grow flex flex-col items-center overflow-y-auto">
+            <main className="flex-grow flex flex-col overflow-y-auto pt-0">
               {children}
             </main>
             <div className="hidden lg:block md:block">
