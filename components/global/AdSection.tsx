@@ -24,7 +24,6 @@ const AdSection = () => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <h1>Ads come here</h1>
     </section>
   );
 };
