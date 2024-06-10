@@ -7,7 +7,7 @@ import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
 import AdSection from "@/components/global/AdSection";
 import Head from "next/head";
-import Script from "next/script";
+import GoogleAdsense from "@/components/global/GoogleAdSense";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -38,13 +38,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="google-adsense-account" content="ca-pub-5001082863117848"></meta>
+        <meta name="google-adsense-account" content="ca-pub-5001082863117848" />
       </Head>
-      <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001082863117848"
-          crossOrigin="anonymous"
-        />
       <body className="flex flex-col min-h-screen">
         <Providers>
           <div className="flex flex-col min-h-screen items-center">
@@ -52,7 +47,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               <MobileFooter />
             </div>
             <Navbar />
-            <AdSection />
+            <GoogleAdsense pId="5001082863117848" />
             <main className="flex-grow flex flex-col items-center overflow-y-auto">
               {children}
             </main>
