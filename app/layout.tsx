@@ -7,7 +7,7 @@ import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
 import AdSection from "@/components/global/AdSection";
 import Head from "next/head";
-import GoogleAdsense from "@/components/global/GoogleAdSense";
+import GoogleAdsense from "@/components/global/GoogleAdSense"; // Import the GoogleAdsense component
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
