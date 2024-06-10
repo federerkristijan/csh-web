@@ -10,7 +10,7 @@ interface ButtonProps {
 
 const buttonStyles = {
   primary: {
-    normal: 'button-primary flex items-center justify-center gap-2 bg-primary text-white rounded-full',
+    normal: 'button-primary flex items-center justify-center gap-2 bg-primary border-none text-white rounded-full',
     hover: 'hover:bg-secondary',
   },
   secondary: {

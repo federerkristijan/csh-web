@@ -5,7 +5,6 @@ import { ReactNode } from "react";
 import Navbar from "@/components/global/navbar/Navbar";
 import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
-import AdSection from "@/components/global/AdSection";
 import Head from "next/head";
 import GoogleAdsense from "@/components/global/GoogleAdSense";
 
@@ -46,9 +45,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="flex justify-center lg:hidden md:hidden">
               <MobileFooter />
             </div>
-            <Navbar />
-            <GoogleAdsense pId="5001082863117848" />
-            <main className="flex-grow flex flex-col items-center overflow-y-auto">
+            <div className="border-1 border-white mt-5">
+              <p>Ads come here</p>
+              <GoogleAdsense pId="5001082863117848" />
+            </div>
+            <div className="mb-[20px] mt-[40px]">
+              <Navbar />
+            </div>
+            <main className="flex-grow flex flex-col overflow-y-auto pt-0">
               {children}
             </main>
             <div className="hidden lg:block md:block">
