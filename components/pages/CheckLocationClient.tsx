@@ -10,6 +10,7 @@ import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
 import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
 import Search from '@/assets/Search.svg';
+import L from 'leaflet';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
@@ -19,6 +20,8 @@ const CheckLocationClient: React.FC = () => {
   const [locationChecked, setLocationChecked] = useState<boolean>(false);
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+  const [places, setPlaces] = useState<any[]>([]);
+  const [canSmoke, setCanSmoke] = useState<boolean>(true);
 
   useEffect(() => {
     const checkLocation = async () => {
@@ -38,7 +41,21 @@ const CheckLocationClient: React.FC = () => {
     };
 
     checkLocation();
-  }, []);
+  }, [userLocation]);
+
+  useEffect(() => {
+    if (places.length > 0 && userLocation) {
+      const isProhibited = places.some(place => {
+        if (!place.lat || !place.lon) {
+          return false;
+        }
+        const distance = L.latLng(userLocation.latitude, userLocation.longitude).distanceTo(L.latLng(place.lat, place.lon));
+        return distance <= 100;
+      });
+      setCanSmoke(!isProhibited);
+      console.log('Smoking allowed:', !isProhibited);
+    }
+  }, [places, userLocation]);
 
   if (!locationChecked) {
     return (
@@ -71,6 +88,7 @@ const CheckLocationClient: React.FC = () => {
           lat: userLocation.latitude,
           lng: userLocation.longitude,
         }}
+        onPlacesFetched={setPlaces}
       />
       <Button
         type="primary"
