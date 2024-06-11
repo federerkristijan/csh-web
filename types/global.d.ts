@@ -17,7 +17,7 @@ export interface FacilitiesData {
 
 export interface GeolocationButtonProps {
   onClick: () => void;
-};
+}
 
 export interface Kita {
   address: string;
@@ -26,6 +26,11 @@ export interface Kita {
 export interface Location {
   latitude: number;
   longitude: number;
+}
+
+export interface MapComponentProps {
+  userPosition: { lat: number; lng: number };
+  onPlacesFetched: (places: any[]) => void;
 }
 
 export interface ResultProps {

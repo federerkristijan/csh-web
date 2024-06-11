@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import Smoker from "@/assets/Smoker.svg";
+import { MapComponentProps } from '@/types/global';
 
 // Dynamically import components from react-leaflet
 const DynamicMapContainer = dynamic(
@@ -20,10 +21,6 @@ const Marker = dynamic(
 
 const Circle = dynamic(() => import("react-leaflet").then(mod => mod.Circle), { ssr: false });
 
-interface MapComponentProps {
-  userPosition: { lat: number; lng: number };
-}
-
 const getOverpassQuery = (userLat: number, userLon: number, radius: number) => `
   [out:json][timeout:1800];
   (
@@ -39,7 +36,7 @@ const getOverpassQuery = (userLat: number, userLon: number, radius: number) => `
   out skel qt;
 `;
 
-const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
+const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetched }) => {
   const mapRef = useRef<L.Map | null>(null);
   const [radius, setRadius] = useState(500); // Default radius
   const [places, setPlaces] = useState<any[]>([]);
@@ -58,6 +55,12 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition }) => {
     const query = getOverpassQuery(userPosition.lat, userPosition.lng, radius);
     fetchPlaces(query);
   }, [userPosition, radius]);
+
+  useEffect(() => {
+    if (places.length > 0) {
+      onPlacesFetched(places);
+    }
+  }, [places, onPlacesFetched]);
 
   // Use a ref to store the map instance
   const handleMapReady = (mapInstance: L.Map) => {
