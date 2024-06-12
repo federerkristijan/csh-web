@@ -22,6 +22,7 @@ const CheckLocationClient: React.FC = () => {
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [places, setPlaces] = useState<any[]>([]);
   const [canSmoke, setCanSmoke] = useState<boolean>(true);
+  const [closestDistance, setClosestDistance] = useState<number | null>(null);
 
   useEffect(() => {
     const checkLocation = async () => {
@@ -32,7 +33,7 @@ const CheckLocationClient: React.FC = () => {
           setLastUpdated(new Date());
           console.log("Location allowed:", location);
           setLocationChecked(true);
-          console.log('please Jesus show me where I am', location);
+          console.log('User location:', location);
         }
       } catch (error) {
         console.error('Error checking location:', error);
@@ -41,17 +42,24 @@ const CheckLocationClient: React.FC = () => {
     };
 
     checkLocation();
-  }, [userLocation]);
+  }, []);
 
   useEffect(() => {
     if (places.length > 0 && userLocation) {
+      let minDistance = Infinity;
       const isProhibited = places.some(place => {
         if (!place.lat || !place.lon) {
           return false;
         }
         const distance = L.latLng(userLocation.latitude, userLocation.longitude).distanceTo(L.latLng(place.lat, place.lon));
-        return distance <= 100;
+        if (distance < minDistance) {
+          minDistance = distance;
+        }
+        const withinProhibitedZone = distance <= 100;
+        console.log(`Place ID: ${place.id}, Distance: ${distance}, Within Prohibited Zone: ${withinProhibitedZone}`);
+        return withinProhibitedZone;
       });
+      setClosestDistance(minDistance);
       setCanSmoke(!isProhibited);
       console.log('Smoking allowed:', !isProhibited);
     }
@@ -73,7 +81,7 @@ const CheckLocationClient: React.FC = () => {
   return (
     <div className="check-location-page flex flex-col items-center space-y-[30px] h-min md:h-fit pb-4">
       <div className="result flex items-center justify-center text-center pt-[45px]">
-        <Result canSmoke={true} />
+        <Result canSmoke={canSmoke} closestDistance={closestDistance} />
       </div>
       <LocationUpdateTimer lastUpdated={lastUpdated} />
       <Button

@@ -35,6 +35,7 @@ export interface MapComponentProps {
 
 export interface ResultProps {
   canSmoke: boolean;
+  closestDistance: number | null;
 }
 
 export interface School {
