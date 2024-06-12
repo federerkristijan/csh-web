@@ -5,7 +5,6 @@ import L from "leaflet";
 import Smoker from "@/public/assets/Smoker.svg";
 import { MapComponentProps } from '@/types/global';
 
-// Dynamically import components from react-leaflet
 const DynamicMapContainer = dynamic(
   () => import("react-leaflet").then((mod) => mod.MapContainer),
   { ssr: false }
@@ -38,31 +37,32 @@ const getOverpassQuery = (userLat: number, userLon: number, radius: number) => `
 
 const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetched }) => {
   const mapRef = useRef<L.Map | null>(null);
-  const [radius, setRadius] = useState(500); // Default radius
+  const [radius] = useState(500); // Default radius
   const [places, setPlaces] = useState<any[]>([]);
 
   const fetchPlaces = async (query: string) => {
-    const response = await fetch(
-      `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(
-        query
-      )}`
-    );
-    const data = await response.json();
-    setPlaces(data.elements);
+    try {
+      const response = await fetch(
+        `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(
+          query
+        )}`
+      );
+      if (!response.ok) {
+        throw new Error(`Error fetching data: ${response.statusText}`);
+      }
+      const data = await response.json();
+      setPlaces(data.elements);
+      onPlacesFetched(data.elements);
+    } catch (error) {
+      console.error('Failed to fetch places:', error);
+    }
   };
 
   useEffect(() => {
     const query = getOverpassQuery(userPosition.lat, userPosition.lng, radius);
     fetchPlaces(query);
-  }, [userPosition, radius]);
+  }, [userPosition, radius]); // Only run when userPosition or radius changes
 
-  useEffect(() => {
-    if (places.length > 0) {
-      onPlacesFetched(places);
-    }
-  }, [places, onPlacesFetched]);
-
-  // Use a ref to store the map instance
   const handleMapReady = (mapInstance: L.Map) => {
     mapRef.current = mapInstance;
     mapInstance.setView([userPosition.lat, userPosition.lng], 18);
@@ -74,7 +74,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetch
         {userPosition.lat && userPosition.lng && (
           <DynamicMapContainer
             center={[userPosition.lat, userPosition.lng]}
-            zoom={18} // Fixed zoom level
+            zoom={18}
             style={{ height: "50%", width: "100%", borderRadius: "10px" }}
             whenReady={() => handleMapReady}
           >
@@ -96,11 +96,11 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetch
                 place.lat &&
                 place.lon && (
                   <React.Fragment key={place.id}>
-                      <Circle
-                        center={[place.lat, place.lon]}
-                        radius={100}
-                        color="red"
-                      />
+                    <Circle
+                      center={[place.lat, place.lon]}
+                      radius={100}
+                      color="red"
+                    />
                   </React.Fragment>
                 )
             )}

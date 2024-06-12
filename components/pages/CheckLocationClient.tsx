@@ -41,7 +41,7 @@ const CheckLocationClient: React.FC = () => {
     };
 
     checkLocation();
-  }, [userLocation]);
+  }, []);
 
   useEffect(() => {
     if (places.length > 0 && userLocation) {
