@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import ShareModal from './ShareModal';
 import Image from 'next/image';
-import Hand from '@/assets/hand.svg';
-import HandHover from '@/assets/hand2.svg';
+import Hand from '@/public/assets/hand.svg';
+import HandHover from '@/public/assets/hand2.svg';
 
 interface ShareAppButtonProps {}
 

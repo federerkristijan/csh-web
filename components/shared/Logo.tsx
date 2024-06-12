@@ -1,5 +1,5 @@
 import React from "react";
-import CannaLogo from '@/assets/Logo@3x.png'
+import CannaLogo from '@/public/assets/Logo@3x.png'
 import { Image } from "@nextui-org/react";
 import Link from "next/link";
 

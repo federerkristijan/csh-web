@@ -2,7 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import React, { Fragment } from "react";
 import { AllowLocationDialogProps } from "@/types/global";
 import Image from "next/image";
-import Agree from "@/assets/Agree.png";
+import Agree from "@/public/assets/Agree.png";
 import { THCs } from "./T&(H)Cs";
 import AgreeButton from "../ui/AgreeButton";
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import location from "@/assets/images/location.svg"
+import location from "@/public/assets/images/location.svg"
 import AdSection from "../AdSection";
 import Logo from "@/components/shared/Logo";
 

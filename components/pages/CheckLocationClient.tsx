@@ -5,11 +5,11 @@ import dynamic from 'next/dynamic';
 import Result from '@/components/pages/Result';
 import { getUserLocation } from '@/lib/getUserLocation';
 import Image from 'next/image';
-import Location from '@/assets/location.svg';
+import Location from '@/public/assets/location.svg';
 import LocationUpdateTimer from '@/components/ui/LocationUpdateTimer';
 import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
-import Search from '@/assets/Search.svg';
+import Search from '@/public/assets/Search.svg';
 import L from 'leaflet';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {

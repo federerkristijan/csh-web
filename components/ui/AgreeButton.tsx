@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import CannabisIcon from '@/assets/Cannabis.svg'; // Update with the correct path if necessary
+import CannabisIcon from '@/public/assets/Cannabis.svg'; // Update with the correct path if necessary
 import Button from './Buttons';
 
 interface AgreeButtonProps {

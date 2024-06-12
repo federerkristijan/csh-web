@@ -1,6 +1,6 @@
 "use client";
 
-import Search from "@/assets/Search.svg";
+import Search from "@/public/assets/Search.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";

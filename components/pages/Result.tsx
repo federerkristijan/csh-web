@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { ResultProps } from '@/types/global';
-import YES from '@/assets/YES.svg';
-import NO from '@/assets/NO.svg';
+import YES from '@/public/assets/YES.svg';
+import NO from '@/public/assets/NO.svg';
 import { YesQuotes, NoQuotes } from '@/lib/quotes';
 
 const Result: React.FC<ResultProps> = ({ canSmoke }) => {
