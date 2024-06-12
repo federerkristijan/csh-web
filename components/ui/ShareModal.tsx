@@ -2,7 +2,7 @@
 import React from 'react';
 import { FacebookShareButton, TwitterShareButton, WhatsappShareButton, FacebookIcon, TwitterIcon, WhatsappIcon, TelegramShareButton, TelegramIcon, RedditShareButton, RedditIcon } from 'next-share';
 import { ShareModalProps } from '@/types/global';
-import CopyLink from '@/assets/link.png'
+import CopyLink from '@/public/assets/link.png'
 import Image from 'next/image';
 
 

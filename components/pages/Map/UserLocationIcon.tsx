@@ -1,7 +1,7 @@
 // @/components/icons/UserLocationIcon.tsx
 import L from "leaflet";
 import ReactDOMServer from "react-dom/server";
-import Smoker from "@/assets/Smoker.svg";
+import Smoker from "@/public/assets/Smoker.svg";
 import Image from "next/image";
 
 export const createUserLocationIcon = () => {

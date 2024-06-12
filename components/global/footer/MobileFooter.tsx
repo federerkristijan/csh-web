@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Menu } from '@headlessui/react';
 import ShareModal from '@/components/ui/ShareModal';
 import Image from 'next/image';
-import Hamburger from '@/assets/hamburger.svg';
+import Hamburger from '@/public/assets/hamburger.svg';
 
 type Props = {};
 
