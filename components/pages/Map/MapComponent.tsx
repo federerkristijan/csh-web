@@ -39,6 +39,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetch
   const mapRef = useRef<L.Map | null>(null);
   const [radius] = useState(500); // Default radius
   const [places, setPlaces] = useState<any[]>([]);
+  const [initialized, setInitialized] = useState(false);
 
   const fetchPlaces = async (query: string) => {
     try {
@@ -59,9 +60,12 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetch
   };
 
   useEffect(() => {
-    const query = getOverpassQuery(userPosition.lat, userPosition.lng, radius);
-    fetchPlaces(query);
-  }, [userPosition, radius]); // Only run when userPosition or radius changes
+    if (!initialized) {
+      const query = getOverpassQuery(userPosition.lat, userPosition.lng, radius);
+      fetchPlaces(query);
+      setInitialized(true);
+    }
+  }, [initialized, userPosition, radius]); // Only run when initialized, userPosition, or radius changes
 
   const handleMapReady = (mapInstance: L.Map) => {
     mapRef.current = mapInstance;
