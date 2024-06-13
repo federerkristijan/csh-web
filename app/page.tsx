@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <AllowLocationDialog
         open={isModalOpen}
-        onClose={() => handleLocationResponse(true)}
+        onClose={handleLocationResponse}
       />
       <div className="flex flex-col items-center justify-center space-y-[30px] md:w-1/3 mt-[30px]">
         <div className="text-center w-full md:w-max">

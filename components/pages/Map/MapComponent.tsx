@@ -1,9 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import Smoker from "@/public/assets/Smoker.svg";
-import { MapComponentProps } from '@/types/global';
+import { MapComponentProps } from "@/types/global";
 
 const DynamicMapContainer = dynamic(
   () => import("react-leaflet").then((mod) => mod.MapContainer),
@@ -18,7 +19,10 @@ const Marker = dynamic(
   { ssr: false }
 );
 
-const Circle = dynamic(() => import("react-leaflet").then(mod => mod.Circle), { ssr: false });
+const Circle = dynamic(
+  () => import("react-leaflet").then((mod) => mod.Circle),
+  { ssr: false }
+);
 
 const getOverpassQuery = (userLat: number, userLon: number, radius: number) => `
   [out:json][timeout:1800];
@@ -29,13 +33,22 @@ const getOverpassQuery = (userLat: number, userLon: number, radius: number) => `
     node["amenity"="kindergarten"](around:${radius}, ${userLat}, ${userLon});
     way["amenity"="kindergarten"](around:${radius}, ${userLat}, ${userLon});
     relation["amenity"="kindergarten"](around:${radius}, ${userLat}, ${userLon});
+    node["amenity"="playground"](around:${radius}, ${userLat}, ${userLon});
+    way["amenity"="playground"](around:${radius}, ${userLat}, ${userLon});
+    relation["amenity"="playground"](around:${radius}, ${userLat}, ${userLon});
+    node["leisure"="sports_centre"](around:${radius}, ${userLat}, ${userLon});
+    way["leisure"="sports_centre"](around:${radius}, ${userLat}, ${userLon});
+    relation["leisure"="sports_centre"](around:${radius}, ${userLat}, ${userLon});
   );
   out body;
   >;
   out skel qt;
 `;
 
-const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetched }) => {
+const MapComponent: React.FC<MapComponentProps> = ({
+  userPosition,
+  onPlacesFetched,
+}) => {
   const mapRef = useRef<L.Map | null>(null);
   const [radius] = useState(500); // Default radius
   const [places, setPlaces] = useState<any[]>([]);
@@ -55,13 +68,17 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetch
       setPlaces(data.elements);
       onPlacesFetched(data.elements);
     } catch (error) {
-      console.error('Failed to fetch places:', error);
+      console.error("Failed to fetch places:", error);
     }
   };
 
   useEffect(() => {
     if (!initialized) {
-      const query = getOverpassQuery(userPosition.lat, userPosition.lng, radius);
+      const query = getOverpassQuery(
+        userPosition.lat,
+        userPosition.lng,
+        radius
+      );
       fetchPlaces(query);
       setInitialized(true);
     }
@@ -74,7 +91,10 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, onPlacesFetch
 
   return (
     <div className="flex justify-center w-full">
-      <div className="relative" style={{ height: "25vh", width: "60%", borderRadius: "10px" }}>
+      <div
+        className="relative"
+        style={{ height: "25vh", width: "60%", borderRadius: "10px" }}
+      >
         {userPosition.lat && userPosition.lng && (
           <DynamicMapContainer
             center={[userPosition.lat, userPosition.lng]}

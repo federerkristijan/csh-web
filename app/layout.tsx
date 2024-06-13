@@ -45,8 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="flex justify-center lg:hidden md:hidden">
               <MobileFooter />
             </div>
-            <div className="border-1 border-white mt-5">
-              <p>Ads come here</p>
+            <div className="">
               <GoogleAdsense pId="5001082863117848" />
             </div>
             <div className="mb-[20px] mt-[40px]">
