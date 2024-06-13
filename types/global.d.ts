@@ -1,6 +1,6 @@
 export type AllowLocationDialogProps = {
   open: boolean;
-  onClose: () => void;
+  onClose: (allow: boolean) => void;
 };
 
 export interface CookieBannerProps {

@@ -15,15 +15,16 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
       navigator.geolocation.getCurrentPosition(
         (position) => {
           console.log("Geolocation allowed:", position.coords);
-          onClose();
+          onClose(true);
         },
         (error) => {
           console.error("Error getting location:", error);
-          // Optionally handle error here
+          onClose(false);
         }
       );
     } else {
       console.error("Geolocation is not supported by this browser.");
+      onClose(false);
     }
   };
 
@@ -32,7 +33,7 @@ const AllowLocationDialog: React.FC<AllowLocationDialogProps> = ({
       <Dialog
         as="div"
         className="fixed inset-0 z-10 overflow-y-auto"
-        onClose={onClose} // No-op function to satisfy the type requirement
+        onClose={() => {}} // No-op function to satisfy the type requirement
       >
         <div className="flex items-center justify-center min-h-screen text-center sm:p-0">
           <Transition.Child
