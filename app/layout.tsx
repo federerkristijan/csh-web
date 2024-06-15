@@ -7,6 +7,7 @@ import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
 import Head from "next/head";
 import GoogleAdsense from "@/components/global/GoogleAdSense";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -40,6 +41,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta name="google-adsense-account" content="ca-pub-5001082863117848" />
       </Head>
       <body className="flex flex-col min-h-screen">
+        <Script
+          src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"
+          strategy="beforeInteractive"
+        />
         <Providers>
           <div className="flex flex-col min-h-screen items-center">
             <div className="flex justify-center lg:hidden md:hidden">
