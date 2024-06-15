@@ -11,6 +11,7 @@ import Button from '../ui/Buttons';
 import ShareAppButton from '../ui/ShareAppButton';
 import Search from '@/public/assets/Search.svg';
 import L from 'leaflet';
+import { isIOSSafari } from '@/lib/detectIOS';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
@@ -23,8 +24,11 @@ const CheckLocationClient: React.FC = () => {
   const [places, setPlaces] = useState<any[]>([]);
   const [canSmoke, setCanSmoke] = useState<boolean>(true);
   const [closestDistance, setClosestDistance] = useState<number | null>(null);
+  const [isIOSSafariUser, setIsIOSSafariUser] = useState<boolean>(false);
 
   useEffect(() => {
+    setIsIOSSafariUser(isIOSSafari());
+
     const checkLocation = async () => {
       try {
         const location = await getUserLocation();
@@ -75,7 +79,18 @@ const CheckLocationClient: React.FC = () => {
       </div>
     );
   } else if (!userLocation) {
-    return <p>Error: Unable to fetch user location.</p>;
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="flex flex-col items-center justify-center text-center w-fit text-2xl bg-black bg-opacity-0 rounded-2xl p-1">
+          <Image src={Location} alt="Location error" width={100} height={100} />
+          {isIOSSafariUser ? (
+            <p>Error: Unable to fetch user location on iOS Safari. Please enable location services or try a different browser.</p>
+          ) : (
+            <p>Error: Unable to fetch user location.</p>
+          )}
+        </div>
+      </div>
+    );
   }
 
   return (
