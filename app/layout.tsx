@@ -45,6 +45,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"
           strategy="beforeInteractive"
         />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-WH9J1QB19M"></Script>
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WH9J1QB19M');
+          `}
+        </Script>
         <Providers>
           <div className="flex flex-col min-h-screen items-center">
             <div className="flex justify-center lg:hidden md:hidden">
