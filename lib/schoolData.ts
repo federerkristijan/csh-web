@@ -5,12 +5,20 @@ const constructQuery = () => `
 [out:json];
 area["ISO3166-1"="DE"][admin_level=2];
 (
+   // Schools
   node["amenity"="school"](area);
   way["amenity"="school"](area);
   relation["amenity"="school"](area);
+  
+  // Kindergartens
   node["amenity"="kindergarten"](area);
   way["amenity"="kindergarten"](area);
   relation["amenity"="kindergarten"](area);
+  
+  // Playgrounds (Kinderspielplätze)
+  node["leisure"="playground"](area);
+  way["leisure"="playground"](area);
+  relation["leisure"="playground"](area);
 );
 out center;
 `;
