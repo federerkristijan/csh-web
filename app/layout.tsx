@@ -6,8 +6,8 @@ import Navbar from "@/components/global/navbar/Navbar";
 import Footer from "@/components/global/footer/Footer";
 import MobileFooter from "@/components/global/footer/MobileFooter";
 import Head from "next/head";
-import GoogleAdsense from "@/components/global/GoogleAdSense";
 import Script from "next/script";
+import SeedsmanBanner from "@/components/global/SeedsmanBanner1";
 
 export const metadata: Metadata = {
   title: "Canna smoke here",
@@ -18,6 +18,35 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <Head>
+          {/* Viewport for responsive design */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Canna smoke here</title>
+        <meta
+          name="description"
+          content="Geolocation checking website for cannabis smokers in Germany"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.cannasmokehere.de/" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Canna smoke here" />
+        <meta
+          property="og:description"
+          content="Geolocation checking website for cannabis smokers in Germany"
+        />
+        <meta property="og:url" content="https://www.cannasmokehere.de/" />
+        <meta property="og:type" content="website" />
+        {/* Replace with your OG image URL */}
+        <meta property="og:image" content="/og-image.png" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Canna smoke here" />
+        <meta
+          name="twitter:description"
+          content="Geolocation checking website for cannabis smokers in Germany"
+        />
+        <meta name="twitter:image" content="https://www.cannasmokehere.de/og-image.jpg" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -38,7 +67,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="google-adsense-account" content="ca-pub-5001082863117848" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://www.cannasmokehere.de/",
+              "name": "Canna smoke here",
+              "description": "Geolocation checking website for cannabis smokers in Germany"
+            }
+          `}
+        </script>
       </Head>
       <body className="flex flex-col min-h-screen">
         <Script
@@ -59,15 +98,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="flex justify-center lg:hidden md:hidden">
               <MobileFooter />
             </div>
-            <div className="">
-              <GoogleAdsense pId="5001082863117848" />
-            </div>
             <div className="mb-[20px] mt-[40px]">
               <Navbar />
             </div>
             <main className="flex-grow flex flex-col overflow-y-auto pt-0">
               {children}
             </main>
+            <SeedsmanBanner />
             <div className="hidden lg:block md:block">
               <Footer />
             </div>

@@ -1,8 +1,6 @@
 "use client";
 
 import Search from "@/public/assets/Search.svg";
-import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 import AllowLocationDialog from "@/components/shared/AllowLocation";
 import Button from "@/components/ui/Buttons";

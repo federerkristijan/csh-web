@@ -1,6 +1,9 @@
 const webpack = require("webpack");
 
 module.exports = {
+  images: {
+    domains: ["seedsman.postaffiliatepro.com"],
+  },
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     if (!isServer) {
       // config.output.publicPath = `/_next/static/chunks/`;
