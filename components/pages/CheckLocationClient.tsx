@@ -12,6 +12,7 @@ import ShareAppButton from '../ui/ShareAppButton';
 import Search from '@/public/assets/Search.svg';
 import L from 'leaflet';
 import { isIOSSafari } from '@/lib/detectIOS';
+// import SeedsmanBanner1 from '../global/SeedsmanBanner1';
 
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
@@ -118,6 +119,7 @@ const CheckLocationClient: React.FC = () => {
         text="Read more on Berlin.de"
         onClick={() => window.location.href = 'https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/bezirkliche-planung-und-koordinierung/planungs-und-koordinierungsstelle-gesundheit/artikel.243960.php'}
       />
+      {/* <SeedsmanBanner1/> */}
     </div>
   );
 };
